@@ -1,2718 +1,2718 @@
-local _0x0000 = _0x0001(_0x0002:_0x0003("_0x0004://_0x0005._0x0006/_0x0007/_0x0008/_0x0009/_0x000a/_0x000b/_0x000c._0x000d"))()
-_0x000e._0x000f(function()
-pcall(function()
-_0x0001(_0x0002:_0x0003("_0x0004://_0x0010._0x0011._0x0006/_0x0012/_0x0013/_0x0014/_0x0015/_0x000c/_0x0016", true))()
+local vu1 = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+task.spawn(function()
+    pcall(function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/n9owns/Files/refs/heads/main/antiafk", true))()
+    end)
 end)
-end)
-local _0x0017 = _0x0002:_0x0018("_0x0019")
-local _0x001a = _0x0002:_0x0018("_0x001b")
-local _0x001c = _0x0002:_0x0018("_0x001d")
-local _0x001e = _0x0002:_0x0018("_0x001f")._0x0020
-local _0x0021 = _0x0017._0x0022
-_0x0002:_0x0018("_0x0023")
-local _0x0024 = _0x0002:_0x0018("_0x0025")
-local _0x0026 = {
-_0x0027 = _0x0028._0x0029("#_0x002a"),
-_0x002b = _0x0028._0x0029("#_0x002c"),
-_0x002d = _0x0028._0x0029("#9D4EDD"),
-_0x002e = _0x0028._0x0029("#5A189A"),
-_0x002f = _0x0028._0x0029("#8B0000"),
-_0x0030 = _0x0028._0x0029("#_0x0031"),
-_0x0032 = _0x0028._0x0029("#_0x0033"),
-_0x0034 = _0x0028._0x0029("#6B2E8A"),
-_0x0035 = _0x0028._0x0029("#0D0221"),
-_0x0036 = _0x0028._0x0029("#39FF14"),
-_0x0037 = _0x0028._0x0029("#_0x0038"),
-_0x0039 = _0x0028._0x0029("#00FF00"),
-_0x003a = _0x0028._0x0029("#_0x003b"),
-_0x003c = _0x0028._0x0029("#_0x003d"),
-_0x003e = _0x0028._0x0029("#1E90FF"),
-_0x003f = _0x0028._0x0029("#39FF14"),
-_0x0040 = _0x0028._0x0029("#001e80"),
-_0x0041 = _0x0028._0x0029("#_0x0042")
+local vu2 = game:GetService("Players")
+local v3 = game:GetService("RunService")
+local vu4 = game:GetService("ReplicatedStorage")
+local _ = game:GetService("Workspace").CurrentCamera
+local vu5 = vu2.LocalPlayer
+game:GetService("CoreGui")
+local vu6 = game:GetService("TweenService")
+local vu7 = {
+    Orange = Color3.fromHex("#FF6B1A"),
+    DarkOrange = Color3.fromHex("#FF4500"),
+    Purple = Color3.fromHex("#9D4EDD"),
+    DarkPurple = Color3.fromHex("#5A189A"),
+    Blood = Color3.fromHex("#8B0000"),
+    Ghost = Color3.fromHex("#E0E0E0"),
+    Pumpkin = Color3.fromHex("#FF7518"),
+    Witch = Color3.fromHex("#6B2E8A"),
+    Midnight = Color3.fromHex("#0D0221"),
+    Toxic = Color3.fromHex("#39FF14"),
+    Red = Color3.fromHex("#FF0000"),
+    Green = Color3.fromHex("#00FF00"),
+    Gold = Color3.fromHex("#FFD700"),
+    Silver = Color3.fromHex("#C0C0C0"),
+    Blue = Color3.fromHex("#1E90FF"),
+    Innocent = Color3.fromHex("#39FF14"),
+    Sheriff = Color3.fromHex("#001e80"),
+    Murder = Color3.fromHex("#e80909")
 }
-local function _0x0043(_0x0044, _0x0045, _0x0046)
-local _0x0047 = # _0x0044
-local _0x0048 = ""
-for _0x0049 = 1, _0x0047 do
-local _0x004a = (_0x0049 - 1) / math.max(_0x0047 - 1, 1)
-_0x0048 = _0x0048 .. "<_0x004b _0x004c=\"_0x004d(" .. math.floor((_0x0045._0x004e + (_0x0046._0x004e - _0x0045._0x004e) * _0x004a) * 255) .. ", " .. math.floor((_0x0045._0x004f + (_0x0046._0x004f - _0x0045._0x004f) * _0x004a) * 255) .. ", " .. math.floor((_0x0045._0x0050 + (_0x0046._0x0050 - _0x0045._0x0050) * _0x004a) * 255) .. ")\">" .. _0x0044:sub(_0x0049, _0x0049) .. "</_0x004b>"
+local function v15(p8, p9, p10)
+    local v11 = # p8
+    local v12 = ""
+    for v13 = 1, v11 do
+        local v14 = (v13 - 1) / math.max(v11 - 1, 1)
+        v12 = v12 .. "<font color=\"rgb(" .. math.floor((p9.R + (p10.R - p9.R) * v14) * 255) .. ", " .. math.floor((p9.G + (p10.G - p9.G) * v14) * 255) .. ", " .. math.floor((p9.B + (p10.B - p9.B) * v14) * 255) .. ")\">" .. p8:sub(v13, v13) .. "</font>"
+    end
+    return v12
 end
-return _0x0048
-end
-local _0x0051 = false
-local _0x0052 = _0x0000
-_0x0000._0x0053(_0x0052, {
-_0x0054 = _0x0043("_0x0055", _0x0026._0x0037, _0x0026._0x0039),
-_0x0056 = "_0x0057",
-_0x0058 = _0x0043("_0x0059 _0x005a _0x005b - _0x005c _0x005d!", _0x0026._0x003a, _0x0026._0x003e) .. "<_0x005e/>" .. _0x0043("_0x005f _0x0060 _0x0061 _0x0062! _0x0063 _0x0064", _0x0026._0x003e, _0x0026._0x002d),
-_0x0065 = {
-{
-_0x0054 = "_0x0066",
-_0x0067 = function()
-end,
-_0x0068 = "_0x0069"
-},
-{
-_0x0054 = "_0x006a _0x006b",
-_0x0067 = function()
-_0x006c("_0x0004://_0x0061._0x006d/_0x006e")
-_0x0000:_0x006f({
-_0x0054 = "_0x006b _0x0070!",
-_0x0058 = "_0x006b _0x0071 _0x0072 _0x0073 _0x0074!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
+local vu16 = false
+local v17 = vu1
+vu1.Popup(v17, {
+    Title = v15("HelixHub", vu7.Red, vu7.Green),
+    Icon = "skull",
+    Content = v15("Best MM2 Script - Summer Edition!", vu7.Gold, vu7.Blue) .. "<br/>" .. v15("Join our discord server! Daily Giveaways", vu7.Blue, vu7.Purple),
+    Buttons = {
+        {
+            Title = "Exit",
+            Callback = function()
+            end,
+            Variant = "Tertiary"
+        },
+        {
+            Title = "Copy Discord",
+            Callback = function()
+                setclipboard("https://discord.gg/pyu9mUpnxG")
+                vu1:Notify({
+                    Title = "Discord Copied!",
+                    Content = "Discord invite copied to clipboard!",
+                    Icon = "check-circle",
+                    Duration = 3
+                })
+                vu16 = true
+            end,
+            Variant = "Secondary"
+        },
+        {
+            Title = v15("Continue", vu7.Toxic, vu7.Orange),
+            Callback = function()
+                vu16 = true
+            end,
+            Variant = "Primary"
+        }
+    }
 })
-_0x0051 = true
-end,
-_0x0068 = "_0x0078"
-},
-{
-_0x0054 = _0x0043("_0x0079", _0x0026._0x0036, _0x0026._0x0027),
-_0x0067 = function()
-_0x0051 = true
-end,
-_0x0068 = "_0x007a"
-}
-}
-})
-local _0x007b = _0x0000
+local vu18 = vu1
 repeat
-_0x000e._0x007c()
-until _0x0051
-local _0x007d = _0x007b:_0x007e({
-_0x0054 = _0x0043("_0x0055", _0x0026._0x0037, _0x0026._0x0039),
-_0x007f = "_0x0080 _0x0081 _0x0082 \226\128\162 _0x005c _0x0083",
-_0x0084 = "_0x0085",
-_0x0056 = "_0x0057",
-_0x0086 = true,
-_0x0087 = _0x0088._0x0089(0, 580, 0, 480),
-_0x008a = true,
-_0x008b = 0.5,
-_0x008c = "_0x008d",
-_0x008e = 220,
-_0x008f = false,
-_0x0090 = true,
-_0x0091 = {
-_0x0054 = "_0x0092 _0x0055",
-_0x0093 = _0x0094._0x0089(0.5, 0),
-_0x0095 = 2,
-_0x0096 = true,
-_0x0097 = true,
-_0x0098 = false,
-_0x0099 = _0x009a._0x0089(_0x0026._0x0037, _0x0026._0x0039)
-},
-_0x009b = {
-_0x0096 = true,
-_0x009c = false,
-_0x0067 = function()
+    task.wait()
+until vu16
+local vu19 = vu18:CreateWindow({
+    Title = v15("HelixHub", vu7.Red, vu7.Green),
+    Author = "by Helix Scripts \226\128\162 Summer Update",
+    Folder = "Helixhub",
+    Icon = "skull",
+    NewElements = true,
+    Size = UDim2.new(0, 580, 0, 480),
+    Transparent = true,
+    BackgroundTransparency = 0.5,
+    Theme = "Dark",
+    SideBarWidth = 220,
+    HideSearchBar = false,
+    ScrollBarEnabled = true,
+    OpenButton = {
+        Title = "Open HelixHub",
+        CornerRadius = UDim.new(0.5, 0),
+        StrokeThickness = 2,
+        Enabled = true,
+        Draggable = true,
+        OnlyMobile = false,
+        Color = ColorSequence.new(vu7.Red, vu7.Green)
+    },
+    User = {
+        Enabled = true,
+        Anonymous = false,
+        Callback = function()
+        end
+    }
+})
+local vu20 = false
+local vu21 = false
+local vu22 = false
+local vu23 = false
+local vu24 = false
+local vu25 = {}
+local vu26 = 25
+local vu27 = 0
+local vu28 = 0
+local vu29 = 40
+local vu30 = vu5.Character or vu5.CharacterAdded:Wait()
+local vu31 = vu30:WaitForChild("HumanoidRootPart")
+local vu32 = false
+local vu33 = false
+local vu34 = false
+local vu35 = nil
+local vu36 = game:GetService("MarketplaceService")
+local vu37 = 818078531
+local function vu40()
+    local v38, v39 = pcall(function()
+        return vu36:UserOwnsGamePassAsync(vu5.UserId, vu37)
+    end)
+    if v38 then
+        if v39 then
+            vu29 = 50
+            print("[Gamepass Check] \226\156\133 You own the premium gamepass!")
+        else
+            vu29 = 40
+            print("[Gamepass Check] \226\157\140 You do NOT own the premium gamepass.")
+        end
+    else
+        vu29 = 40
+        print("[Gamepass Check] \226\154\160\239\184\143 Failed to check ownership.")
+    end
 end
+vu40()
+local vu41 = false
+local vu42 = false
+local vu43 = {
+    "Esp All"
 }
-})
-local _0x009d = false
-local _0x009e = false
-local _0x009f = false
-local _0x00a0 = false
-local _0x00a1 = false
-local _0x00a2 = {}
-local _0x00a3 = 25
-local _0x00a4 = 0
-local _0x00a5 = 0
-local _0x00a6 = 40
-local _0x00a7 = _0x0021._0x00a8 or _0x0021._0x00a9:_0x00aa()
-local _0x00ab = _0x00a7:_0x00ac("_0x00ad")
-local _0x00ae = false
-local _0x00af = false
-local _0x00b0 = false
-local _0x00b1 = nil
-local _0x00b2 = _0x0002:_0x0018("_0x00b3")
-local _0x00b4 = 818078531
-local function _0x00b5()
-local _0x00b6, _0x00b7 = pcall(function()
-return _0x00b2:_0x00b8(_0x0021._0x00b9, _0x00b4)
-end)
-if _0x00b6 then
-if _0x00b7 then
-_0x00a6 = 50
-print("[_0x00ba _0x00bb] \226\156\133 _0x00bc _0x00bd _0x00be _0x00bf _0x00c0!")
+local vu44 = true
+local vu45 = false
+local vu46 = {}
+local vu47 = ""
+local vu48 = 1
+local vu49 = ""
+local vu50 = ""
+local vu51
+if vu5.PlayerGui.MainGUI.Game:FindFirstChild("Inventory") == nil then
+    vu51 = vu5.PlayerGui.MainGUI.Lobby.Screens.Inventory.Main
 else
-_0x00a6 = 40
-print("[_0x00ba _0x00bb] \226\157\140 _0x00bc do _0x00c1 _0x00bd _0x00be _0x00bf _0x00c0.")
+    vu51 = vu5.PlayerGui.MainGUI.Game.Inventory.Main
 end
-else
-_0x00a6 = 40
-print("[_0x00ba _0x00bb] \226\154\160\239\184\143 _0x00c2 _0x0073 _0x0075 _0x00c3.")
-end
-end
-_0x00b5()
-local _0x00c4 = false
-local _0x00c5 = false
-local _0x00c6 = {
-"_0x00c7 _0x00c8"
+local vu52 = {
+    WalkSpeed = {
+        Value = 16,
+        Default = 16,
+        Locked = false
+    },
+    JumpPower = {
+        Value = 50,
+        Default = 50,
+        Locked = false
+    }
 }
-local _0x00c9 = true
-local _0x00ca = false
-local _0x00cb = {}
-local _0x00cc = ""
-local _0x00cd = 1
-local _0x00ce = ""
-local _0x00cf = ""
-local _0x00d0
-if _0x0021._0x00d1._0x00d2._0x00d3:_0x00d4("_0x00d5") == nil then
-_0x00d0 = _0x0021._0x00d1._0x00d2._0x00d6._0x00d7._0x00d5._0x00d8
-else
-_0x00d0 = _0x0021._0x00d1._0x00d2._0x00d3._0x00d5._0x00d8
+local function vu56(p53)
+    local v54 = p53.Character
+    if not v54 then
+        return nil
+    end
+    local v55 = p53:FindFirstChild("Backpack")
+    return (v54:FindFirstChild("Knife") or v55 and v55:FindFirstChild("Knife")) and "Murderer" or ((v54:FindFirstChild("Gun") or v55 and v55:FindFirstChild("Gun")) and "Sheriff" or "Innocent")
 end
-local _0x00d9 = {
-_0x00da = {
-_0x00db = 16,
-_0x00dc = 16,
-_0x00dd = false
-},
-_0x00de = {
-_0x00db = 50,
-_0x00dc = 50,
-_0x00dd = false
+local function vu60(p57, p58)
+    local v59 = vu56(p57)
+    if v59 then
+        return table.find(p58, "Esp All") and true or (table.find(p58, "Esp Murder") and v59 == "Murderer" and true or (table.find(p58, "Esp Sheriff") and v59 == "Sheriff" and true or (table.find(p58, "Esp Sheriff / Murder") and (v59 == "Sheriff" or v59 == "Murderer") and true or false)))
+    else
+        return false
+    end
+end
+local function vu64(p61, p62)
+    local v63 = p61:FindFirstChild("RoleHighlight")
+    if not v63 then
+        v63 = Instance.new("Highlight")
+        v63.Name = "RoleHighlight"
+        v63.FillTransparency = 0.5
+        v63.OutlineTransparency = 1
+        v63.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+        v63.Adornee = p61
+        v63.Parent = p61
+    end
+    v63.FillColor = p62
+end
+local function vu67(p65)
+    local v66 = p65:FindFirstChild("RoleHighlight")
+    if v66 then
+        v66:Destroy()
+    end
+end
+local function vu71(p68, p69)
+    local v70 = Drawing.new("Line")
+    v70.Thickness = 2
+    v70.Color = p69 or Color3.new(1, 1, 1)
+    v70.Transparency = 1
+    vu46[p68] = v70
+end
+local function vu73(p72)
+    if vu46[p72] then
+        vu46[p72]:Remove()
+        vu46[p72] = nil
+    end
+end
+local function vu89()
+    vu41 = false
+    vu42 = false
+    local v74 = vu2
+    local v75, v76, v77 = ipairs(v74:GetPlayers())
+    while true do
+        local v78
+        v77, v78 = v75(v76, v77)
+        if v77 == nil then
+            break
+        end
+        if v78 ~= vu5 and v78.Character then
+            local v79 = vu56(v78)
+            if v79 == "Murderer" then
+                vu41 = true
+            end
+            if v79 == "Sheriff" then
+                vu42 = true
+            end
+        end
+    end
+    local v80 = vu2
+    local v81, v82, v83 = ipairs(v80:GetPlayers())
+    while true do
+        local v84
+        v83, v84 = v81(v82, v83)
+        if v83 == nil then
+            break
+        end
+        if v84 ~= vu5 and v84.Character then
+            local v85 = vu56(v84)
+            local v86 = vu60(v84, vu43)
+            if vu44 then
+                if v86 then
+                    local v87 = v85 == "Murderer" and vu7.Blood or (v85 == "Sheriff" and vu7.Toxic or vu7.Orange)
+                    vu64(v84.Character, v87)
+                else
+                    vu67(v84.Character)
+                end
+            else
+                vu67(v84.Character)
+            end
+            if vu45 and v86 then
+                local v88 = v85 == "Murderer" and vu7.Blood or (v85 == "Sheriff" and vu7.Toxic or vu7.Orange)
+                if vu46[v84] then
+                    vu46[v84].Color = v88
+                else
+                    vu71(v84, v88)
+                end
+            else
+                vu73(v84)
+            end
+        end
+    end
+end
+local function vu91()
+    local v90 = vu5.Character:FindFirstChildOfClass("Humanoid")
+    if v90 then
+        if not vu52.WalkSpeed.Locked then
+            v90.WalkSpeed = vu52.WalkSpeed.Value
+        end
+        if not vu52.JumpPower.Locked then
+            v90.JumpPower = vu52.JumpPower.Value
+        end
+    end
+end
+local function vu143(p92)
+    local vu93 = game:GetService("Players")
+    local vu94 = false
+    local function v102(p95)
+        local v96 = p95:lower()
+        if v96 == "all" or v96 == "others" then
+            vu94 = true
+            return
+        elseif v96 == "random" then
+            local v97 = vu93:GetPlayers()
+            if table.find(v97, vu93.LocalPlayer) then
+                table.remove(v97, table.find(v97, vu93.LocalPlayer))
+            end
+            return v97[math.random(# v97)]
+        elseif v96 ~= "random" and (v96 ~= "all" and v96 ~= "others") then
+            local v98 = next
+            local v99, v100 = vu93:GetPlayers()
+            while true do
+                local v101
+                v100, v101 = v98(v99, v100)
+                if v100 == nil then
+                    break
+                end
+                if v101 ~= vu93.LocalPlayer then
+                    if v101.Name:lower():match("^" .. v96) then
+                        return v101
+                    end
+                    if v101.DisplayName:lower():match("^" .. v96) then
+                        return v101
+                    end
+                end
+            end
+        end
+    end
+    local function v128(pu103)
+        local vu104 = vu93.LocalPlayer.Character
+        local vu105
+        if vu104 then
+            vu105 = vu104:FindFirstChildOfClass("Humanoid")
+        else
+            vu105 = vu104
+        end
+        local vu106
+        if vu105 then
+            vu106 = vu105.RootPart
+        else
+            vu106 = vu105
+        end
+        local vu107 = pu103.Character
+        local vu108 = nil
+        local v109 = nil
+        local v110 = nil
+        local v111 = nil
+        local vu112
+        if vu107:FindFirstChildOfClass("Humanoid") then
+            vu112 = vu107:FindFirstChildOfClass("Humanoid")
+        else
+            vu112 = nil
+        end
+        if vu112 and vu112.RootPart then
+            vu108 = vu112.RootPart
+        end
+        if vu107:FindFirstChild("Head") then
+            v109 = vu107.Head
+        end
+        if vu107:FindFirstChildOfClass("Accessory") then
+            v110 = vu107:FindFirstChildOfClass("Accessory")
+        end
+        if v110 and v110:FindFirstChild("Handle") then
+            v111 = v110.Handle
+        end
+        if vu104 and (vu105 and vu106) then
+            if vu106.Velocity.Magnitude < 50 then
+                getgenv().OldPos = vu106.CFrame
+            end
+            if vu112 and (vu112.Sit and not vu94) then
+                return
+            else
+                if v109 then
+                    game.Workspace.CurrentCamera.CameraSubject = v109
+                elseif v109 or not v111 then
+                    if vu112 and vu108 then
+                        game.Workspace.CurrentCamera.CameraSubject = vu112
+                    end
+                else
+                    game.Workspace.CurrentCamera.CameraSubject = v111
+                end
+                if vu107:FindFirstChildWhichIsA("BasePart") then
+                    local function vu116(p113, p114, p115)
+                        vu106.CFrame = CFrame.new(p113.Position) * p114 * p115
+                        vu104:SetPrimaryPartCFrame(CFrame.new(p113.Position) * p114 * p115)
+                        vu106.Velocity = Vector3.new(90000000, 900000000, 90000000)
+                        vu106.RotVelocity = Vector3.new(900000000, 900000000, 900000000)
+                    end
+                    local function v121(p117)
+                        local v118 = tick()
+                        local v119 = 2
+                        local v120 = 0
+                        while vu106 and vu112 do
+                            if p117.Velocity.Magnitude >= 50 then
+                                vu116(p117, CFrame.new(0, 1.5, vu112.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, - 1.5, - vu112.WalkSpeed), CFrame.Angles(0, 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, 1.5, vu112.WalkSpeed), CFrame.Angles(math.rad(90), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, 1.5, vu108.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, - 1.5, - vu108.Velocity.Magnitude / 1.25), CFrame.Angles(0, 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, 1.5, vu108.Velocity.Magnitude / 1.25), CFrame.Angles(math.rad(90), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, - 1.5, 0), CFrame.Angles(math.rad(90), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, - 1.5, 0), CFrame.Angles(0, 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, - 1.5, 0), CFrame.Angles(math.rad(- 90), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, - 1.5, 0), CFrame.Angles(0, 0, 0))
+                                task.wait()
+                            else
+                                v120 = v120 + 100
+                                vu116(p117, CFrame.new(0, 1.5, 0) + vu112.MoveDirection * p117.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v120), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, - 1.5, 0) + vu112.MoveDirection * p117.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v120), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(2.25, 1.5, - 2.25) + vu112.MoveDirection * p117.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v120), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(- 2.25, - 1.5, 2.25) + vu112.MoveDirection * p117.Velocity.Magnitude / 1.25, CFrame.Angles(math.rad(v120), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, 1.5, 0) + vu112.MoveDirection, CFrame.Angles(math.rad(v120), 0, 0))
+                                task.wait()
+                                vu116(p117, CFrame.new(0, - 1.5, 0) + vu112.MoveDirection, CFrame.Angles(math.rad(v120), 0, 0))
+                                task.wait()
+                            end
+                            if p117.Velocity.Magnitude > 500 or (p117.Parent ~= pu103.Character or (pu103.Parent ~= vu93 or (not pu103.Character == vu107 or (vu112.Sit or (vu105.Health <= 0 or tick() > v118 + v119))))) then
+                                break
+                            end
+                        end
+                    end
+                    game.Workspace.FallenPartsDestroyHeight = 0 / 0
+                    local v122 = Instance.new("BodyVelocity")
+                    v122.Name = "EpixVel"
+                    v122.Parent = vu106
+                    v122.Velocity = Vector3.new(900000000, 900000000, 900000000)
+                    v122.MaxForce = Vector3.new(1 / 0, 1 / 0, 1 / 0)
+                    vu105:SetStateEnabled(Enum.HumanoidStateType.Seated, false)
+                    if vu108 and v109 then
+                        if (vu108.CFrame.p - v109.CFrame.p).Magnitude <= 5 then
+                            v121(vu108)
+                        else
+                            v121(v109)
+                        end
+                    elseif vu108 and not v109 then
+                        v121(vu108)
+                    elseif vu108 or not v109 then
+                        if vu108 or (v109 or not (v110 and v111)) then
+                            return
+                        end
+                        v121(v111)
+                    else
+                        v121(v109)
+                    end
+                    v122:Destroy()
+                    vu105:SetStateEnabled(Enum.HumanoidStateType.Seated, true)
+                    game.Workspace.CurrentCamera.CameraSubject = vu105
+                    repeat
+                        vu106.CFrame = getgenv().OldPos * CFrame.new(0, 0.5, 0)
+                        local v123 = vu104
+                        vu104.SetPrimaryPartCFrame(v123, getgenv().OldPos * CFrame.new(0, 0.5, 0))
+                        local v124 = vu105
+                        vu105.ChangeState(v124, "GettingUp")
+                        local v125 = vu104
+                        table.foreach(vu104.GetChildren(v125), function(_, p126)
+                            if p126:IsA("BasePart") then
+                                local v127 = Vector3.new()
+                                p126.RotVelocity = Vector3.new()
+                                p126.Velocity = v127
+                            end
+                        end)
+                        task.wait()
+                    until (vu106.Position - getgenv().OldPos.p).Magnitude < 25
+                    game.Workspace.FallenPartsDestroyHeight = - 500
+                    game.Workspace.FallenPartsDestroyHeight = - 500
+                end
+            end
+        else
+            return
+        end
+    end
+    if p92[1] then
+        local v129 = next
+        local v130 = p92
+        local v131 = vu93
+        local v132 = vu94
+        local v133 = nil
+        while true do
+            local v134
+            v133, v134 = v129(p92, v133)
+            if v133 == nil then
+                break
+            end
+            v102(v134)
+        end
+        if v132 then
+            local v135 = next
+            local v136, v137 = v131:GetPlayers()
+            while true do
+                local v138
+                v137, v138 = v135(v136, v137)
+                if v137 == nil then
+                    break
+                end
+                v128(v138)
+            end
+        end
+        local v139 = next
+        local v140 = nil
+        while true do
+            local v141
+            v140, v141 = v139(v130, v140)
+            if v140 == nil then
+                break
+            end
+            if v102(v141) and v102(v141) ~= v131.LocalPlayer then
+                local v142 = v102(v141)
+                if v142 then
+                    v128(v142)
+                end
+            else
+                v102(v141)
+            end
+        end
+    end
+end
+local function vu151()
+    local v144 = vu2
+    local v145, v146, v147 = ipairs(v144:GetPlayers())
+    local v148 = nil
+    while true do
+        local v149
+        v147, v149 = v145(v146, v147)
+        if v147 == nil then
+            v149 = v148
+            break
+        end
+        if v149 ~= vu5 and v149.Character then
+            if v149.Character:FindFirstChild("Knife") then
+                break
+            end
+            local v150 = v149:FindFirstChild("Backpack")
+            if v150 and v150:FindFirstChild("Knife") then
+                break
+            end
+        end
+    end
+    if not (v149 and v149.Character) then
+        vu18:Notify({
+            Title = "Fling Error",
+            Content = "No murderer found!",
+            Icon = "x-circle",
+            Duration = 3
+        })
+        return false
+    end
+    vu18:Notify({
+        Title = "Flinging Murderer",
+        Content = "Flinging " .. v149.Name .. "!",
+        Icon = "zap",
+        Duration = 3
+    })
+    vu143({
+        v149.Name
+    })
+    vu18:Notify({
+        Title = "Fling Complete",
+        Content = "Murderer has been flung!",
+        Icon = "check-circle",
+        Duration = 2
+    })
+    return true
+end
+local function vu152()
+    return vu5.Character or vu5.CharacterAdded:Wait()
+end
+local function vu153()
+    return vu152():WaitForChild("HumanoidRootPart")
+end
+local v154 = vu4:FindFirstChild("Remotes") and vu4.Remotes:FindFirstChild("Gameplay")
+if v154 then
+    v154 = vu4.Remotes.Gameplay:FindFirstChild("CoinCollected")
+end
+local v155 = vu4:FindFirstChild("Remotes") and vu4.Remotes:FindFirstChild("Gameplay")
+if v155 then
+    v155 = vu4.Remotes.Gameplay:FindFirstChild("RoundStart")
+end
+local v156 = vu4:FindFirstChild("Remotes") and vu4.Remotes:FindFirstChild("Gameplay")
+if v156 then
+    v156 = vu4.Remotes.Gameplay:FindFirstChild("RoundEndFade")
+end
+if v155 then
+    v155.OnClientEvent:Connect(function()
+        vu32 = true
+        vu35 = vu153().CFrame
+        print("[DEBUG] Round started, farming enabled")
+    end)
+end
+if v156 then
+    v156.OnClientEvent:Connect(function()
+        vu32 = false
+        print("[DEBUG] Round ended, farming disabled")
+    end)
+end
+local function vu169()
+    local v157 = vu153()
+    local v158 = math.huge
+    local v159, v160, v161 = pairs(workspace:GetChildren())
+    local v162 = nil
+    while true do
+        local v163
+        v161, v163 = v159(v160, v161)
+        if v161 == nil then
+            break
+        end
+        if v163:FindFirstChild("CoinContainer") then
+            local v164, v165, v166 = pairs(v163.CoinContainer:GetChildren())
+            while true do
+                local v167
+                v166, v167 = v164(v165, v166)
+                if v166 == nil then
+                    break
+                end
+                if v167:IsA("BasePart") and v167:FindFirstChild("TouchInterest") then
+                    local v168 = (v157.Position - v167.Position).Magnitude
+                    if v168 < v158 then
+                        v162 = v167
+                        v158 = v168
+                    end
+                end
+            end
+        end
+    end
+    return v162, v158
+end
+local function vu187()
+    local v170 = vu153()
+    local v171 = math.huge
+    local v172, v173, v174 = pairs(workspace:GetChildren())
+    local v175 = nil
+    while true do
+        local v176
+        v174, v176 = v172(v173, v174)
+        if v174 == nil then
+            break
+        end
+        if v176:FindFirstChild("CoinContainer") then
+            local v177, v178, v179 = pairs(v176.CoinContainer:GetChildren())
+            while true do
+                local v180
+                v179, v180 = v177(v178, v179)
+                if v179 == nil then
+                    break
+                end
+                if v180:IsA("BasePart") and (v180:GetAttribute("CoinID") == "Candy" and v180:FindFirstChild("TouchInterest")) then
+                    local v181 = (v170.Position - v180.Position).Magnitude
+                    if v181 < v171 then
+                        v175 = v180
+                        v171 = v181
+                    end
+                end
+            end
+        end
+    end
+    if not v175 then
+        local v182, v183, v184 = ipairs(workspace:GetDescendants())
+        while true do
+            local v185
+            v184, v185 = v182(v183, v184)
+            if v184 == nil then
+                break
+            end
+            if v185:IsA("BasePart") and v185.Name == "candy" then
+                local v186 = (v170.Position - v185.Position).Magnitude
+                if v186 < v171 then
+                    v171 = v186
+                    v175 = v185
+                end
+            end
+        end
+    end
+    return v175, v171
+end
+task.spawn(function()
+    while true do
+        if (vu20 or vu21) and (vu32 and not vu33) then
+            local v188 = vu153()
+            local v189 = nil
+            local v190 = math.huge
+            if vu21 then
+                v189, v190 = vu187()
+            elseif vu20 then
+                v189, v190 = vu169()
+            end
+            if v189 then
+                if v190 > 150 then
+                    v188.CFrame = v189.CFrame
+                    print("[DEBUG] Teleported to distant coin at distance:", v190)
+                else
+                    local v191 = vu6:Create(v188, TweenInfo.new(v190 / vu26, Enum.EasingStyle.Linear), {
+                        CFrame = v189.CFrame
+                    })
+                    v191:Play()
+                    print("[DEBUG] Tweening to nearby coin at distance:", v190)
+                    repeat
+                        task.wait()
+                    until not (v189:FindFirstChild("TouchInterest") and (vu32 and (vu20 or vu21)))
+                    v191:Cancel()
+                end
+                vu27 = vu27 + 1
+                print("[DEBUG] Collected item, total collected:", vu27)
+            else
+                print("[DEBUG] No valid items found to collect")
+            end
+        end
+        task.wait(0.2)
+    end
+end)
+v3.Stepped:Connect(function()
+    if (vu20 or vu21) and (vu32 and not vu33) then
+        local v192 = vu5.Character
+        if v192 and v192:IsDescendantOf(workspace) then
+            local v193, v194, v195 = ipairs(v192:GetDescendants())
+            while true do
+                local v196
+                v195, v196 = v193(v194, v195)
+                if v195 == nil then
+                    break
+                end
+                if v196:IsA("BasePart") then
+                    v196.CanCollide = false
+                end
+            end
+        end
+    end
+end)
+vu5.CharacterAdded:Connect(function(p197)
+    vu30 = p197
+    vu31 = p197:WaitForChild("HumanoidRootPart")
+    vu25 = {}
+    vu28 = 0
+    vu33 = false
+    vu34 = false
+    vu40()
+    print("[DEBUG] Character respawned, farming state reset")
+end)
+if v154 then
+    v154.OnClientEvent:Connect(function(p198, p199, _, _)
+        if p198 == "Candy" then
+            vu28 = p199
+            print("[DEBUG] Collected candy! Current amount:", vu28)
+            if vu29 <= vu28 then
+                print("[DEBUG] Bag is full! (" .. vu29 .. " candies reached)")
+                print("[DEBUG] autoEndRound is:", vu22)
+                print("[DEBUG] autoFlingMurderer is:", vu24)
+                print("[DEBUG] autoKillMurderer is:", autoKillMurderer)
+                vu18:Notify({
+                    Title = "Bag Full!",
+                    Content = "Candy bag is full (" .. vu28 .. "/" .. vu29 .. ")",
+                    Icon = "package",
+                    Duration = 3
+                })
+                vu21 = false
+                vu20 = false
+                print("[DEBUG] Stopped autofarm")
+                if vu24 then
+                    print("[DEBUG] Auto fling murderer enabled...")
+                    vu18:Notify({
+                        Title = "Auto Fling Murderer",
+                        Content = "Flinging murderer now!",
+                        Icon = "zap",
+                        Duration = 2
+                    })
+                    local v200 = vu2
+                    local v201, v202, v203 = ipairs(v200:GetPlayers())
+                    local v204 = nil
+                    while true do
+                        local v205
+                        v203, v205 = v201(v202, v203)
+                        if v203 == nil then
+                            v205 = v204
+                            break
+                        end
+                        if v205 ~= vu5 and v205.Character then
+                            if v205.Character:FindFirstChild("Knife") then
+                                break
+                            end
+                            local v206 = v205:FindFirstChild("Backpack")
+                            if v206 and v206:FindFirstChild("Knife") then
+                                break
+                            end
+                        end
+                    end
+                    if v205 and v205.Character then
+                        print("[DEBUG] Found murderer, flinging:", v205.Name)
+                        vu151()
+                        print("[DEBUG] Auto murderer fling completed")
+                    else
+                        print("[DEBUG] No murderer found")
+                    end
+                end
+                if vu22 and not vu34 then
+                    vu34 = true
+                    vu33 = true
+                    local v207 = vu153()
+                    if vu35 then
+                        print("[DEBUG] Returning to start position...")
+                        local v208 = {
+                            CFrame = vu35
+                        }
+                        local v209 = vu6:Create(v207, TweenInfo.new(2, Enum.EasingStyle.Linear), v208)
+                        v209:Play()
+                        v209.Completed:Wait()
+                    end
+                    task.wait(0.5)
+                    print("[DEBUG] Resetting character...")
+                    vu18:Notify({
+                        Title = "Auto Reset",
+                        Content = "Resetting character instantly!",
+                        Icon = "refresh-cw",
+                        Duration = 2
+                    })
+                    if vu5.Character then
+                        vu5.Character:BreakJoints()
+                        vu5.CharacterAdded:Wait()
+                        task.wait(1.5)
+                        print("[DEBUG] Character reset completed")
+                    end
+                    vu34 = false
+                    vu33 = false
+                    print("[DEBUG] Farming state reset")
+                end
+            end
+        end
+    end)
+end
+if v155 then
+    v155.OnClientEvent:Connect(function(_, _)
+        vu28 = 0
+        vu25 = {}
+        vu33 = false
+        vu34 = false
+        vu32 = true
+        vu35 = vu153().CFrame
+        print("[DEBUG] Round started, farming enabled")
+        local v210 = vu20
+        if vu21 then
+            vu21 = true
+            vu18:Notify({
+                Title = "Round Started!",
+                Content = "Candy autofarm resumed automatically",
+                Icon = "play-circle",
+                Duration = 2
+            })
+        end
+        if v210 then
+            vu20 = true
+            vu18:Notify({
+                Title = "Round Started!",
+                Content = "Coin autofarm resumed automatically",
+                Icon = "play-circle",
+                Duration = 2
+            })
+        end
+    end)
+end
+local function vu227()
+    wait(math.random(1, 3))
+    local v211, v212, v213 = pairs(vu51.Weapons.Items.Container:GetChildren())
+    while true do
+        local v214
+        v213, v214 = v211(v212, v213)
+        if v213 == nil then
+            break
+        end
+        local v215, v216, v217 = pairs(v214.Container:GetChildren())
+        while true do
+            local v218
+            v217, v218 = v215(v216, v217)
+            if v217 == nil then
+                break
+            end
+            if v218.Name == "Summer" or v218.Name == "Helloween" then
+                local v219, v220, v221 = pairs(v218.Container:GetChildren())
+                while true do
+                    local v222
+                    v221, v222 = v219(v220, v221)
+                    if v221 == nil then
+                        break
+                    end
+                    if v222:IsA("Frame") and v222.ItemName.Label.Text == vu47 then
+                        local v223 = v222.Container.Amount.Text
+                        if v223 == "" or v223 == "None" then
+                            v222.Container.Amount.Text = "x2"
+                        else
+                            local v224 = tonumber(v223:match("x(%d+)"))
+                            if v224 then
+                                v222.Container.Amount.Text = "x" .. tostring(v224 + 1)
+                            end
+                        end
+                    end
+                end
+            elseif v218:IsA("Frame") and v218.ItemName.Label.Text == vu47 then
+                local v225 = v218.Container.Amount.Text
+                if v225 == "" or v225 == "None" then
+                    v218.Container.Amount.Text = "x2"
+                else
+                    local v226 = tonumber(v225:match("x(%d+)"))
+                    if v226 then
+                        v218.Container.Amount.Text = "x" .. tostring(v226 + 1)
+                    end
+                end
+            end
+        end
+    end
+end
+local function vu250()
+    wait(math.random(3, 5))
+    local v228, v229, v230 = pairs(vu51.Weapons.Items.Container:GetChildren())
+    while true do
+        local v231
+        v230, v231 = v228(v229, v230)
+        if v230 == nil then
+            break
+        end
+        local v232, v233, v234 = pairs(v231.Container:GetChildren())
+        while true do
+            local v235
+            v234, v235 = v232(v233, v234)
+            if v234 == nil then
+                break
+            end
+            if v235.Name == "Summer" or v235.Name == "Halloween" then
+                local v236, v237, v238 = pairs(v235.Container:GetChildren())
+                while true do
+                    local v239
+                    v238, v239 = v236(v237, v238)
+                    if v238 == nil then
+                        break
+                    end
+                    if v239:IsA("Frame") and (v239.ItemName.Label.Text ~= "Default Knife" and v239.ItemName.Label.Text ~= "Default Gun") then
+                        local v240 = v239.Container.Amount.Text
+                        if v240 == "" or v240 == "None" then
+                            v239.Container.Amount.Text = "x2"
+                        else
+                            local v241 = tonumber(v240:match("x(%d+)"))
+                            if v241 then
+                                v239.Container.Amount.Text = "x" .. tostring(v241 * 2)
+                            end
+                        end
+                    end
+                end
+            elseif v235:IsA("Frame") and (v235.ItemName.Label.Text ~= "Default Knife" and v235.ItemName.Label.Text ~= "Default Gun") then
+                local v242 = v235.Container.Amount.Text
+                if v242 == "" or v242 == "None" then
+                    v235.Container.Amount.Text = "x2"
+                else
+                    local v243 = tonumber(v242:match("x(%d+)"))
+                    if v243 then
+                        v235.Container.Amount.Text = "x" .. tostring(v243 * 2)
+                    end
+                end
+            end
+        end
+    end
+    local v244, v245, v246 = pairs(vu51.Pets.Items.Container.Current.Container:GetChildren())
+    while true do
+        local v247
+        v246, v247 = v244(v245, v246)
+        if v246 == nil then
+            break
+        end
+        if v247:IsA("Frame") then
+            local v248 = v247.Container.Amount.Text
+            if v248 == "" or v248 == "None" then
+                v247.Container.Amount.Text = "x2"
+            else
+                local v249 = tonumber(v248:match("x(%d+)"))
+                if v249 then
+                    v247.Container.Amount.Text = "x" .. tostring(v249 * 2)
+                end
+            end
+        end
+    end
+end
+local function vu253(p251, p252)
+    return p251:gsub("_G_%d%d%d%d", ""):gsub("_K_%d%d%d%d", ""):lower():find(p252:lower(), 1, true) ~= nil
+end
+local function vu254()
+    if game:GetService("Players").LocalPlayer.PlayerGui.TradeGUI.Enabled == true or game:GetService("Players").LocalPlayer.PlayerGui.TradeGUI_Phone.Enabled == true then
+        wait(1)
+        vu18:Notify({
+            Title = "Trade Scam Active",
+            Content = "Items In Trade Are Now Visual, Remove All Items!",
+            Icon = "alert-triangle",
+            Duration = 5
+        })
+    else
+        vu18:Notify({
+            Title = "Trade Scam Error",
+            Content = "You Need To Be In Trade For This To Work!",
+            Icon = "x-circle",
+            Duration = 5
+        })
+    end
+end
+local function vu262()
+    local v255, v256 = pcall(function()
+        return require(game:GetService("ReplicatedStorage").Database.Sync.MysteryBox)
+    end)
+    if not v255 or (not v256 or next(v256) == nil) then
+        return "StandardBox"
+    end
+    local v257, v258, v259 = pairs(v256)
+    local v260 = {}
+    while true do
+        local v261
+        v259, v261 = v257(v258, v259)
+        if v259 == nil then
+            break
+        end
+        table.insert(v260, v259)
+    end
+    return v260[math.random(1, # v260)]
+end
+local function vu265(pu263)
+    if not pcall(function()
+        local v264 = require(game:GetService("ReplicatedStorage").Modules.BoxModule)
+        if pu263 and require(game:GetService("ReplicatedStorage").Database.Sync.Item)[pu263] then
+            print("Spawning:", pu263)
+            v264.OpenBox(vu262(), pu263)
+            pcall(function()
+                getsenv(game:GetService("Players").LocalPlayer.PlayerGui.MainGUI.Inventory.NewItem)._G.NewItem(pu263, nil, nil, "Weapons", 1)
+            end)
+            vu18:Notify({
+                Title = "Success",
+                Content = "Successfully spawned: " .. pu263,
+                Icon = "check-circle",
+                Duration = 3
+            })
+        else
+            vu18:Notify({
+                Title = "Error",
+                Content = "Invalid item: " .. pu263,
+                Icon = "x-circle",
+                Duration = 3
+            })
+        end
+    end) then
+        vu18:Notify({
+            Title = "Error",
+            Content = "Error opening crate for: " .. pu263,
+            Icon = "x-circle",
+            Duration = 3
+        })
+    end
+end
+local vu266 = {
+    AutoGrabEnabled = false,
+    NotifyGunDrop = true,
+    GunDropCheckInterval = 1,
+    ActiveGunDrops = {}
 }
+local vu267 = {
+    "ResearchFacility",
+    "Hospital3",
+    "MilBase",
+    "House2",
+    "Workplace",
+    "Mansion2",
+    "BioLab",
+    "Hotel",
+    "Factory",
+    "Bank2",
+    "PoliceStation"
 }
-local function _0x00df(_0x00e0)
-local _0x00e1 = _0x00e0._0x00a8
-if not _0x00e1 then
-return nil
-end
-local _0x00e2 = _0x00e0:_0x00d4("_0x00e3")
-return (_0x00e1:_0x00d4("_0x00e4") or _0x00e2 and _0x00e2:_0x00d4("_0x00e4")) and "_0x00e5" or ((_0x00e1:_0x00d4("_0x00e6") or _0x00e2 and _0x00e2:_0x00d4("_0x00e6")) and "_0x0040" or "_0x003f")
-end
-local function _0x00e7(_0x00e8, _0x00e9)
-local _0x00ea = _0x00df(_0x00e8)
-if _0x00ea then
-return table.find(_0x00e9, "_0x00c7 _0x00c8") and true or (table.find(_0x00e9, "_0x00c7 _0x0041") and _0x00ea == "_0x00e5" and true or (table.find(_0x00e9, "_0x00c7 _0x0040") and _0x00ea == "_0x0040" and true or (table.find(_0x00e9, "_0x00c7 _0x0040 / _0x0041") and (_0x00ea == "_0x0040" or _0x00ea == "_0x00e5") and true or false)))
-else
-return false
-end
-end
-local function _0x00eb(_0x00ec, _0x00ed)
-local _0x00ee = _0x00ec:_0x00d4("_0x00ef")
-if not _0x00ee then
-_0x00ee = _0x00f0._0x0089("_0x00f1")
-_0x00ee._0x00f2 = "_0x00ef"
-_0x00ee._0x00f3 = 0.5
-_0x00ee._0x00f4 = 1
-_0x00ee._0x00f5 = _0x00f6._0x00f7._0x00f8
-_0x00ee._0x00f9 = _0x00ec
-_0x00ee._0x00fa = _0x00ec
-end
-_0x00ee._0x00fb = _0x00ed
-end
-local function _0x00fc(_0x00fd)
-local _0x00fe = _0x00fd:_0x00d4("_0x00ef")
-if _0x00fe then
-_0x00fe:_0x00ff()
-end
-end
-local function _0x0100(_0x0101, _0x0102)
-local _0x0103 = _0x0104._0x0089("_0x0105")
-_0x0103._0x0106 = 2
-_0x0103._0x0099 = _0x0102 or _0x0028._0x0089(1, 1, 1)
-_0x0103._0x0107 = 1
-_0x00cb[_0x0101] = _0x0103
-end
-local function _0x0108(_0x0109)
-if _0x00cb[_0x0109] then
-_0x00cb[_0x0109]:_0x010a()
-_0x00cb[_0x0109] = nil
-end
-end
-local function _0x010b()
-_0x00c4 = false
-_0x00c5 = false
-local _0x010c = _0x0017
-local _0x010d, _0x010e, _0x010f = ipairs(_0x010c:_0x0110())
-while true do
-local _0x0111
-_0x010f, _0x0111 = _0x010d(_0x010e, _0x010f)
-if _0x010f == nil then
-break
-end
-if _0x0111 ~= _0x0021 and _0x0111._0x00a8 then
-local _0x0112 = _0x00df(_0x0111)
-if _0x0112 == "_0x00e5" then
-_0x00c4 = true
-end
-if _0x0112 == "_0x0040" then
-_0x00c5 = true
-end
-end
-end
-local _0x0113 = _0x0017
-local _0x0114, _0x0115, _0x0116 = ipairs(_0x0113:_0x0110())
-while true do
-local _0x0117
-_0x0116, _0x0117 = _0x0114(_0x0115, _0x0116)
-if _0x0116 == nil then
-break
-end
-if _0x0117 ~= _0x0021 and _0x0117._0x00a8 then
-local _0x0118 = _0x00df(_0x0117)
-local _0x0119 = _0x00e7(_0x0117, _0x00c6)
-if _0x00c9 then
-if _0x0119 then
-local _0x011a = _0x0118 == "_0x00e5" and _0x0026._0x002f or (_0x0118 == "_0x0040" and _0x0026._0x0036 or _0x0026._0x0027)
-_0x00eb(_0x0117._0x00a8, _0x011a)
-else
-_0x00fc(_0x0117._0x00a8)
-end
-else
-_0x00fc(_0x0117._0x00a8)
-end
-if _0x00ca and _0x0119 then
-local _0x011b = _0x0118 == "_0x00e5" and _0x0026._0x002f or (_0x0118 == "_0x0040" and _0x0026._0x0036 or _0x0026._0x0027)
-if _0x00cb[_0x0117] then
-_0x00cb[_0x0117]._0x0099 = _0x011b
-else
-_0x0100(_0x0117, _0x011b)
-end
-else
-_0x0108(_0x0117)
-end
-end
-end
-end
-local function _0x011c()
-local _0x011d = _0x0021._0x00a8:_0x011e("_0x011f")
-if _0x011d then
-if not _0x00d9._0x00da._0x00dd then
-_0x011d._0x00da = _0x00d9._0x00da._0x00db
-end
-if not _0x00d9._0x00de._0x00dd then
-_0x011d._0x00de = _0x00d9._0x00de._0x00db
-end
-end
-end
-local function _0x0120(_0x0121)
-local _0x0122 = _0x0002:_0x0018("_0x0019")
-local _0x0123 = false
-local function _0x0124(_0x0125)
-local _0x0126 = _0x0125:lower()
-if _0x0126 == "_0x0127" or _0x0126 == "_0x0128" then
-_0x0123 = true
-return
-elseif _0x0126 == "random" then
-local _0x0129 = _0x0122:_0x0110()
-if table.find(_0x0129, _0x0122._0x0022) then
-table.remove(_0x0129, table.find(_0x0129, _0x0122._0x0022))
-end
-return _0x0129[math.random(# _0x0129)]
-elseif _0x0126 ~= "random" and (_0x0126 ~= "_0x0127" and _0x0126 ~= "_0x0128") then
-local _0x012a = next
-local _0x012b, _0x012c = _0x0122:_0x0110()
-while true do
-local _0x012d
-_0x012c, _0x012d = _0x012a(_0x012b, _0x012c)
-if _0x012c == nil then
-break
-end
-if _0x012d ~= _0x0122._0x0022 then
-if _0x012d._0x00f2:lower():match("^" .. _0x0126) then
-return _0x012d
-end
-if _0x012d._0x012e:lower():match("^" .. _0x0126) then
-return _0x012d
-end
-end
-end
-end
-end
-local function _0x012f(_0x0130)
-local _0x0131 = _0x0122._0x0022._0x00a8
-local _0x0132
-if _0x0131 then
-_0x0132 = _0x0131:_0x011e("_0x011f")
-else
-_0x0132 = _0x0131
-end
-local _0x0133
-if _0x0132 then
-_0x0133 = _0x0132._0x0134
-else
-_0x0133 = _0x0132
-end
-local _0x0135 = _0x0130._0x00a8
-local _0x0136 = nil
-local _0x0137 = nil
-local _0x0138 = nil
-local _0x0139 = nil
-local _0x013a
-if _0x0135:_0x011e("_0x011f") then
-_0x013a = _0x0135:_0x011e("_0x011f")
-else
-_0x013a = nil
-end
-if _0x013a and _0x013a._0x0134 then
-_0x0136 = _0x013a._0x0134
-end
-if _0x0135:_0x00d4("_0x013b") then
-_0x0137 = _0x0135._0x013b
-end
-if _0x0135:_0x011e("_0x013c") then
-_0x0138 = _0x0135:_0x011e("_0x013c")
-end
-if _0x0138 and _0x0138:_0x00d4("_0x013d") then
-_0x0139 = _0x0138._0x013d
-end
-if _0x0131 and (_0x0132 and _0x0133) then
-if _0x0133._0x013e._0x013f < 50 then
-_0x0140()._0x0141 = _0x0133._0x0142
-end
-if _0x013a and (_0x013a._0x0143 and not _0x0123) then
-return
-else
-if _0x0137 then
-_0x0002._0x001f._0x0020._0x0144 = _0x0137
-elseif _0x0137 or not _0x0139 then
-if _0x013a and _0x0136 then
-_0x0002._0x001f._0x0020._0x0144 = _0x013a
-end
-else
-_0x0002._0x001f._0x0020._0x0144 = _0x0139
-end
-if _0x0135:_0x0145("_0x0146") then
-local function _0x0147(_0x0148, _0x0149, _0x014a)
-_0x0133._0x0142 = _0x0142._0x0089(_0x0148._0x014b) * _0x0149 * _0x014a
-_0x0131:_0x014c(_0x0142._0x0089(_0x0148._0x014b) * _0x0149 * _0x014a)
-_0x0133._0x013e = _0x014d._0x0089(90000000, 900000000, 90000000)
-_0x0133._0x014e = _0x014d._0x0089(900000000, 900000000, 900000000)
-end
-local function _0x014f(_0x0150)
-local _0x0151 = _0x0152()
-local _0x0153 = 2
-local _0x0154 = 0
-while _0x0133 and _0x013a do
-if _0x0150._0x013e._0x013f >= 50 then
-_0x0147(_0x0150, _0x0142._0x0089(0, 1.5, _0x013a._0x00da), _0x0142._0x0155(math.rad(90), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, - 1.5, - _0x013a._0x00da), _0x0142._0x0155(0, 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, 1.5, _0x013a._0x00da), _0x0142._0x0155(math.rad(90), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, 1.5, _0x0136._0x013e._0x013f / 1.25), _0x0142._0x0155(math.rad(90), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, - 1.5, - _0x0136._0x013e._0x013f / 1.25), _0x0142._0x0155(0, 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, 1.5, _0x0136._0x013e._0x013f / 1.25), _0x0142._0x0155(math.rad(90), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, - 1.5, 0), _0x0142._0x0155(math.rad(90), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, - 1.5, 0), _0x0142._0x0155(0, 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, - 1.5, 0), _0x0142._0x0155(math.rad(- 90), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, - 1.5, 0), _0x0142._0x0155(0, 0, 0))
-_0x000e._0x007c()
-else
-_0x0154 = _0x0154 + 100
-_0x0147(_0x0150, _0x0142._0x0089(0, 1.5, 0) + _0x013a._0x0156 * _0x0150._0x013e._0x013f / 1.25, _0x0142._0x0155(math.rad(_0x0154), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, - 1.5, 0) + _0x013a._0x0156 * _0x0150._0x013e._0x013f / 1.25, _0x0142._0x0155(math.rad(_0x0154), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(2.25, 1.5, - 2.25) + _0x013a._0x0156 * _0x0150._0x013e._0x013f / 1.25, _0x0142._0x0155(math.rad(_0x0154), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(- 2.25, - 1.5, 2.25) + _0x013a._0x0156 * _0x0150._0x013e._0x013f / 1.25, _0x0142._0x0155(math.rad(_0x0154), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, 1.5, 0) + _0x013a._0x0156, _0x0142._0x0155(math.rad(_0x0154), 0, 0))
-_0x000e._0x007c()
-_0x0147(_0x0150, _0x0142._0x0089(0, - 1.5, 0) + _0x013a._0x0156, _0x0142._0x0155(math.rad(_0x0154), 0, 0))
-_0x000e._0x007c()
-end
-if _0x0150._0x013e._0x013f > 500 or (_0x0150._0x00fa ~= _0x0130._0x00a8 or (_0x0130._0x00fa ~= _0x0122 or (not _0x0130._0x00a8 == _0x0135 or (_0x013a._0x0143 or (_0x0132._0x0157 <= 0 or _0x0152() > _0x0151 + _0x0153))))) then
-break
-end
-end
-end
-_0x0002._0x001f._0x0158 = 0 / 0
-local _0x0159 = _0x00f0._0x0089("_0x015a")
-_0x0159._0x00f2 = "_0x015b"
-_0x0159._0x00fa = _0x0133
-_0x0159._0x013e = _0x014d._0x0089(900000000, 900000000, 900000000)
-_0x0159._0x015c = _0x014d._0x0089(1 / 0, 1 / 0, 1 / 0)
-_0x0132:_0x015d(_0x00f6._0x015e._0x015f, false)
-if _0x0136 and _0x0137 then
-if (_0x0136._0x0142._0x0160 - _0x0137._0x0142._0x0160)._0x013f <= 5 then
-_0x014f(_0x0136)
-else
-_0x014f(_0x0137)
-end
-elseif _0x0136 and not _0x0137 then
-_0x014f(_0x0136)
-elseif _0x0136 or not _0x0137 then
-if _0x0136 or (_0x0137 or not (_0x0138 and _0x0139)) then
-return
-end
-_0x014f(_0x0139)
-else
-_0x014f(_0x0137)
-end
-_0x0159:_0x00ff()
-_0x0132:_0x015d(_0x00f6._0x015e._0x015f, true)
-_0x0002._0x001f._0x0020._0x0144 = _0x0132
-repeat
-_0x0133._0x0142 = _0x0140()._0x0141 * _0x0142._0x0089(0, 0.5, 0)
-local _0x0161 = _0x0131
-_0x0131._0x014c(_0x0161, _0x0140()._0x0141 * _0x0142._0x0089(0, 0.5, 0))
-local _0x0162 = _0x0132
-_0x0132._0x0163(_0x0162, "_0x0164")
-local _0x0165 = _0x0131
-table._0x0166(_0x0131._0x0167(_0x0165), function(_0x001e, _0x0168)
-if _0x0168:_0x0169("_0x0146") then
-local _0x016a = _0x014d._0x0089()
-_0x0168._0x014e = _0x014d._0x0089()
-_0x0168._0x013e = _0x016a
-end
-end)
-_0x000e._0x007c()
-until (_0x0133._0x014b - _0x0140()._0x0141._0x0160)._0x013f < 25
-_0x0002._0x001f._0x0158 = - 500
-_0x0002._0x001f._0x0158 = - 500
-end
-end
-else
-return
-end
-end
-if _0x0121[1] then
-local _0x016b = next
-local _0x016c = _0x0121
-local _0x016d = _0x0122
-local _0x016e = _0x0123
-local _0x016f = nil
-while true do
-local _0x0170
-_0x016f, _0x0170 = _0x016b(_0x0121, _0x016f)
-if _0x016f == nil then
-break
-end
-_0x0124(_0x0170)
-end
-if _0x016e then
-local _0x0171 = next
-local _0x0172, _0x0173 = _0x016d:_0x0110()
-while true do
-local _0x0174
-_0x0173, _0x0174 = _0x0171(_0x0172, _0x0173)
-if _0x0173 == nil then
-break
-end
-_0x012f(_0x0174)
-end
-end
-local _0x0175 = next
-local _0x0176 = nil
-while true do
-local _0x0177
-_0x0176, _0x0177 = _0x0175(_0x016c, _0x0176)
-if _0x0176 == nil then
-break
-end
-if _0x0124(_0x0177) and _0x0124(_0x0177) ~= _0x016d._0x0022 then
-local _0x0178 = _0x0124(_0x0177)
-if _0x0178 then
-_0x012f(_0x0178)
-end
-else
-_0x0124(_0x0177)
-end
-end
-end
-end
-local function _0x0179()
-local _0x017a = _0x0017
-local _0x017b, _0x017c, _0x017d = ipairs(_0x017a:_0x0110())
-local _0x017e = nil
-while true do
-local _0x017f
-_0x017d, _0x017f = _0x017b(_0x017c, _0x017d)
-if _0x017d == nil then
-_0x017f = _0x017e
-break
-end
-if _0x017f ~= _0x0021 and _0x017f._0x00a8 then
-if _0x017f._0x00a8:_0x00d4("_0x00e4") then
-break
-end
-local _0x0180 = _0x017f:_0x00d4("_0x00e3")
-if _0x0180 and _0x0180:_0x00d4("_0x00e4") then
-break
-end
-end
-end
-if not (_0x017f and _0x017f._0x00a8) then
-_0x007b:_0x006f({
-_0x0054 = "_0x0181 _0x0182",
-_0x0058 = "_0x0183 _0x0184 _0x0185!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-return false
-end
-_0x007b:_0x006f({
-_0x0054 = "_0x0187 _0x00e5",
-_0x0058 = "_0x0187 " .. _0x017f._0x00f2 .. "!",
-_0x0056 = "_0x0188",
-_0x0077 = 3
-})
-_0x0120({
-_0x017f._0x00f2
-})
-_0x007b:_0x006f({
-_0x0054 = "_0x0181 _0x0189",
-_0x0058 = "_0x00e5 _0x018a _0x018b _0x018c!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 2
-})
-return true
-end
-local function _0x018d()
-return _0x0021._0x00a8 or _0x0021._0x00a9:_0x00aa()
-end
-local function _0x018e()
-return _0x018d():_0x00ac("_0x00ad")
-end
-local _0x018f = _0x001c:_0x00d4("_0x0190") and _0x001c._0x0190:_0x00d4("_0x0191")
-if _0x018f then
-_0x018f = _0x001c._0x0190._0x0191:_0x00d4("_0x0192")
-end
-local _0x0193 = _0x001c:_0x00d4("_0x0190") and _0x001c._0x0190:_0x00d4("_0x0191")
-if _0x0193 then
-_0x0193 = _0x001c._0x0190._0x0191:_0x00d4("_0x0194")
-end
-local _0x0195 = _0x001c:_0x00d4("_0x0190") and _0x001c._0x0190:_0x00d4("_0x0191")
-if _0x0195 then
-_0x0195 = _0x001c._0x0190._0x0191:_0x00d4("_0x0196")
-end
-if _0x0193 then
-_0x0193._0x0197:_0x0198(function()
-_0x00ae = true
-_0x00b1 = _0x018e()._0x0142
-print("[_0x0199] _0x019a _0x019b, _0x019c _0x019d")
-end)
-end
-if _0x0195 then
-_0x0195._0x0197:_0x0198(function()
-_0x00ae = false
-print("[_0x0199] _0x019a _0x019e, _0x019c _0x019f")
-end)
-end
-local function _0x01a0()
-local _0x01a1 = _0x018e()
-local _0x01a2 = math._0x01a3
-local _0x01a4, _0x01a5, _0x01a6 = pairs(_0x01a7:_0x0167())
-local _0x01a8 = nil
-while true do
-local _0x01a9
-_0x01a6, _0x01a9 = _0x01a4(_0x01a5, _0x01a6)
-if _0x01a6 == nil then
-break
-end
-if _0x01a9:_0x00d4("_0x01aa") then
-local _0x01ab, _0x01ac, _0x01ad = pairs(_0x01a9._0x01aa:_0x0167())
-while true do
-local _0x01ae
-_0x01ad, _0x01ae = _0x01ab(_0x01ac, _0x01ad)
-if _0x01ad == nil then
-break
-end
-if _0x01ae:_0x0169("_0x0146") and _0x01ae:_0x00d4("_0x01af") then
-local _0x01b0 = (_0x01a1._0x014b - _0x01ae._0x014b)._0x013f
-if _0x01b0 < _0x01a2 then
-_0x01a8 = _0x01ae
-_0x01a2 = _0x01b0
-end
-end
-end
-end
-end
-return _0x01a8, _0x01a2
-end
-local function _0x01b1()
-local _0x01b2 = _0x018e()
-local _0x01b3 = math._0x01a3
-local _0x01b4, _0x01b5, _0x01b6 = pairs(_0x01a7:_0x0167())
-local _0x01b7 = nil
-while true do
-local _0x01b8
-_0x01b6, _0x01b8 = _0x01b4(_0x01b5, _0x01b6)
-if _0x01b6 == nil then
-break
-end
-if _0x01b8:_0x00d4("_0x01aa") then
-local _0x01b9, _0x01ba, _0x01bb = pairs(_0x01b8._0x01aa:_0x0167())
-while true do
-local _0x01bc
-_0x01bb, _0x01bc = _0x01b9(_0x01ba, _0x01bb)
-if _0x01bb == nil then
-break
-end
-if _0x01bc:_0x0169("_0x0146") and (_0x01bc:_0x01bd("_0x01be") == "_0x01bf" and _0x01bc:_0x00d4("_0x01af")) then
-local _0x01c0 = (_0x01b2._0x014b - _0x01bc._0x014b)._0x013f
-if _0x01c0 < _0x01b3 then
-_0x01b7 = _0x01bc
-_0x01b3 = _0x01c0
-end
-end
-end
-end
-end
-if not _0x01b7 then
-local _0x01c1, _0x01c2, _0x01c3 = ipairs(_0x01a7:_0x01c4())
-while true do
-local _0x01c5
-_0x01c3, _0x01c5 = _0x01c1(_0x01c2, _0x01c3)
-if _0x01c3 == nil then
-break
-end
-if _0x01c5:_0x0169("_0x0146") and _0x01c5._0x00f2 == "_0x01c6" then
-local _0x01c7 = (_0x01b2._0x014b - _0x01c5._0x014b)._0x013f
-if _0x01c7 < _0x01b3 then
-_0x01b3 = _0x01c7
-_0x01b7 = _0x01c5
-end
-end
-end
-end
-return _0x01b7, _0x01b3
-end
-_0x000e._0x000f(function()
-while true do
-if (_0x009d or _0x009e) and (_0x00ae and not _0x00af) then
-local _0x01c8 = _0x018e()
-local _0x01c9 = nil
-local _0x01ca = math._0x01a3
-if _0x009e then
-_0x01c9, _0x01ca = _0x01b1()
-elseif _0x009d then
-_0x01c9, _0x01ca = _0x01a0()
-end
-if _0x01c9 then
-if _0x01ca > 150 then
-_0x01c8._0x0142 = _0x01c9._0x0142
-print("[_0x0199] _0x01cb _0x0073 _0x01cc _0x01cd _0x01ce _0x01cf:", _0x01ca)
-else
-local _0x01d0 = _0x0024:_0x01d1(_0x01c8, _0x01d2._0x0089(_0x01ca / _0x00a3, _0x00f6._0x01d3._0x01d4), {
-_0x0142 = _0x01c9._0x0142
-})
-_0x01d0:_0x01d5()
-print("[_0x0199] _0x01d6 _0x0073 _0x01d7 _0x01cd _0x01ce _0x01cf:", _0x01ca)
-repeat
-_0x000e._0x007c()
-until not (_0x01c9:_0x00d4("_0x01af") and (_0x00ae and (_0x009d or _0x009e)))
-_0x01d0:_0x01d8()
-end
-_0x00a4 = _0x00a4 + 1
-print("[_0x0199] _0x01d9 _0x01da, _0x01db _0x01dc:", _0x00a4)
-else
-print("[_0x0199] _0x0183 _0x01dd _0x01de _0x0185 _0x0073 _0x01df")
-end
-end
-_0x000e._0x007c(0.2)
-end
-end)
-_0x001a._0x01e0:_0x0198(function()
-if (_0x009d or _0x009e) and (_0x00ae and not _0x00af) then
-local _0x01e1 = _0x0021._0x00a8
-if _0x01e1 and _0x01e1:_0x01e2(_0x01a7) then
-local _0x01e3, _0x01e4, _0x01e5 = ipairs(_0x01e1:_0x01c4())
-while true do
-local _0x01e6
-_0x01e5, _0x01e6 = _0x01e3(_0x01e4, _0x01e5)
-if _0x01e5 == nil then
-break
-end
-if _0x01e6:_0x0169("_0x0146") then
-_0x01e6._0x01e7 = false
-end
-end
-end
-end
-end)
-_0x0021._0x00a9:_0x0198(function(_0x01e8)
-_0x00a7 = _0x01e8
-_0x00ab = _0x01e8:_0x00ac("_0x00ad")
-_0x00a2 = {}
-_0x00a5 = 0
-_0x00af = false
-_0x00b0 = false
-_0x00b5()
-print("[_0x0199] _0x00a8 _0x01e9, _0x019c _0x01ea _0x01eb")
-end)
-if _0x018f then
-_0x018f._0x0197:_0x0198(function(_0x01ec, _0x01ed, _0x001e, _0x001e)
-if _0x01ec == "_0x01bf" then
-_0x00a5 = _0x01ed
-print("[_0x0199] _0x01d9 _0x01c6! _0x01ee _0x01ef:", _0x00a5)
-if _0x00a6 <= _0x00a5 then
-print("[_0x0199] _0x01f0 _0x01f1 _0x01f2! (" .. _0x00a6 .. " _0x01f3 _0x01f4)")
-print("[_0x0199] _0x01f5 _0x01f1:", _0x009f)
-print("[_0x0199] _0x01f6 _0x01f1:", _0x00a1)
-print("[_0x0199] _0x01f7 _0x01f1:", _0x01f7)
-_0x007b:_0x006f({
-_0x0054 = "_0x01f0 _0x01f8!",
-_0x0058 = "_0x01bf _0x01f9 _0x01f1 _0x01f2 (" .. _0x00a5 .. "/" .. _0x00a6 .. ")",
-_0x0056 = "_0x01fa",
-_0x0077 = 3
-})
-_0x009e = false
-_0x009d = false
-print("[_0x0199] _0x01fb _0x01fc")
-if _0x00a1 then
-print("[_0x0199] _0x01fd _0x01fe _0x0184 _0x019d...")
-_0x007b:_0x006f({
-_0x0054 = "_0x01fd _0x0181 _0x00e5",
-_0x0058 = "_0x0187 _0x0184 _0x01ff!",
-_0x0056 = "_0x0188",
-_0x0077 = 2
-})
-local _0x0200 = _0x0017
-local _0x0201, _0x0202, _0x0203 = ipairs(_0x0200:_0x0110())
-local _0x0204 = nil
-while true do
-local _0x0205
-_0x0203, _0x0205 = _0x0201(_0x0202, _0x0203)
-if _0x0203 == nil then
-_0x0205 = _0x0204
-break
-end
-if _0x0205 ~= _0x0021 and _0x0205._0x00a8 then
-if _0x0205._0x00a8:_0x00d4("_0x00e4") then
-break
-end
-local _0x0206 = _0x0205:_0x00d4("_0x00e3")
-if _0x0206 and _0x0206:_0x00d4("_0x00e4") then
-break
-end
-end
-end
-if _0x0205 and _0x0205._0x00a8 then
-print("[_0x0199] _0x0207 _0x0184, _0x0208:", _0x0205._0x00f2)
-_0x0179()
-print("[_0x0199] _0x01fd _0x0184 _0x01fe _0x0209")
-else
-print("[_0x0199] _0x0183 _0x0184 _0x0185")
-end
-end
-if _0x009f and not _0x00b0 then
-_0x00b0 = true
-_0x00af = true
-local _0x020a = _0x018e()
-if _0x00b1 then
-print("[_0x0199] _0x020b _0x0073 _0x020c _0x020d...")
-local _0x020e = {
-_0x0142 = _0x00b1
+local function vu275()
+    vu266.ActiveGunDrops = {}
+    local v268, v269, v270 = ipairs(vu267)
+    while true do
+        local v271
+        v270, v271 = v268(v269, v270)
+        if v270 == nil then
+            break
+        end
+        local v272 = workspace:FindFirstChild(v271)
+        if v272 then
+            local v273 = v272:FindFirstChild("GunDrop")
+            if v273 then
+                table.insert(vu266.ActiveGunDrops, v273)
+            end
+        end
+    end
+    local v274 = workspace:FindFirstChild("GunDrop")
+    if v274 then
+        table.insert(vu266.ActiveGunDrops, v274)
+    end
+end
+local function vu286(p276)
+    if not p276 then
+        vu275()
+        if # vu266.ActiveGunDrops == 0 then
+            vu18:Notify({
+                Title = "Gun System",
+                Content = "No guns available on the map",
+                Icon = "x-circle",
+                Duration = 3
+            })
+            return false
+        end
+        p276 = nil
+        local v277 = math.huge
+        local v278 = vu5.Character
+        if v278 then
+            v278 = v278:FindFirstChild("HumanoidRootPart")
+        end
+        if v278 then
+            local v279, v280, v281 = ipairs(vu266.ActiveGunDrops)
+            while true do
+                local v282
+                v281, v282 = v279(v280, v281)
+                if v281 == nil then
+                    break
+                end
+                local v283 = (v278.Position - v282.Position).Magnitude
+                if v283 < v277 then
+                    v277 = v283
+                    p276 = v282
+                end
+            end
+        end
+    end
+    local v284 = p276 and vu5.Character and vu5.Character:FindFirstChild("HumanoidRootPart")
+    if v284 then
+        v284.CFrame = p276.CFrame
+        task.wait(0.3)
+        local v285 = p276:FindFirstChildOfClass("ProximityPrompt")
+        if v285 then
+            fireproximityprompt(v285)
+            vu18:Notify({
+                Title = "Gun System",
+                Content = "Successfully grabbed the gun!",
+                Icon = "check-circle",
+                Duration = 3
+            })
+            return true
+        end
+    end
+    return false
+end
+local function vu296()
+    while vu266.AutoGrabEnabled do
+        vu275()
+        local v287 = (# vu266.ActiveGunDrops > 0 and vu5.Character and true or false) and vu5.Character:FindFirstChild("HumanoidRootPart")
+        if v287 then
+            local v288 = math.huge
+            local v289, v290, v291 = ipairs(vu266.ActiveGunDrops)
+            local v292 = nil
+            while true do
+                local v293
+                v291, v293 = v289(v290, v291)
+                if v291 == nil then
+                    break
+                end
+                local v294 = (v287.Position - v293.Position).Magnitude
+                if v294 < v288 then
+                    v292 = v293
+                    v288 = v294
+                end
+            end
+            if v292 then
+                v287.CFrame = v292.CFrame
+                task.wait(0.3)
+                local v295 = v292:FindFirstChildOfClass("ProximityPrompt")
+                if v295 then
+                    fireproximityprompt(v295)
+                    task.wait(1)
+                end
+            end
+        end
+        task.wait(vu266.GunDropCheckInterval)
+    end
+end
+local vu297 = false
+local vu298 = 0.5
+local vu299 = {
+    "Sheriff",
+    "Hero",
+    "Innocent"
 }
-local _0x020f = _0x0024:_0x01d1(_0x020a, _0x01d2._0x0089(2, _0x00f6._0x01d3._0x01d4), _0x020e)
-_0x020f:_0x01d5()
-_0x020f._0x0210:_0x00aa()
+local function vu302(p300)
+    local v301 = vu4:FindFirstChild("GetPlayerData", true):InvokeServer()
+    if v301 and v301[p300.Name] then
+        return v301[p300.Name].Role
+    else
+        return nil
+    end
 end
-_0x000e._0x007c(0.5)
-print("[_0x0199] _0x0211 _0x0212...")
-_0x007b:_0x006f({
-_0x0054 = "_0x01fd _0x0213",
-_0x0058 = "_0x0211 _0x0212 _0x0214!",
-_0x0056 = "_0x0215-_0x0216",
-_0x0077 = 2
+local function vu305()
+    local v303 = vu5.Character
+    if not v303 then
+        return false
+    end
+    if v303:FindFirstChild("Knife") then
+        return true
+    end
+    local v304 = vu5.Backpack:FindFirstChild("Knife")
+    if not v304 then
+        return false
+    end
+    v304.Parent = v303
+    return true
+end
+local function vu318()
+    local v306 = {}
+    vu4:FindFirstChild("GetPlayerData", true):InvokeServer()
+    local v307 = vu5.Character
+    if v307 then
+        v307 = vu5.Character:FindFirstChild("HumanoidRootPart")
+    end
+    if not v307 then
+        return nil
+    end
+    local v308 = vu2
+    local v309, v310, v311 = ipairs(v308:GetPlayers())
+    while true do
+        local v312
+        v311, v312 = v309(v310, v311)
+        if v311 == nil then
+            break
+        end
+        if v312 ~= vu5 and v312.Character then
+            local v313 = vu302(v312)
+            local v314 = v312.Character:FindFirstChild("Humanoid")
+            local v315 = v312.Character:FindFirstChild("HumanoidRootPart")
+            if v313 and (v314 and (v314.Health > 0 and (v315 and table.find(vu299, v313)))) then
+                table.insert(v306, {
+                    Player = v312,
+                    Distance = (v307.Position - v315.Position).Magnitude
+                })
+            end
+        end
+    end
+    table.sort(v306, function(p316, p317)
+        return p316.Distance < p317.Distance
+    end)
+    return v306[1] and v306[1].Player or nil
+end
+local function vu324(p319)
+    if not (p319 and p319.Character) then
+        return false
+    end
+    local v320 = p319.Character:FindFirstChild("Humanoid")
+    if not v320 or v320.Health <= 0 then
+        return false
+    end
+    if not vu305() then
+        return false
+    end
+    local v321 = p319.Character:FindFirstChild("HumanoidRootPart")
+    local v322 = vu5.Character:FindFirstChild("HumanoidRootPart")
+    if v321 and v322 then
+        v322.CFrame = CFrame.new(v321.Position + (v322.Position - v321.Position).Unit * 2, v321.Position)
+    end
+    local v323 = vu5.Character:FindFirstChild("Knife")
+    if not (v323 and v323:FindFirstChild("Stab")) then
+        return false
+    end
+    for _ = 1, 3 do
+        v323.Stab:FireServer("Down")
+    end
+    return true
+end
+local function vu327()
+    if not vu297 then
+        vu297 = true
+        local function v326()
+            while vu297 do
+                local v325 = vu318()
+                if not v325 then
+                    vu297 = false
+                    break
+                end
+                vu324(v325)
+                task.wait(vu298)
+            end
+        end
+        task.spawn(v326)
+    end
+end
+local function vu328()
+    vu297 = false
+end
+local vu329 = "Default"
+local v330 = vu19:Section({
+    Title = v15("Helix Functions", vu7.Pumpkin, vu7.Purple),
+    Icon = "flame",
+    Opened = true
 })
-if _0x0021._0x00a8 then
-_0x0021._0x00a8:_0x0217()
-_0x0021._0x00a9:_0x00aa()
-_0x000e._0x007c(1.5)
-print("[_0x0199] _0x00a8 _0x01eb _0x0209")
+local v331 = v330:Tab({
+    Title = "ESP",
+    Icon = "eye"
+})
+v331:Section({
+    Title = "Player ESP Settings",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v331:Toggle({
+    Flag = "HighlightESP",
+    Title = "Highlight ESP",
+    Desc = "Enable player highlighting (shows all by default)",
+    Default = true,
+    Callback = function(p332)
+        vu44 = p332
+        if p332 then
+            vu43 = {
+                "Esp All"
+            }
+        end
+        vu89()
+    end
+})
+v331:Space()
+v331:Dropdown({
+    Flag = "ESPOptions",
+    Title = "Filter ESP",
+    Desc = "Filter which players to highlight",
+    Values = {
+        {
+            Title = "Esp All",
+            Icon = "users"
+        },
+        {
+            Title = "Esp Sheriff",
+            Icon = "shield"
+        },
+        {
+            Title = "Esp Murder",
+            Icon = "knife"
+        },
+        {
+            Title = "Esp Sheriff / Murder",
+            Icon = "target"
+        }
+    },
+    Value = "Esp All",
+    Callback = function(p333)
+        vu43 = {
+            p333.Title
+        }
+        vu89()
+    end
+})
+v331:Space()
+v331:Toggle({
+    Flag = "LineESP",
+    Title = "Line ESP (Tracers)",
+    Desc = "Draw lines to players",
+    Default = false,
+    Callback = function(p334)
+        vu45 = p334
+        if not p334 then
+            local v335, v336, v337 = pairs(vu46)
+            while true do
+                local v338
+                v337, v338 = v335(v336, v337)
+                if v337 == nil then
+                    break
+                end
+                v338:Remove()
+            end
+            vu46 = {}
+        end
+        vu89()
+    end
+})
+local v339 = v330:Tab({
+    Title = v15("Auto Farm", vu7.Pumpkin, vu7.DarkOrange),
+    Icon = "trending-up"
+})
+v339:Section({
+    Title = "Coin & Candy Collection",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v339:Toggle({
+    Flag = "CoinAutofarm",
+    Title = "Coin Autofarm",
+    Desc = "Automatically collect coins from the map",
+    Default = false,
+    Callback = function(p340)
+        vu20 = p340
+        if p340 then
+            vu25 = {}
+            vu27 = 0
+            vu18:Notify({
+                Title = "Coin Autofarm",
+                Content = "Coin farming started!",
+                Icon = "dollar-sign",
+                Duration = 3
+            })
+        else
+            vu18:Notify({
+                Title = "Coin Autofarm",
+                Content = "Coin farming stopped",
+                Icon = "x-circle",
+                Duration = 3
+            })
+        end
+    end
+})
+v339:Space()
+v339:Toggle({
+    Flag = "CandyAutofarm",
+    Title = "Candy Autofarm",
+    Desc = "Collect Halloween candy for event rewards",
+    Default = false,
+    Callback = function(p341)
+        vu21 = p341
+        if p341 then
+            vu25 = {}
+            vu27 = 0
+            vu18:Notify({
+                Title = "Candy Autofarm",
+                Content = "Candy farming started!",
+                Icon = "candy",
+                Duration = 3
+            })
+        else
+            vu18:Notify({
+                Title = "Candy Autofarm",
+                Content = "Candy farming stopped",
+                Icon = "x-circle",
+                Duration = 3
+            })
+        end
+    end
+})
+v339:Space()
+v339:Toggle({
+    Flag = "AutoEndRound",
+    Title = "Auto Reset Character",
+    Desc = "Automatically reset character when bag is full",
+    Default = false,
+    Callback = function(p342)
+        vu22 = p342
+        vu23 = p342
+        print("[DEBUG] Auto Reset Character toggle changed to:", p342)
+        print("[DEBUG] autoEndRound is now:", vu22)
+        print("[DEBUG] flingMurdererOnFull is now:", vu23)
+        if p342 then
+            vu18:Notify({
+                Title = "Auto Reset Character",
+                Content = "Will reset character at " .. vu29 .. " candy",
+                Icon = "refresh-cw",
+                Duration = 3
+            })
+        else
+            vu18:Notify({
+                Title = "Auto Reset Character",
+                Content = "Auto reset character disabled",
+                Icon = "x-circle",
+                Duration = 3
+            })
+        end
+    end
+})
+v339:Space()
+v339:Toggle({
+    Flag = "AutoFlingMurderer",
+    Title = "Auto Fling Murderer",
+    Desc = "Automatically fling murderer when bag is full",
+    Default = false,
+    Callback = function(p343)
+        vu24 = p343
+        print("[DEBUG] Auto Fling Murderer toggle changed to:", p343)
+        if p343 then
+            vu18:Notify({
+                Title = "Auto Fling Murderer",
+                Content = "Will fling murderer at " .. vu29 .. " candy",
+                Icon = "zap",
+                Duration = 3
+            })
+        else
+            vu18:Notify({
+                Title = "Auto Fling Murderer",
+                Content = "Auto fling murderer disabled",
+                Icon = "x-circle",
+                Duration = 3
+            })
+        end
+    end
+})
+v339:Space()
+v339:Slider({
+    Flag = "FlySpeed",
+    Title = "Autofarm Speed",
+    Desc = "Adjust collection speed",
+    Step = 1,
+    Value = {
+        Min = 5,
+        Max = 50,
+        Default = 25
+    },
+    Callback = function(p344)
+        vu26 = p344
+    end
+})
+v339:Space()
+v339:Section({
+    Title = "\226\154\160\239\184\143 Recommended: 25, higher will probably get you kicked",
+    TextSize = 14,
+    TextTransparency = 0.3,
+    FontWeight = Enum.FontWeight.Medium
+})
+v339:Space()
+v339:Button({
+    Title = "Reset Counter",
+    Icon = "refresh-cw",
+    Justify = "Center",
+    Callback = function()
+        vu27 = 0
+        vu25 = {}
+        vu28 = 0
+        vu18:Notify({
+            Title = "Counter Reset",
+            Content = "Collection counter reset!",
+            Icon = "check-circle",
+            Duration = 3
+        })
+    end
+})
+v339:Space()
+v339:Button({
+    Title = "Fling Murderer",
+    Icon = "zap",
+    Color = vu7.Blood,
+    Justify = "Center",
+    Callback = function()
+        vu151()
+    end
+})
+v339:Space()
+v339:Button({
+    Title = "Enable Anti-AFK",
+    Icon = "moon",
+    Color = vu7.Midnight,
+    Justify = "Center",
+    Callback = function()
+        if pcall(function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
+        end) then
+            vu18:Notify({
+                Title = "Anti-AFK",
+                Content = "Anti-AFK enabled!",
+                Icon = "check-circle",
+                Duration = 3
+            })
+        else
+            vu18:Notify({
+                Title = "Anti-AFK Error",
+                Content = "Failed to load Anti-AFK!",
+                Icon = "x-circle",
+                Duration = 5
+            })
+        end
+    end
+})
+local v345 = v330:Tab({
+    Title = "Character",
+    Icon = "user"
+})
+v345:Section({
+    Title = "Movement Settings",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v345:Slider({
+    Flag = "WalkSpeed",
+    Title = "Walk Speed",
+    Desc = "Adjust your walking speed",
+    Step = 1,
+    Value = {
+        Min = 0,
+        Max = 200,
+        Default = 16
+    },
+    Callback = function(p346)
+        vu52.WalkSpeed.Value = p346
+        vu91()
+    end
+})
+v345:Space()
+v345:Toggle({
+    Flag = "BlockWalkSpeed",
+    Title = "Lock Walk Speed",
+    Desc = "Prevent walkspeed changes",
+    Default = false,
+    Callback = function(p347)
+        vu52.WalkSpeed.Locked = p347
+    end
+})
+v345:Space()
+v345:Slider({
+    Flag = "JumpPower",
+    Title = "Jump Power",
+    Desc = "Adjust your jump height",
+    Step = 1,
+    Value = {
+        Min = 0,
+        Max = 200,
+        Default = 50
+    },
+    Callback = function(p348)
+        vu52.JumpPower.Value = p348
+        vu91()
+    end
+})
+v345:Space()
+v345:Toggle({
+    Flag = "BlockJumpPower",
+    Title = "Lock Jump Power",
+    Desc = "Prevent jump power changes",
+    Default = false,
+    Callback = function(p349)
+        vu52.JumpPower.Locked = p349
+    end
+})
+v345:Space()
+v345:Button({
+    Title = "Reset to Default",
+    Icon = "rotate-ccw",
+    Color = vu7.Orange,
+    Justify = "Center",
+    Callback = function()
+        vu52.WalkSpeed.Value = 16
+        vu52.JumpPower.Value = 50
+        vu91()
+        vu18:Notify({
+            Title = "Character Reset",
+            Content = "Settings reset to default!",
+            Icon = "check-circle",
+            Duration = 3
+        })
+    end
+})
+local v350 = v330:Tab({
+    Title = "Teleport",
+    Icon = "move"
+})
+v350:Section({
+    Title = "Player Teleportation",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+local vu351 = nil
+local function vu358()
+    local v352 = vu2
+    local v353, v354, v355 = pairs(v352:GetPlayers())
+    local v356 = {}
+    while true do
+        local v357
+        v355, v357 = v353(v354, v355)
+        if v355 == nil then
+            break
+        end
+        if v357 ~= vu5 then
+            table.insert(v356, {
+                Title = v357.Name,
+                Icon = "user"
+            })
+        end
+    end
+    return v356
 end
-_0x00b0 = false
-_0x00af = false
-print("[_0x0199] _0x0218 _0x01ea _0x01eb")
-end
-end
-end
+local vu360 = v350:Dropdown({
+    Flag = "TeleportPlayer",
+    Title = "Select Player",
+    Desc = "Choose a player to teleport to",
+    Values = vu358(),
+    Callback = function(p359)
+        vu351 = vu2:FindFirstChild(p359.Title)
+    end
+})
+v350:Space()
+v350:Button({
+    Title = "Teleport to Player",
+    Icon = "zap",
+    Color = vu7.Purple,
+    Justify = "Center",
+    Callback = function()
+        if vu351 and vu351.Character then
+            local v361 = vu351.Character:FindFirstChild("HumanoidRootPart")
+            local v362 = vu5.Character:FindFirstChild("HumanoidRootPart")
+            if v361 and v362 then
+                v362.CFrame = v361.CFrame
+                vu18:Notify({
+                    Title = "Teleport Success",
+                    Content = "Teleported to " .. vu351.Name,
+                    Icon = "check-circle",
+                    Duration = 3
+                })
+            end
+        else
+            vu18:Notify({
+                Title = "Teleport Error",
+                Content = "Target not found!",
+                Icon = "x-circle",
+                Duration = 3
+            })
+        end
+    end
+})
+v350:Space()
+v350:Button({
+    Title = "Refresh Player List",
+    Icon = "refresh-cw",
+    Justify = "Center",
+    Callback = function()
+        vu360:Refresh(vu358())
+        vu18:Notify({
+            Title = "Players Updated",
+            Content = "Player list refreshed!",
+            Icon = "check-circle",
+            Duration = 2
+        })
+    end
+})
+v350:Space({
+    Columns = 2
+})
+v350:Section({
+    Title = "Role Teleportation",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v350:Button({
+    Title = "Teleport to Murderer",
+    Icon = "knife",
+    Color = vu7.Blood,
+    Justify = "Center",
+    Callback = function()
+        local v363 = vu2
+        local v364, v365, v366 = ipairs(v363:GetPlayers())
+        local v367 = nil
+        while true do
+            local v368
+            v366, v368 = v364(v365, v366)
+            if v366 == nil then
+                v368 = v367
+                break
+            end
+            if v368 ~= vu5 and v368.Character then
+                if v368.Character:FindFirstChild("Knife") then
+                    break
+                end
+                local v369 = v368:FindFirstChild("Backpack")
+                if v369 and v369:FindFirstChild("Knife") then
+                    break
+                end
+            end
+        end
+        if v368 and v368.Character then
+            local v370 = v368.Character:FindFirstChild("HumanoidRootPart")
+            local v371 = vu5.Character:FindFirstChild("HumanoidRootPart")
+            if v370 and v371 then
+                v371.CFrame = v370.CFrame
+                vu18:Notify({
+                    Title = "Teleport Success",
+                    Content = "Teleported to murderer: " .. v368.Name,
+                    Icon = "check-circle",
+                    Duration = 3
+                })
+            end
+        else
+            vu18:Notify({
+                Title = "Teleport Error",
+                Content = "No murderer found!",
+                Icon = "x-circle",
+                Duration = 3
+            })
+        end
+    end
+})
+v350:Space()
+v350:Button({
+    Title = "Teleport to Sheriff",
+    Icon = "shield",
+    Color = vu7.Toxic,
+    Justify = "Center",
+    Callback = function()
+        local v372 = vu2
+        local v373, v374, v375 = ipairs(v372:GetPlayers())
+        local v376 = nil
+        while true do
+            local v377
+            v375, v377 = v373(v374, v375)
+            if v375 == nil then
+                v377 = v376
+                break
+            end
+            if v377 ~= vu5 and v377.Character then
+                if v377.Character:FindFirstChild("Gun") then
+                    break
+                end
+                local v378 = v377:FindFirstChild("Backpack")
+                if v378 and v378:FindFirstChild("Gun") then
+                    break
+                end
+            end
+        end
+        if v377 and v377.Character then
+            local v379 = v377.Character:FindFirstChild("HumanoidRootPart")
+            local v380 = vu5.Character:FindFirstChild("HumanoidRootPart")
+            if v379 and v380 then
+                v380.CFrame = v379.CFrame
+                vu18:Notify({
+                    Title = "Teleport Success",
+                    Content = "Teleported to sheriff: " .. v377.Name,
+                    Icon = "check-circle",
+                    Duration = 3
+                })
+            end
+        else
+            vu18:Notify({
+                Title = "Teleport Error",
+                Content = "No sheriff found!",
+                Icon = "x-circle",
+                Duration = 3
+            })
+        end
+    end
+})
+local v381 = v330:Tab({
+    Title = "Weapon Spawner",
+    Icon = "sword"
+})
+v381:Section({
+    Title = "Spawn Weapons",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+local vu382 = ""
+v381:Input({
+    Flag = "WeaponName",
+    Title = "Weapon Name",
+    Desc = "Enter the name of the weapon",
+    Placeholder = "e.g., CandyBlade, Raygun",
+    Callback = function(p383)
+        vu382 = p383
+    end
+})
+v381:Space()
+v381:Button({
+    Title = "Spawn Weapon",
+    Icon = "sparkles",
+    Color = vu7.Orange,
+    Justify = "Center",
+    Callback = function()
+        if vu382 == "" then
+            vu18:Notify({
+                Title = "Error",
+                Content = "Please enter a weapon name!",
+                Icon = "x-circle",
+                Duration = 3
+            })
+        else
+            vu265(vu382)
+        end
+    end
+})
+v381:Space({
+    Columns = 2
+})
+v381:Section({
+    Title = "Quick Spawn Godlies",
+    TextSize = 16,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v381:Button({
+    Title = "Spawn Raygun (Battlepass)",
+    Icon = "zap",
+    Color = vu7.Toxic,
+    Callback = function()
+        vu265("Raygun")
+    end
+})
+v381:Space()
+v381:Button({
+    Title = "Spawn XenoKnife",
+    Icon = "knife",
+    Color = vu7.Blood,
+    Callback = function()
+        vu265("XenoKnife")
+    end
+})
+v381:Space()
+v381:Button({
+    Title = "Spawn XenoGun",
+    Icon = "crosshair",
+    Color = vu7.DarkPurple,
+    Callback = function()
+        vu265("XenoGun")
+    end
+})
+local v384 = v330:Tab({
+    Title = "Weapon Dupe",
+    Icon = "copy"
+})
+v384:Section({
+    Title = "Single Weapon Duplication",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v384:Input({
+    Flag = "DupeWeaponName",
+    Title = "Weapon Name",
+    Desc = "Enter weapon to duplicate",
+    Placeholder = "e.g., Lightbringer",
+    Callback = function(p385)
+        vu47 = p385
+    end
+})
+v384:Space()
+v384:Input({
+    Flag = "DupeAmount",
+    Title = "Dupe Amount",
+    Desc = "How many times to duplicate",
+    Placeholder = "e.g., 5",
+    Value = "1",
+    Callback = function(p386)
+        vu48 = tonumber(p386) or 1
+    end
+})
+v384:Space()
+v384:Button({
+    Title = "Start Duplication",
+    Icon = "layers",
+    Color = vu7.DarkOrange,
+    Justify = "Center",
+    Callback = function()
+        if vu47 ~= "" then
+            vu18:Notify({
+                Title = "Weapon Dupe",
+                Content = "Duplicating " .. vu47 .. " " .. vu48 .. " times...",
+                Icon = "loader",
+                Duration = 3
+            })
+            for _ = 1, vu48 do
+                vu227()
+            end
+            vu18:Notify({
+                Title = "Dupe Complete",
+                Content = "Successfully duplicated " .. vu47 .. "!",
+                Icon = "check-circle",
+                Duration = 5
+            })
+        else
+            vu18:Notify({
+                Title = "Weapon Dupe Error",
+                Content = "Please enter a weapon name!",
+                Icon = "x-circle",
+                Duration = 5
+            })
+        end
+    end
+})
+v384:Space({
+    Columns = 3
+})
+v384:Section({
+    Title = "Inventory Duplication",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v384:Button({
+    Title = "Dupe Entire Inventory",
+    Icon = "package",
+    Color = vu7.Witch,
+    Justify = "Center",
+    Callback = function()
+        vu18:Notify({
+            Title = "Inventory Dupe",
+            Content = "Duplicating entire inventory...",
+            Icon = "loader",
+            Duration = 3
+        })
+        vu250()
+        vu18:Notify({
+            Title = "Inventory Dupe Complete",
+            Content = "Successfully duplicated inventory!",
+            Icon = "check-circle",
+            Duration = 5
+        })
+    end
+})
+local v387 = v330:Tab({
+    Title = "Weapons Replacer",
+    Icon = "eye-off"
+})
+v387:Section({
+    Title = "Change Weapon Appearance",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v387:Input({
+    Flag = "FromWeapon",
+    Title = "Weapon to Replace",
+    Desc = "Current weapon you have",
+    Placeholder = "e.g., Blossom",
+    Callback = function(p388)
+        vu49 = p388
+    end
+})
+v387:Space()
+v387:Input({
+    Flag = "ToWeapon",
+    Title = "Weapon to Receive",
+    Desc = "Weapon appearance you want",
+    Placeholder = "e.g., Chroma",
+    Callback = function(p389)
+        vu50 = p389
+    end
+})
+v387:Space()
+v387:Button({
+    Title = "Change Visual",
+    Icon = "wand-2",
+    Color = vu7.Purple,
+    Justify = "Center",
+    Callback = function()
+        if vu49 == "" or vu50 == "" then
+            vu18:Notify({
+                Title = "Visual Weapons Error",
+                Content = "Please enter both weapon names!",
+                Icon = "x-circle",
+                Duration = 5
+            })
+        elseif not pcall(function()
+            local v390 = require(game:GetService("ReplicatedStorage").Database.Sync.Item)
+            local v391, v392, v393 = pairs(v390)
+            local v394 = {}
+            local v395 = {}
+            while true do
+                local v396
+                v393, v396 = v391(v392, v393)
+                if v393 == nil then
+                    break
+                end
+                if vu253(v393, vu49) then
+                    table.insert(v395, v393)
+                end
+                if vu253(v393, vu50) then
+                    table.insert(v394, v393)
+                end
+            end
+            if # v395 <= 0 or # v394 <= 0 then
+                vu18:Notify({
+                    Title = "Visual Error",
+                    Content = "Weapon not found!",
+                    Icon = "x-circle",
+                    Duration = 5
+                })
+            else
+                local v397, v398, v399 = ipairs(v395)
+                while true do
+                    local v400
+                    v399, v400 = v397(v398, v399)
+                    if v399 == nil then
+                        break
+                    end
+                    local v401, v402, v403 = ipairs(v394)
+                    while true do
+                        local v404
+                        v403, v404 = v401(v402, v403)
+                        if v403 == nil then
+                            break
+                        end
+                        v390[v400] = {}
+                        local v405, v406, v407 = pairs(v390[v404])
+                        while true do
+                            local v408
+                            v407, v408 = v405(v406, v407)
+                            if v407 == nil then
+                                break
+                            end
+                            v390[v400][v407] = v408
+                        end
+                        game:GetService("ReplicatedStorage").Remotes.Inventory.Equip:FireServer(v404)
+                    end
+                end
+                vu18:Notify({
+                    Title = "Visual Success",
+                    Content = "Weapon visual changed!",
+                    Icon = "check-circle",
+                    Duration = 5
+                })
+            end
+        end) then
+            vu18:Notify({
+                Title = "Visual Error",
+                Content = "Failed to change visual!",
+                Icon = "x-circle",
+                Duration = 5
+            })
+        end
+    end
+})
+local v409 = v330:Tab({
+    Title = "Trade Scam",
+    Icon = "shield-alert"
+})
+v409:Section({
+    Title = "Visual Trade Protection",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+local vu410 = false
+v409:Toggle({
+    Flag = "VisualTrade",
+    Title = "Enable Visual Trade",
+    Desc = "Make items in trade appear visual only",
+    Default = false,
+    Callback = function(p411)
+        vu410 = p411
+        vu18:Notify({
+            Title = "Visual Trade",
+            Content = p411 and "Visual Trade Enabled!" or "Visual Trade Disabled!",
+            Icon = p411 and "shield-check" or "shield-off",
+            Duration = 3
+        })
+    end
+})
+v409:Space()
+v409:Button({
+    Title = "Activate Visual Trade",
+    Icon = "alert-triangle",
+    Color = vu7.Blood,
+    Justify = "Center",
+    Callback = function()
+        if vu410 then
+            vu254()
+        else
+            vu18:Notify({
+                Title = "Error",
+                Content = "Enable Visual Trade first!",
+                Icon = "x-circle",
+                Duration = 5
+            })
+        end
+    end
+})
+local v412 = v330:Tab({
+    Title = "Utilities",
+    Icon = "wrench"
+})
+v412:Section({
+    Title = "Server Utilities",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v412:Button({
+    Title = "Enable Anti-AFK",
+    Icon = "moon",
+    Color = vu7.Midnight,
+    Justify = "Center",
+    Callback = function()
+        if pcall(function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/hassanxzayn-lua/Anti-afk/main/antiafkbyhassanxzyn"))()
+        end) then
+            vu18:Notify({
+                Title = "Anti-AFK",
+                Content = "Anti-AFK enabled!",
+                Icon = "check-circle",
+                Duration = 3
+            })
+        else
+            vu18:Notify({
+                Title = "Anti-AFK Error",
+                Content = "Failed to load Anti-AFK!",
+                Icon = "x-circle",
+                Duration = 5
+            })
+        end
+    end
+})
+v412:Space()
+v412:Button({
+    Title = "Server Lagger",
+    Icon = "zap",
+    Color = vu7.Blood,
+    Justify = "Center",
+    Callback = function()
+        vu18:Notify({
+            Title = "Server Lagger",
+            Content = "Lagging server... Risk of disconnect!",
+            Icon = "alert-triangle",
+            Duration = 5
+        })
+        pcall(function()
+            local v413 = game:GetService("ReplicatedStorage").GetSyncData
+            local v414 = v413.InvokeServer
+            local v415 = task.spawn
+            local v416 = 0
+            while true do
+                for _ = 1, 1 do
+                    v415(v414, v413)
+                end
+                v416 = v416 + 1
+                if v416 == 3 then
+                    wait(0)
+                    v416 = 0
+                end
+            end
+        end)
+    end
+})
+local v417 = v330:Tab({
+    Title = v15("Innocent", vu7.Innocent, vu7.Innocent),
+    Icon = "user-check"
+})
+v417:Section({
+    Title = "Gun System",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v417:Toggle({
+    Flag = "AutoGrabGun",
+    Title = "Auto Grab Gun",
+    Desc = "Automatically collect dropped gun",
+    Default = false,
+    Callback = function(p418)
+        vu266.AutoGrabEnabled = p418
+        if p418 then
+            coroutine.wrap(vu296)()
+            vu18:Notify({
+                Title = "Auto Grab Gun",
+                Content = "Auto grab enabled!",
+                Icon = "check-circle",
+                Duration = 3
+            })
+        else
+            vu18:Notify({
+                Title = "Auto Grab Gun",
+                Content = "Auto grab disabled",
+                Icon = "x-circle",
+                Duration = 3
+            })
+        end
+    end
+})
+v417:Space()
+v417:Button({
+    Title = "Grab Gun Manually",
+    Icon = "hand",
+    Color = vu7.Toxic,
+    Justify = "Center",
+    Callback = function()
+        vu286()
+    end
+})
+v417:Space()
+v417:Toggle({
+    Flag = "NotifyGunDrop",
+    Title = "Notify Gun Drop",
+    Desc = "Get notified when gun drops",
+    Default = true,
+    Callback = function(p419)
+        vu266.NotifyGunDrop = p419
+    end
+})
+local v420 = v330:Tab({
+    Title = v15("Murder", vu7.Blood, vu7.Murder),
+    Icon = "skull"
+})
+v420:Section({
+    Title = "Kill Functions",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v420:Toggle({
+    Flag = "KillAll",
+    Title = "Kill All Players",
+    Desc = "Automatically attack nearby targets",
+    Default = false,
+    Callback = function(p421)
+        if p421 then
+            vu327()
+            vu18:Notify({
+                Title = "Kill All",
+                Content = "Attack sequence started!",
+                Icon = "skull",
+                Duration = 2
+            })
+        else
+            vu328()
+            vu18:Notify({
+                Title = "Kill All",
+                Content = "Attack stopped",
+                Icon = "x-circle",
+                Duration = 2
+            })
+        end
+    end
+})
+v420:Space()
+v420:Slider({
+    Flag = "AttackDelay",
+    Title = "Attack Delay",
+    Desc = "Time between attacks",
+    Step = 0.1,
+    Value = {
+        Min = 0.1,
+        Max = 2,
+        Default = 0.5
+    },
+    Callback = function(p422)
+        vu298 = p422
+    end
+})
+v420:Space()
+v420:Button({
+    Title = "Equip Knife",
+    Icon = "knife",
+    Color = vu7.Blood,
+    Justify = "Center",
+    Callback = function()
+        if vu305() then
+            vu18:Notify({
+                Title = "Knife Equipped",
+                Content = "Knife is ready!",
+                Icon = "check-circle",
+                Duration = 2
+            })
+        else
+            vu18:Notify({
+                Title = "Error",
+                Content = "No knife found!",
+                Icon = "x-circle",
+                Duration = 2
+            })
+        end
+    end
+})
+local vu423 = nil
+local v424 = v330:Tab({
+    Title = v15("Sherrif", vu7.Sherrif, vu7.Sherrif),
+    Icon = "shield"
+})
+v424:Section({
+    Title = "Shooting Functions",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v424:Dropdown({
+    Flag = "ShotType",
+    Title = "Shot Type",
+    Desc = "Choose shooting method",
+    Values = {
+        {
+            Title = "Default",
+            Icon = "target"
+        },
+        {
+            Title = "Teleport",
+            Icon = "zap"
+        }
+    },
+    Value = "Default",
+    Callback = function(p425)
+        vu329 = p425.Title
+        vu18:Notify({
+            Title = "Shot Type",
+            Content = "Set to: " .. p425.Title,
+            Icon = "check-circle",
+            Duration = 2
+        })
+    end
+})
+v424:Space()
+v424:Toggle({
+    Title = "Shoot Murderer",
+    Icon = "crosshair",
+    Color = vu7.Toxic,
+    Justify = "Center",
+    Callback = function(p426)
+        local v427 = game:GetService("CoreGui")
+        if p426 then
+            if not v427:FindFirstChild("GunW") then
+                local v428 = Instance.new("ScreenGui", v427)
+                v428.Name = "GunW"
+                local v429 = Instance.new("TextButton", v428)
+                v429.Draggable = true
+                v429.Size = UDim2.new(0, 200, 0, 100)
+                v429.Position = UDim2.new(0.5, - 100, 0.5, 0)
+                v429.TextStrokeTransparency = 0
+                v429.BackgroundTransparency = 0.2
+                v429.BackgroundColor3 = Color3.fromRGB(44, 44, 45)
+                v429.BorderColor3 = Color3.new(1, 1, 1)
+                v429.Text = "Shoot Murder"
+                v429.TextColor3 = Color3.new(1, 1, 1)
+                v429.TextSize = 20
+                v429.Visible = true
+                v429.AnchorPoint = Vector2.new(0.5, 0.5)
+                v429.Active = true
+                v429.TextWrapped = true
+                Instance.new("UICorner", v429)
+                local v430 = Instance.new("UIStroke", v429)
+                v430.Color = Color3.new(0, 0, 0)
+                v430.Thickness = 4
+                v430.Transparency = 0.4
+                v429.MouseButton1Click:Connect(function()
+                    if vu5.Character and vu5.Character:FindFirstChild("Gun") then
+                        pcall(function()
+                            vu5.Character.Gun.KnifeLocal.CreateBeam.RemoteFunction:InvokeServer(1, getMurdererTarget(), "AH2")
+                        end)
+                    end
+                end)
+                vu423 = v428
+            end
+        elseif v427:FindFirstChild("GunW") then
+            v427:FindFirstChild("GunW"):Destroy()
+        end
+    end
+})
+local v431 = v330:Tab({
+    Title = "Settings",
+    Icon = "settings"
+})
+v431:Section({
+    Title = "GUI Settings",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v431:Keybind({
+    Flag = "GUIKeybind",
+    Title = "GUI Toggle Key",
+    Desc = "Press to open/close GUI",
+    Value = "G",
+    Callback = function(p432)
+        vu19:SetToggleKey(Enum.KeyCode[p432])
+        vu18:Notify({
+            Title = "Keybind Set",
+            Content = "GUI toggle key: " .. p432,
+            Icon = "keyboard",
+            Duration = 3
+        })
+    end
+})
+v431:Space({
+    Columns = 2
+})
+v431:Section({
+    Title = "Config Management",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+local vu433 = "default"
+local vu434 = vu19.ConfigManager
+local vu436 = v431:Input({
+    Flag = "ConfigName",
+    Title = "Config Name",
+    Desc = "Name for your configuration",
+    Icon = "file",
+    Value = vu433,
+    Callback = function(p435)
+        vu433 = p435
+    end
+})
+v431:Space()
+local v437 = vu434:AllConfigs()
+v431:Dropdown({
+    Flag = "ConfigSelect",
+    Title = "Load Config",
+    Desc = "Select existing configuration",
+    Values = v437,
+    Value = table.find(v437, vu433) and vu433 and vu433 or nil,
+    Callback = function(p438)
+        vu433 = p438
+        vu436:Set(p438)
+    end
+})
+v431:Space()
+v431:Button({
+    Title = "Save Config",
+    Icon = "save",
+    Color = vu7.Toxic,
+    Justify = "Center",
+    Callback = function()
+        vu19.CurrentConfig = vu434:CreateConfig(vu433)
+        if vu19.CurrentConfig:Save() then
+            vu18:Notify({
+                Title = "Config Saved",
+                Content = "Saved as \'" .. vu433 .. "\'",
+                Icon = "check",
+                Duration = 3
+            })
+        end
+    end
+})
+v431:Space()
+v431:Button({
+    Title = "Load Config",
+    Icon = "upload",
+    Color = vu7.Purple,
+    Justify = "Center",
+    Callback = function()
+        vu19.CurrentConfig = vu434:CreateConfig(vu433)
+        if vu19.CurrentConfig:Load() then
+            vu18:Notify({
+                Title = "Config Loaded",
+                Content = "Loaded \'" .. vu433 .. "\'",
+                Icon = "refresh-cw",
+                Duration = 3
+            })
+        end
+    end
+})
+local v439 = v330:Tab({
+    Title = "Info & Socials",
+    Icon = "info"
+})
+v439:Section({
+    Title = "HelixHub",
+    TextSize = 20,
+    FontWeight = Enum.FontWeight.Bold
+})
+v439:Space()
+v439:Section({
+    Title = "Enhanced MM2 script with comprehensive features including ESP, auto-farming, weapon duplication, role-specific functions, and much more! Perfect for Murder Mystery 2 players looking for an edge.",
+    TextSize = 16,
+    TextTransparency = 0.3,
+    FontWeight = Enum.FontWeight.Medium
+})
+v439:Space({
+    Columns = 3
+})
+v439:Section({
+    Title = "Features",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v439:Space()
+v439:Section({
+    Title = "Player ESP \226\128\162 Auto Farm \226\128\162 Character Mods \226\128\162 Teleportation \226\128\162 Weapon Spawner \226\128\162 Weapon Duplication \226\128\162 Visual Weapons \226\128\162 Trade Scam \226\128\162 Role Functions \226\128\162 Anti-AFK \226\128\162 Server Utilities",
+    TextSize = 15,
+    TextTransparency = 0.4,
+    FontWeight = Enum.FontWeight.Medium
+})
+v439:Space({
+    Columns = 3
+})
+v439:Section({
+    Title = "Community & Support",
+    TextSize = 18,
+    FontWeight = Enum.FontWeight.SemiBold
+})
+v439:Button({
+    Title = "Copy Discord Invite",
+    Icon = "message-circle",
+    Color = vu7.DarkPurple,
+    Justify = "Center",
+    Callback = function()
+        setclipboard("discord.gg/pyu9mUpnxG")
+        vu18:Notify({
+            Title = "Discord",
+            Content = "Invite copied to clipboard!",
+            Icon = "check-circle",
+            Duration = 3
+        })
+    end
+})
+v439:Space()
+v439:Button({
+    Title = "Other Scripts",
+    Icon = "message-circle",
+    Color = vu7.Toxic,
+    Justify = "Center",
+    Callback = function()
+        setclipboard("discord.gg/pyu9mUpnxG")
+        vu18:Notify({
+            Title = "More Scripts",
+            Content = "SAB - GAG - VC Scripts link copied!",
+            Icon = "check-circle",
+            Duration = 3
+        })
+    end
+})
+v439:Space()
+v439:Button({
+    Title = "YouTube Channel",
+    Icon = "youtube",
+    Color = vu7.Blood,
+    Justify = "Center",
+    Callback = function()
+        setclipboard("https://www.youtube.com/@vemizfn.official")
+        vu18:Notify({
+            Title = "YouTube",
+            Content = "Channel link copied!",
+            Icon = "check-circle",
+            Duration = 3
+        })
+    end
+})
+v439:Space()
+v439:Button({
+    Title = "TikTok Profile",
+    Icon = "music",
+    Color = vu7.Pumpkin,
+    Justify = "Center",
+    Callback = function()
+        setclipboard("https://www.tiktok.com/@v392579")
+        vu18:Notify({
+            Title = "TikTok",
+            Content = "Profile link copied!",
+            Icon = "check-circle",
+            Duration = 3
+        })
+    end
+})
+vu89()
+v3.RenderStepped:Connect(function()
+    if vu45 then
+        local v440, v441, v442 = pairs(vu46)
+        while true do
+            local v443
+            v442, v443 = v440(v441, v442)
+            if v442 == nil then
+                break
+            end
+            if v442.Character and v442.Character:FindFirstChild("HumanoidRootPart") then
+                local v444 = v442.Character.HumanoidRootPart
+                local v445, v446 = workspace.CurrentCamera:WorldToViewportPoint(v444.Position)
+                local v447 = workspace.CurrentCamera.ViewportSize
+                if v446 then
+                    v443.From = Vector2.new(v447.X / 2, v447.Y)
+                    v443.To = Vector2.new(v445.X, v445.Y)
+                    v443.Visible = true
+                else
+                    v443.Visible = false
+                end
+            else
+                v443.Visible = false
+            end
+        end
+    end
 end)
+local v448, v449, v450 = ipairs(vu2:GetPlayers())
+local vu451 = vu296
+local vu452 = vu266
+local vu453 = vu275
+local function v457(pu454)
+    pu454.CharacterAdded:Connect(function()
+        local v455 = pu454:WaitForChild("Backpack")
+        v455.ChildAdded:Connect(vu89)
+        v455.ChildRemoved:Connect(vu89)
+        vu89()
+    end)
+    local v456 = pu454.Character and pu454:FindFirstChild("Backpack")
+    if v456 then
+        v456.ChildAdded:Connect(vu89)
+        v456.ChildRemoved:Connect(vu89)
+    end
 end
-if _0x0193 then
-_0x0193._0x0197:_0x0198(function(_0x001e, _0x001e)
-_0x00a5 = 0
-_0x00a2 = {}
-_0x00af = false
-_0x00b0 = false
-_0x00ae = true
-_0x00b1 = _0x018e()._0x0142
-print("[_0x0199] _0x019a _0x019b, _0x019c _0x019d")
-local _0x0219 = _0x009d
-if _0x009e then
-_0x009e = true
-_0x007b:_0x006f({
-_0x0054 = "_0x019a _0x021a!",
-_0x0058 = "_0x01bf _0x01fc _0x021b _0x021c",
-_0x0056 = "_0x021d-_0x0076",
-_0x0077 = 2
-})
+while true do
+    local v458
+    v450, v458 = v448(v449, v450)
+    if v450 == nil then
+        break
+    end
+    v457(v458)
 end
-if _0x0219 then
-_0x009d = true
-_0x007b:_0x006f({
-_0x0054 = "_0x019a _0x021a!",
-_0x0058 = "_0x021e _0x01fc _0x021b _0x021c",
-_0x0056 = "_0x021d-_0x0076",
-_0x0077 = 2
-})
-end
+vu2.PlayerAdded:Connect(v457)
+vu2.PlayerRemoving:Connect(function(p459)
+    if p459 == vu5 then
+        local v460, v461, v462 = pairs(vu46)
+        while true do
+            local v463
+            v462, v463 = v460(v461, v462)
+            if v462 == nil then
+                break
+            end
+            if v463 then
+                v463:Remove()
+            end
+        end
+        vu46 = {}
+    end
 end)
-end
-local function _0x021f()
-_0x007c(math.random(1, 3))
-local _0x0220, _0x0221, _0x0222 = pairs(_0x00d0._0x0223._0x0224._0x0225:_0x0167())
-while true do
-local _0x0226
-_0x0222, _0x0226 = _0x0220(_0x0221, _0x0222)
-if _0x0222 == nil then
-break
-end
-local _0x0227, _0x0228, _0x0229 = pairs(_0x0226._0x0225:_0x0167())
-while true do
-local _0x022a
-_0x0229, _0x022a = _0x0227(_0x0228, _0x0229)
-if _0x0229 == nil then
-break
-end
-if _0x022a._0x00f2 == "_0x005c" or _0x022a._0x00f2 == "_0x022b" then
-local _0x022c, _0x022d, _0x022e = pairs(_0x022a._0x0225:_0x0167())
-while true do
-local _0x022f
-_0x022e, _0x022f = _0x022c(_0x022d, _0x022e)
-if _0x022e == nil then
-break
-end
-if _0x022f:_0x0169("_0x0230") and _0x022f._0x0231._0x0232._0x0233 == _0x00cc then
-local _0x0234 = _0x022f._0x0225._0x0235._0x0233
-if _0x0234 == "" or _0x0234 == "_0x0236" then
-_0x022f._0x0225._0x0235._0x0233 = "_0x0237"
-else
-local _0x0238 = tonumber(_0x0234:match("_0x0186(%_0x0239+)"))
-if _0x0238 then
-_0x022f._0x0225._0x0235._0x0233 = "_0x0186" .. tostring(_0x0238 + 1)
-end
-end
-end
-end
-elseif _0x022a:_0x0169("_0x0230") and _0x022a._0x0231._0x0232._0x0233 == _0x00cc then
-local _0x023a = _0x022a._0x0225._0x0235._0x0233
-if _0x023a == "" or _0x023a == "_0x0236" then
-_0x022a._0x0225._0x0235._0x0233 = "_0x0237"
-else
-local _0x023b = tonumber(_0x023a:match("_0x0186(%_0x0239+)"))
-if _0x023b then
-_0x022a._0x0225._0x0235._0x0233 = "_0x0186" .. tostring(_0x023b + 1)
-end
-end
-end
-end
-end
-end
-local function _0x023c()
-_0x007c(math.random(3, 5))
-local _0x023d, _0x023e, _0x023f = pairs(_0x00d0._0x0223._0x0224._0x0225:_0x0167())
-while true do
-local _0x0240
-_0x023f, _0x0240 = _0x023d(_0x023e, _0x023f)
-if _0x023f == nil then
-break
-end
-local _0x0241, _0x0242, _0x0243 = pairs(_0x0240._0x0225:_0x0167())
-while true do
-local _0x0244
-_0x0243, _0x0244 = _0x0241(_0x0242, _0x0243)
-if _0x0243 == nil then
-break
-end
-if _0x0244._0x00f2 == "_0x005c" or _0x0244._0x00f2 == "_0x0245" then
-local _0x0246, _0x0247, _0x0248 = pairs(_0x0244._0x0225:_0x0167())
-while true do
-local _0x0249
-_0x0248, _0x0249 = _0x0246(_0x0247, _0x0248)
-if _0x0248 == nil then
-break
-end
-if _0x0249:_0x0169("_0x0230") and (_0x0249._0x0231._0x0232._0x0233 ~= "_0x00dc _0x00e4" and _0x0249._0x0231._0x0232._0x0233 ~= "_0x00dc _0x00e6") then
-local _0x024a = _0x0249._0x0225._0x0235._0x0233
-if _0x024a == "" or _0x024a == "_0x0236" then
-_0x0249._0x0225._0x0235._0x0233 = "_0x0237"
-else
-local _0x024b = tonumber(_0x024a:match("_0x0186(%_0x0239+)"))
-if _0x024b then
-_0x0249._0x0225._0x0235._0x0233 = "_0x0186" .. tostring(_0x024b * 2)
-end
-end
-end
-end
-elseif _0x0244:_0x0169("_0x0230") and (_0x0244._0x0231._0x0232._0x0233 ~= "_0x00dc _0x00e4" and _0x0244._0x0231._0x0232._0x0233 ~= "_0x00dc _0x00e6") then
-local _0x024c = _0x0244._0x0225._0x0235._0x0233
-if _0x024c == "" or _0x024c == "_0x0236" then
-_0x0244._0x0225._0x0235._0x0233 = "_0x0237"
-else
-local _0x024d = tonumber(_0x024c:match("_0x0186(%_0x0239+)"))
-if _0x024d then
-_0x0244._0x0225._0x0235._0x0233 = "_0x0186" .. tostring(_0x024d * 2)
-end
-end
-end
-end
-end
-local _0x024e, _0x024f, _0x0250 = pairs(_0x00d0._0x0251._0x0224._0x0225._0x01ee._0x0225:_0x0167())
-while true do
-local _0x0252
-_0x0250, _0x0252 = _0x024e(_0x024f, _0x0250)
-if _0x0250 == nil then
-break
-end
-if _0x0252:_0x0169("_0x0230") then
-local _0x0253 = _0x0252._0x0225._0x0235._0x0233
-if _0x0253 == "" or _0x0253 == "_0x0236" then
-_0x0252._0x0225._0x0235._0x0233 = "_0x0237"
-else
-local _0x0254 = tonumber(_0x0253:match("_0x0186(%_0x0239+)"))
-if _0x0254 then
-_0x0252._0x0225._0x0235._0x0233 = "_0x0186" .. tostring(_0x0254 * 2)
-end
-end
-end
-end
-end
-local function _0x0255(_0x0256, _0x0257)
-return _0x0256:gsub("_0x0258%_0x0239%_0x0239%_0x0239%_0x0239", ""):gsub("_0x0259%_0x0239%_0x0239%_0x0239%_0x0239", ""):lower():find(_0x0257:lower(), 1, true) ~= nil
-end
-local function _0x025a()
-if _0x0002:_0x0018("_0x0019")._0x0022._0x00d1._0x025b._0x0096 == true or _0x0002:_0x0018("_0x0019")._0x0022._0x00d1._0x025c._0x0096 == true then
-_0x007c(1)
-_0x007b:_0x006f({
-_0x0054 = "_0x025d _0x025e _0x025f",
-_0x0058 = "_0x0224 _0x0260 _0x025d _0x0261 _0x0262 _0x0263, _0x010a _0x00c8 _0x0224!",
-_0x0056 = "_0x0264-_0x0265",
-_0x0077 = 5
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x025d _0x025e _0x0182",
-_0x0058 = "_0x00bc _0x0266 _0x0267 _0x0268 _0x0260 _0x025d _0x0269 _0x026a _0x0267 _0x026b!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 5
-})
-end
-end
-local function _0x026c()
-local _0x026d, _0x026e = pcall(function()
-return require(_0x0002:_0x0018("_0x001d")._0x026f._0x0270._0x0271)
+task.spawn(function()
+    if not vu5.Character then
+        vu5.CharacterAdded:Wait()
+    end
+    vu453()
+    if vu452.AutoGrabEnabled then
+        coroutine.wrap(vu451)()
+    end
 end)
-if not _0x026d or (not _0x026e or next(_0x026e) == nil) then
-return "_0x0272"
-end
-local _0x0273, _0x0274, _0x0275 = pairs(_0x026e)
-local _0x0276 = {}
-while true do
-local _0x0277
-_0x0275, _0x0277 = _0x0273(_0x0274, _0x0275)
-if _0x0275 == nil then
-break
-end
-table.insert(_0x0276, _0x0275)
-end
-return _0x0276[math.random(1, # _0x0276)]
-end
-local function _0x0278(_0x0279)
-if not pcall(function()
-local _0x027a = require(_0x0002:_0x0018("_0x001d")._0x027b._0x027c)
-if _0x0279 and require(_0x0002:_0x0018("_0x001d")._0x026f._0x0270._0x027d)[_0x0279] then
-print("_0x027e:", _0x0279)
-_0x027a._0x027f(_0x026c(), _0x0279)
-pcall(function()
-_0x0280(_0x0002:_0x0018("_0x0019")._0x0022._0x00d1._0x00d2._0x00d5._0x0281)._0x0282._0x0281(_0x0279, nil, nil, "_0x0223", 1)
-end)
-_0x007b:_0x006f({
-_0x0054 = "_0x0283",
-_0x0058 = "_0x0284 _0x0285: " .. _0x0279,
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x0182",
-_0x0058 = "_0x0286 _0x01da: " .. _0x0279,
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end) then
-_0x007b:_0x006f({
-_0x0054 = "_0x0182",
-_0x0058 = "_0x0182 _0x0287 _0x0288 for: " .. _0x0279,
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end
-local _0x0289 = {
-_0x028a = false,
-_0x028b = true,
-_0x028c = 1,
-_0x028d = {}
-}
-local _0x028e = {
-"_0x028f",
-"_0x0290",
-"_0x0291",
-"_0x0292",
-"_0x0293",
-"_0x0294",
-"_0x0295",
-"_0x0296",
-"_0x0297",
-"_0x0298",
-"_0x0299"
-}
-local function _0x029a()
-_0x0289._0x028d = {}
-local _0x029b, _0x029c, _0x029d = ipairs(_0x028e)
-while true do
-local _0x029e
-_0x029d, _0x029e = _0x029b(_0x029c, _0x029d)
-if _0x029d == nil then
-break
-end
-local _0x029f = _0x01a7:_0x00d4(_0x029e)
-if _0x029f then
-local _0x02a0 = _0x029f:_0x00d4("_0x02a1")
-if _0x02a0 then
-table.insert(_0x0289._0x028d, _0x02a0)
-end
-end
-end
-local _0x02a2 = _0x01a7:_0x00d4("_0x02a1")
-if _0x02a2 then
-table.insert(_0x0289._0x028d, _0x02a2)
-end
-end
-local function _0x02a3(_0x02a4)
-if not _0x02a4 then
-_0x029a()
-if # _0x0289._0x028d == 0 then
-_0x007b:_0x006f({
-_0x0054 = "_0x00e6 _0x02a5",
-_0x0058 = "_0x0183 _0x02a6 _0x02a7 _0x02a8 _0x00be _0x02a9",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-return false
-end
-_0x02a4 = nil
-local _0x02aa = math._0x01a3
-local _0x02ab = _0x0021._0x00a8
-if _0x02ab then
-_0x02ab = _0x02ab:_0x00d4("_0x00ad")
-end
-if _0x02ab then
-local _0x02ac, _0x02ad, _0x02ae = ipairs(_0x0289._0x028d)
-while true do
-local _0x02af
-_0x02ae, _0x02af = _0x02ac(_0x02ad, _0x02ae)
-if _0x02ae == nil then
-break
-end
-local _0x02b0 = (_0x02ab._0x014b - _0x02af._0x014b)._0x013f
-if _0x02b0 < _0x02aa then
-_0x02aa = _0x02b0
-_0x02a4 = _0x02af
-end
-end
-end
-end
-local _0x02b1 = _0x02a4 and _0x0021._0x00a8 and _0x0021._0x00a8:_0x00d4("_0x00ad")
-if _0x02b1 then
-_0x02b1._0x0142 = _0x02a4._0x0142
-_0x000e._0x007c(0.3)
-local _0x02b2 = _0x02a4:_0x011e("_0x02b3")
-if _0x02b2 then
-_0x02b4(_0x02b2)
-_0x007b:_0x006f({
-_0x0054 = "_0x00e6 _0x02a5",
-_0x0058 = "_0x0284 _0x02b5 _0x00be _0x02b6!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-return true
-end
-end
-return false
-end
-local function _0x02b7()
-while _0x0289._0x028a do
-_0x029a()
-local _0x02b8 = (# _0x0289._0x028d > 0 and _0x0021._0x00a8 and true or false) and _0x0021._0x00a8:_0x00d4("_0x00ad")
-if _0x02b8 then
-local _0x02b9 = math._0x01a3
-local _0x02ba, _0x02bb, _0x02bc = ipairs(_0x0289._0x028d)
-local _0x02bd = nil
-while true do
-local _0x02be
-_0x02bc, _0x02be = _0x02ba(_0x02bb, _0x02bc)
-if _0x02bc == nil then
-break
-end
-local _0x02bf = (_0x02b8._0x014b - _0x02be._0x014b)._0x013f
-if _0x02bf < _0x02b9 then
-_0x02bd = _0x02be
-_0x02b9 = _0x02bf
-end
-end
-if _0x02bd then
-_0x02b8._0x0142 = _0x02bd._0x0142
-_0x000e._0x007c(0.3)
-local _0x02c0 = _0x02bd:_0x011e("_0x02b3")
-if _0x02c0 then
-_0x02b4(_0x02c0)
-_0x000e._0x007c(1)
-end
-end
-end
-_0x000e._0x007c(_0x0289._0x028c)
-end
-end
-local _0x02c1 = false
-local _0x02c2 = 0.5
-local _0x02c3 = {
-"_0x0040",
-"_0x02c4",
-"_0x003f"
-}
-local function _0x02c5(_0x02c6)
-local _0x02c7 = _0x001c:_0x00d4("_0x02c8", true):_0x02c9()
-if _0x02c7 and _0x02c7[_0x02c6._0x00f2] then
-return _0x02c7[_0x02c6._0x00f2]._0x02ca
-else
-return nil
-end
-end
-local function _0x02cb()
-local _0x02cc = _0x0021._0x00a8
-if not _0x02cc then
-return false
-end
-if _0x02cc:_0x00d4("_0x00e4") then
-return true
-end
-local _0x02cd = _0x0021._0x00e3:_0x00d4("_0x00e4")
-if not _0x02cd then
-return false
-end
-_0x02cd._0x00fa = _0x02cc
-return true
-end
-local function _0x02ce()
-local _0x02cf = {}
-_0x001c:_0x00d4("_0x02c8", true):_0x02c9()
-local _0x02d0 = _0x0021._0x00a8
-if _0x02d0 then
-_0x02d0 = _0x0021._0x00a8:_0x00d4("_0x00ad")
-end
-if not _0x02d0 then
-return nil
-end
-local _0x02d1 = _0x0017
-local _0x02d2, _0x02d3, _0x02d4 = ipairs(_0x02d1:_0x0110())
-while true do
-local _0x02d5
-_0x02d4, _0x02d5 = _0x02d2(_0x02d3, _0x02d4)
-if _0x02d4 == nil then
-break
-end
-if _0x02d5 ~= _0x0021 and _0x02d5._0x00a8 then
-local _0x02d6 = _0x02c5(_0x02d5)
-local _0x02d7 = _0x02d5._0x00a8:_0x00d4("_0x011f")
-local _0x02d8 = _0x02d5._0x00a8:_0x00d4("_0x00ad")
-if _0x02d6 and (_0x02d7 and (_0x02d7._0x0157 > 0 and (_0x02d8 and table.find(_0x02c3, _0x02d6)))) then
-table.insert(_0x02cf, {
-_0x02d9 = _0x02d5,
-_0x02da = (_0x02d0._0x014b - _0x02d8._0x014b)._0x013f
-})
-end
-end
-end
-table.sort(_0x02cf, function(_0x02db, _0x02dc)
-return _0x02db._0x02da < _0x02dc._0x02da
-end)
-return _0x02cf[1] and _0x02cf[1]._0x02d9 or nil
-end
-local function _0x02dd(_0x02de)
-if not (_0x02de and _0x02de._0x00a8) then
-return false
-end
-local _0x02df = _0x02de._0x00a8:_0x00d4("_0x011f")
-if not _0x02df or _0x02df._0x0157 <= 0 then
-return false
-end
-if not _0x02cb() then
-return false
-end
-local _0x02e0 = _0x02de._0x00a8:_0x00d4("_0x00ad")
-local _0x02e1 = _0x0021._0x00a8:_0x00d4("_0x00ad")
-if _0x02e0 and _0x02e1 then
-_0x02e1._0x0142 = _0x0142._0x0089(_0x02e0._0x014b + (_0x02e1._0x014b - _0x02e0._0x014b)._0x02e2 * 2, _0x02e0._0x014b)
-end
-local _0x02e3 = _0x0021._0x00a8:_0x00d4("_0x00e4")
-if not (_0x02e3 and _0x02e3:_0x00d4("_0x02e4")) then
-return false
-end
-for _0x001e = 1, 3 do
-_0x02e3._0x02e4:_0x02e5("_0x02e6")
-end
-return true
-end
-local function _0x02e7()
-if not _0x02c1 then
-_0x02c1 = true
-local function _0x02e8()
-while _0x02c1 do
-local _0x02e9 = _0x02ce()
-if not _0x02e9 then
-_0x02c1 = false
-break
-end
-_0x02dd(_0x02e9)
-_0x000e._0x007c(_0x02c2)
-end
-end
-_0x000e._0x000f(_0x02e8)
-end
-end
-local function _0x02ea()
-_0x02c1 = false
-end
-local _0x02eb = "_0x00dc"
-local _0x02ec = _0x007d:_0x02ed({
-_0x0054 = _0x0043("_0x02ee _0x02ef", _0x0026._0x0032, _0x0026._0x002d),
-_0x0056 = "_0x02f0",
-_0x02f1 = true
-})
-local _0x02f2 = _0x02ec:_0x02f3({
-_0x0054 = "_0x02f4",
-_0x0056 = "_0x02f5"
-})
-_0x02f2:_0x02ed({
-_0x0054 = "_0x02d9 _0x02f4 _0x02f6",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x02f2:_0x02fa({
-_0x02fb = "_0x02fc",
-_0x0054 = "_0x00f1 _0x02f4",
-_0x02fd = "_0x02fe _0x02ff _0x0300 (_0x0301 _0x0127 _0x0080 _0x0302)",
-_0x00dc = true,
-_0x0067 = function(_0x0303)
-_0x00c9 = _0x0303
-if _0x0303 then
-_0x00c6 = {
-"_0x00c7 _0x00c8"
-}
-end
-_0x010b()
-end
-})
-_0x02f2:_0x0304()
-_0x02f2:_0x0305({
-_0x02fb = "_0x0306",
-_0x0054 = "_0x0307 _0x02f4",
-_0x02fd = "_0x0307 _0x0308 _0x0309 _0x0073 _0x030a",
-_0x030b = {
-{
-_0x0054 = "_0x00c7 _0x00c8",
-_0x0056 = "_0x030c"
-},
-{
-_0x0054 = "_0x00c7 _0x0040",
-_0x0056 = "_0x030d"
-},
-{
-_0x0054 = "_0x00c7 _0x0041",
-_0x0056 = "_0x030e"
-},
-{
-_0x0054 = "_0x00c7 _0x0040 / _0x0041",
-_0x0056 = "_0x030f"
-}
-},
-_0x00db = "_0x00c7 _0x00c8",
-_0x0067 = function(_0x0310)
-_0x00c6 = {
-_0x0310._0x0054
-}
-_0x010b()
-end
-})
-_0x02f2:_0x0304()
-_0x02f2:_0x02fa({
-_0x02fb = "_0x0311",
-_0x0054 = "_0x0105 _0x02f4 (_0x0312)",
-_0x02fd = "_0x0313 _0x0314 _0x0073 _0x0309",
-_0x00dc = false,
-_0x0067 = function(_0x0315)
-_0x00ca = _0x0315
-if not _0x0315 then
-local _0x0316, _0x0317, _0x0318 = pairs(_0x00cb)
-while true do
-local _0x0319
-_0x0318, _0x0319 = _0x0316(_0x0317, _0x0318)
-if _0x0318 == nil then
-break
-end
-_0x0319:_0x010a()
-end
-_0x00cb = {}
-end
-_0x010b()
-end
-})
-local _0x031a = _0x02ec:_0x02f3({
-_0x0054 = _0x0043("_0x01fd _0x031b", _0x0026._0x0032, _0x0026._0x002b),
-_0x0056 = "_0x031c-_0x031d"
-})
-_0x031a:_0x02ed({
-_0x0054 = "_0x021e & _0x01bf _0x031e",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x031a:_0x02fa({
-_0x02fb = "_0x031f",
-_0x0054 = "_0x021e _0x0320",
-_0x02fd = "_0x0321 _0x01df _0x0322 _0x0323 _0x00be _0x02a9",
-_0x00dc = false,
-_0x0067 = function(_0x0324)
-_0x009d = _0x0324
-if _0x0324 then
-_0x00a2 = {}
-_0x00a4 = 0
-_0x007b:_0x006f({
-_0x0054 = "_0x021e _0x0320",
-_0x0058 = "_0x021e _0x019c _0x019b!",
-_0x0056 = "_0x0325-_0x0326",
-_0x0077 = 3
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x021e _0x0320",
-_0x0058 = "_0x021e _0x019c _0x0327",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end
-})
-_0x031a:_0x0304()
-_0x031a:_0x02fa({
-_0x02fb = "_0x0328",
-_0x0054 = "_0x01bf _0x0320",
-_0x02fd = "_0x0329 _0x0245 _0x01c6 for _0x032a _0x032b",
-_0x00dc = false,
-_0x0067 = function(_0x032c)
-_0x009e = _0x032c
-if _0x032c then
-_0x00a2 = {}
-_0x00a4 = 0
-_0x007b:_0x006f({
-_0x0054 = "_0x01bf _0x0320",
-_0x0058 = "_0x01bf _0x019c _0x019b!",
-_0x0056 = "_0x01c6",
-_0x0077 = 3
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x01bf _0x0320",
-_0x0058 = "_0x01bf _0x019c _0x0327",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end
-})
-_0x031a:_0x0304()
-_0x031a:_0x02fa({
-_0x02fb = "_0x032d",
-_0x0054 = "_0x01fd _0x0213 _0x00a8",
-_0x02fd = "_0x0321 _0x01eb _0x0212 _0x032e _0x01f9 _0x01f1 _0x01f2",
-_0x00dc = false,
-_0x0067 = function(_0x032f)
-_0x009f = _0x032f
-_0x00a0 = _0x032f
-print("[_0x0199] _0x01fd _0x0213 _0x00a8 _0x0330 _0x0331 _0x0073:", _0x032f)
-print("[_0x0199] _0x01f5 _0x01f1 _0x01ff:", _0x009f)
-print("[_0x0199] _0x0332 _0x01f1 _0x01ff:", _0x00a0)
-if _0x032f then
-_0x007b:_0x006f({
-_0x0054 = "_0x01fd _0x0213 _0x00a8",
-_0x0058 = "_0x0333 _0x01eb _0x0212 _0x01ce " .. _0x00a6 .. " _0x01c6",
-_0x0056 = "_0x0215-_0x0216",
-_0x0077 = 3
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x01fd _0x0213 _0x00a8",
-_0x0058 = "_0x01fd _0x01eb _0x0212 _0x019f",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end
-})
-_0x031a:_0x0304()
-_0x031a:_0x02fa({
-_0x02fb = "_0x0334",
-_0x0054 = "_0x01fd _0x0181 _0x00e5",
-_0x02fd = "_0x0321 _0x01fe _0x0184 _0x032e _0x01f9 _0x01f1 _0x01f2",
-_0x00dc = false,
-_0x0067 = function(_0x0335)
-_0x00a1 = _0x0335
-print("[_0x0199] _0x01fd _0x0181 _0x00e5 _0x0330 _0x0331 _0x0073:", _0x0335)
-if _0x0335 then
-_0x007b:_0x006f({
-_0x0054 = "_0x01fd _0x0181 _0x00e5",
-_0x0058 = "_0x0333 _0x01fe _0x0184 _0x01ce " .. _0x00a6 .. " _0x01c6",
-_0x0056 = "_0x0188",
-_0x0077 = 3
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x01fd _0x0181 _0x00e5",
-_0x0058 = "_0x01fd _0x01fe _0x0184 _0x019f",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end
-})
-_0x031a:_0x0304()
-_0x031a:_0x0336({
-_0x02fb = "_0x0337",
-_0x0054 = "_0x0320 _0x0338",
-_0x02fd = "_0x0339 _0x033a _0x033b",
-_0x033c = 1,
-_0x00db = {
-_0x033d = 5,
-_0x033e = 50,
-_0x00dc = 25
-},
-_0x0067 = function(_0x033f)
-_0x00a3 = _0x033f
-end
-})
-_0x031a:_0x0304()
-_0x031a:_0x02ed({
-_0x0054 = "\226\154\160\239\184\143 _0x0340: 25, _0x0341 _0x0342 _0x0343 _0x0344 _0x0345 _0x0346",
-_0x02f7 = 14,
-_0x0347 = 0.3,
-_0x02f8 = _0x00f6._0x02f8._0x0348
-})
-_0x031a:_0x0304()
-_0x031a:_0x0349({
-_0x0054 = "_0x0213 _0x034a",
-_0x0056 = "_0x0215-_0x0216",
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x00a4 = 0
-_0x00a2 = {}
-_0x00a5 = 0
-_0x007b:_0x006f({
-_0x0054 = "_0x034a _0x0213",
-_0x0058 = "_0x031e _0x034d _0x01eb!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-end
-})
-_0x031a:_0x0304()
-_0x031a:_0x0349({
-_0x0054 = "_0x0181 _0x00e5",
-_0x0056 = "_0x0188",
-_0x0099 = _0x0026._0x002f,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x0179()
-end
-})
-_0x031a:_0x0304()
-_0x031a:_0x0349({
-_0x0054 = "_0x02fe _0x034e-_0x034f",
-_0x0056 = "_0x0350",
-_0x0099 = _0x0026._0x0035,
-_0x034b = "_0x034c",
-_0x0067 = function()
-if pcall(function()
-_0x0001(_0x0002:_0x0003("_0x0004://_0x0010._0x0011._0x0006/_0x0351-_0x000d/_0x034e-_0x0352/_0x000c/_0x0353"))()
-end) then
-_0x007b:_0x006f({
-_0x0054 = "_0x034e-_0x034f",
-_0x0058 = "_0x034e-_0x034f _0x019d!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x034e-_0x034f _0x0182",
-_0x0058 = "_0x00c2 _0x0073 _0x0354 _0x034e-_0x034f!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 5
-})
-end
-end
-})
-local _0x0355 = _0x02ec:_0x02f3({
-_0x0054 = "_0x00a8",
-_0x0056 = "_0x0356"
-})
-_0x0355:_0x02ed({
-_0x0054 = "_0x0357 _0x02f6",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x0355:_0x0336({
-_0x02fb = "_0x00da",
-_0x0054 = "_0x0358 _0x0338",
-_0x02fd = "_0x0339 _0x0359 _0x035a _0x033b",
-_0x033c = 1,
-_0x00db = {
-_0x033d = 0,
-_0x033e = 200,
-_0x00dc = 16
-},
-_0x0067 = function(_0x035b)
-_0x00d9._0x00da._0x00db = _0x035b
-_0x011c()
-end
-})
-_0x0355:_0x0304()
-_0x0355:_0x02fa({
-_0x02fb = "_0x035c",
-_0x0054 = "_0x035d _0x0358 _0x0338",
-_0x02fd = "_0x035e _0x035f _0x0360",
-_0x00dc = false,
-_0x0067 = function(_0x0361)
-_0x00d9._0x00da._0x00dd = _0x0361
-end
-})
-_0x0355:_0x0304()
-_0x0355:_0x0336({
-_0x02fb = "_0x00de",
-_0x0054 = "_0x0362 _0x0363",
-_0x02fd = "_0x0339 _0x0359 _0x0364 _0x0365",
-_0x033c = 1,
-_0x00db = {
-_0x033d = 0,
-_0x033e = 200,
-_0x00dc = 50
-},
-_0x0067 = function(_0x0366)
-_0x00d9._0x00de._0x00db = _0x0366
-_0x011c()
-end
-})
-_0x0355:_0x0304()
-_0x0355:_0x02fa({
-_0x02fb = "_0x0367",
-_0x0054 = "_0x035d _0x0362 _0x0363",
-_0x02fd = "_0x035e _0x0364 _0x0368 _0x0360",
-_0x00dc = false,
-_0x0067 = function(_0x0369)
-_0x00d9._0x00de._0x00dd = _0x0369
-end
-})
-_0x0355:_0x0304()
-_0x0355:_0x0349({
-_0x0054 = "_0x0213 _0x0073 _0x00dc",
-_0x0056 = "_0x036a-_0x036b",
-_0x0099 = _0x0026._0x0027,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x00d9._0x00da._0x00db = 16
-_0x00d9._0x00de._0x00db = 50
-_0x011c()
-_0x007b:_0x006f({
-_0x0054 = "_0x00a8 _0x0213",
-_0x0058 = "_0x02f6 _0x01eb _0x0073 _0x0302!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-end
-})
-local _0x036c = _0x02ec:_0x02f3({
-_0x0054 = "_0x036d",
-_0x0056 = "_0x036e"
-})
-_0x036c:_0x02ed({
-_0x0054 = "_0x02d9 _0x036f",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-local _0x0370 = nil
-local function _0x0371()
-local _0x0372 = _0x0017
-local _0x0373, _0x0374, _0x0375 = pairs(_0x0372:_0x0110())
-local _0x0376 = {}
-while true do
-local _0x0377
-_0x0375, _0x0377 = _0x0373(_0x0374, _0x0375)
-if _0x0375 == nil then
-break
-end
-if _0x0377 ~= _0x0021 then
-table.insert(_0x0376, {
-_0x0054 = _0x0377._0x00f2,
-_0x0056 = "_0x0356"
-})
-end
-end
-return _0x0376
-end
-local _0x0378 = _0x036c:_0x0305({
-_0x02fb = "_0x0379",
-_0x0054 = "_0x037a _0x02d9",
-_0x02fd = "_0x037b _0x037c _0x02ff _0x0073 _0x037d _0x0073",
-_0x030b = _0x0371(),
-_0x0067 = function(_0x037e)
-_0x0370 = _0x0017:_0x00d4(_0x037e._0x0054)
-end
-})
-_0x036c:_0x0304()
-_0x036c:_0x0349({
-_0x0054 = "_0x036d _0x0073 _0x02d9",
-_0x0056 = "_0x0188",
-_0x0099 = _0x0026._0x002d,
-_0x034b = "_0x034c",
-_0x0067 = function()
-if _0x0370 and _0x0370._0x00a8 then
-local _0x037f = _0x0370._0x00a8:_0x00d4("_0x00ad")
-local _0x0380 = _0x0021._0x00a8:_0x00d4("_0x00ad")
-if _0x037f and _0x0380 then
-_0x0380._0x0142 = _0x037f._0x0142
-_0x007b:_0x006f({
-_0x0054 = "_0x036d _0x0283",
-_0x0058 = "_0x01cb _0x0073 " .. _0x0370._0x00f2,
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-end
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x036d _0x0182",
-_0x0058 = "_0x0381 not _0x0185!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end
-})
-_0x036c:_0x0304()
-_0x036c:_0x0349({
-_0x0054 = "_0x0382 _0x02d9 _0x0383",
-_0x0056 = "_0x0215-_0x0216",
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x0378:_0x0382(_0x0371())
-_0x007b:_0x006f({
-_0x0054 = "_0x0019 _0x0384",
-_0x0058 = "_0x02d9 _0x0385 _0x0386!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 2
-})
-end
-})
-_0x036c:_0x0304({
-_0x0387 = 2
-})
-_0x036c:_0x02ed({
-_0x0054 = "_0x02ca _0x036f",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x036c:_0x0349({
-_0x0054 = "_0x036d _0x0073 _0x00e5",
-_0x0056 = "_0x030e",
-_0x0099 = _0x0026._0x002f,
-_0x034b = "_0x034c",
-_0x0067 = function()
-local _0x0388 = _0x0017
-local _0x0389, _0x038a, _0x038b = ipairs(_0x0388:_0x0110())
-local _0x038c = nil
-while true do
-local _0x038d
-_0x038b, _0x038d = _0x0389(_0x038a, _0x038b)
-if _0x038b == nil then
-_0x038d = _0x038c
-break
-end
-if _0x038d ~= _0x0021 and _0x038d._0x00a8 then
-if _0x038d._0x00a8:_0x00d4("_0x00e4") then
-break
-end
-local _0x038e = _0x038d:_0x00d4("_0x00e3")
-if _0x038e and _0x038e:_0x00d4("_0x00e4") then
-break
-end
-end
-end
-if _0x038d and _0x038d._0x00a8 then
-local _0x038f = _0x038d._0x00a8:_0x00d4("_0x00ad")
-local _0x0390 = _0x0021._0x00a8:_0x00d4("_0x00ad")
-if _0x038f and _0x0390 then
-_0x0390._0x0142 = _0x038f._0x0142
-_0x007b:_0x006f({
-_0x0054 = "_0x036d _0x0283",
-_0x0058 = "_0x01cb _0x0073 _0x0184: " .. _0x038d._0x00f2,
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-end
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x036d _0x0182",
-_0x0058 = "_0x0183 _0x0184 _0x0185!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end
-})
-_0x036c:_0x0304()
-_0x036c:_0x0349({
-_0x0054 = "_0x036d _0x0073 _0x0040",
-_0x0056 = "_0x030d",
-_0x0099 = _0x0026._0x0036,
-_0x034b = "_0x034c",
-_0x0067 = function()
-local _0x0391 = _0x0017
-local _0x0392, _0x0393, _0x0394 = ipairs(_0x0391:_0x0110())
-local _0x0395 = nil
-while true do
-local _0x0396
-_0x0394, _0x0396 = _0x0392(_0x0393, _0x0394)
-if _0x0394 == nil then
-_0x0396 = _0x0395
-break
-end
-if _0x0396 ~= _0x0021 and _0x0396._0x00a8 then
-if _0x0396._0x00a8:_0x00d4("_0x00e6") then
-break
-end
-local _0x0397 = _0x0396:_0x00d4("_0x00e3")
-if _0x0397 and _0x0397:_0x00d4("_0x00e6") then
-break
-end
-end
-end
-if _0x0396 and _0x0396._0x00a8 then
-local _0x0398 = _0x0396._0x00a8:_0x00d4("_0x00ad")
-local _0x0399 = _0x0021._0x00a8:_0x00d4("_0x00ad")
-if _0x0398 and _0x0399 then
-_0x0399._0x0142 = _0x0398._0x0142
-_0x007b:_0x006f({
-_0x0054 = "_0x036d _0x0283",
-_0x0058 = "_0x01cb _0x0073 _0x039a: " .. _0x0396._0x00f2,
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-end
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x036d _0x0182",
-_0x0058 = "_0x0183 _0x039a _0x0185!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end
-})
-local _0x039b = _0x02ec:_0x02f3({
-_0x0054 = "_0x039c _0x039d",
-_0x0056 = "_0x039e"
-})
-_0x039b:_0x02ed({
-_0x0054 = "_0x039f _0x0223",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-local _0x03a0 = ""
-_0x039b:_0x03a1({
-_0x02fb = "_0x03a2",
-_0x0054 = "_0x039c _0x00f2",
-_0x02fd = "_0x03a3 _0x00be _0x03a4 _0x03a5 _0x00be _0x03a6",
-_0x03a7 = "_0x03a8._0x03a9., _0x03aa, _0x03ab",
-_0x0067 = function(_0x03ac)
-_0x03a0 = _0x03ac
-end
-})
-_0x039b:_0x0304()
-_0x039b:_0x0349({
-_0x0054 = "_0x039f _0x039c",
-_0x0056 = "_0x03ad",
-_0x0099 = _0x0026._0x0027,
-_0x034b = "_0x034c",
-_0x0067 = function()
-if _0x03a0 == "" then
-_0x007b:_0x006f({
-_0x0054 = "_0x0182",
-_0x0058 = "_0x03ae _0x03af _0x037c _0x03a6 _0x03a4!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-else
-_0x0278(_0x03a0)
-end
-end
-})
-_0x039b:_0x0304({
-_0x0387 = 2
-})
-_0x039b:_0x02ed({
-_0x0054 = "_0x03b0 _0x039f _0x03b1",
-_0x02f7 = 16,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x039b:_0x0349({
-_0x0054 = "_0x039f _0x03ab (_0x03b2)",
-_0x0056 = "_0x0188",
-_0x0099 = _0x0026._0x0036,
-_0x0067 = function()
-_0x0278("_0x03ab")
-end
-})
-_0x039b:_0x0304()
-_0x039b:_0x0349({
-_0x0054 = "_0x039f _0x03b3",
-_0x0056 = "_0x030e",
-_0x0099 = _0x0026._0x002f,
-_0x0067 = function()
-_0x0278("_0x03b3")
-end
-})
-_0x039b:_0x0304()
-_0x039b:_0x0349({
-_0x0054 = "_0x039f _0x03b4",
-_0x0056 = "_0x03b5",
-_0x0099 = _0x0026._0x002e,
-_0x0067 = function()
-_0x0278("_0x03b4")
-end
-})
-local _0x03b6 = _0x02ec:_0x02f3({
-_0x0054 = "_0x039c _0x03b7",
-_0x0056 = "_0x03b8"
-})
-_0x03b6:_0x02ed({
-_0x0054 = "_0x03b9 _0x039c _0x03ba",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x03b6:_0x03a1({
-_0x02fb = "_0x03bb",
-_0x0054 = "_0x039c _0x00f2",
-_0x02fd = "_0x03a3 _0x03a6 _0x0073 _0x03bc",
-_0x03a7 = "_0x03a8._0x03a9., _0x03bd",
-_0x0067 = function(_0x03be)
-_0x00cc = _0x03be
-end
-})
-_0x03b6:_0x0304()
-_0x03b6:_0x03a1({
-_0x02fb = "_0x03bf",
-_0x0054 = "_0x03b7 _0x0235",
-_0x02fd = "_0x03c0 _0x03c1 _0x03c2 _0x0073 _0x03bc",
-_0x03a7 = "_0x03a8._0x03a9., 5",
-_0x00db = "1",
-_0x0067 = function(_0x03c3)
-_0x00cd = tonumber(_0x03c3) or 1
-end
-})
-_0x03b6:_0x0304()
-_0x03b6:_0x0349({
-_0x0054 = "_0x03c4 _0x03ba",
-_0x0056 = "_0x03c5",
-_0x0099 = _0x0026._0x002b,
-_0x034b = "_0x034c",
-_0x0067 = function()
-if _0x00cc ~= "" then
-_0x007b:_0x006f({
-_0x0054 = "_0x039c _0x03b7",
-_0x0058 = "_0x03c6 " .. _0x00cc .. " " .. _0x00cd .. " _0x03c2...",
-_0x0056 = "_0x03c7",
-_0x0077 = 3
-})
-for _0x001e = 1, _0x00cd do
-_0x021f()
-end
-_0x007b:_0x006f({
-_0x0054 = "_0x03b7 _0x0189",
-_0x0058 = "_0x0284 _0x03c8 " .. _0x00cc .. "!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 5
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x039c _0x03b7 _0x0182",
-_0x0058 = "_0x03ae _0x03af _0x037c _0x03a6 _0x03a4!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 5
-})
-end
-end
-})
-_0x03b6:_0x0304({
-_0x0387 = 3
-})
-_0x03b6:_0x02ed({
-_0x0054 = "_0x00d5 _0x03ba",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x03b6:_0x0349({
-_0x0054 = "_0x03b7 _0x03c9 _0x00d5",
-_0x0056 = "_0x01fa",
-_0x0099 = _0x0026._0x0034,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x007b:_0x006f({
-_0x0054 = "_0x00d5 _0x03b7",
-_0x0058 = "_0x03c6 _0x03ca _0x03cb...",
-_0x0056 = "_0x03c7",
-_0x0077 = 3
-})
-_0x023c()
-_0x007b:_0x006f({
-_0x0054 = "_0x00d5 _0x03b7 _0x0189",
-_0x0058 = "_0x0284 _0x03c8 _0x03cb!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 5
-})
-end
-})
-local _0x03cc = _0x02ec:_0x02f3({
-_0x0054 = "_0x0223 _0x03cd",
-_0x0056 = "_0x02f5-_0x03ce"
-})
-_0x03cc:_0x02ed({
-_0x0054 = "_0x03cf _0x039c _0x03d0",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x03cc:_0x03a1({
-_0x02fb = "_0x03d1",
-_0x0054 = "_0x039c _0x0073 _0x03d2",
-_0x02fd = "_0x01ee _0x03a6 _0x0345 _0x03d3",
-_0x03a7 = "_0x03a8._0x03a9., _0x03d4",
-_0x0067 = function(_0x03d5)
-_0x00ce = _0x03d5
-end
-})
-_0x03cc:_0x0304()
-_0x03cc:_0x03a1({
-_0x02fb = "_0x03d6",
-_0x0054 = "_0x039c _0x0073 _0x03d7",
-_0x02fd = "_0x039c _0x03d8 _0x0345 _0x03d9",
-_0x03a7 = "_0x03a8._0x03a9., _0x03da",
-_0x0067 = function(_0x03db)
-_0x00cf = _0x03db
-end
-})
-_0x03cc:_0x0304()
-_0x03cc:_0x0349({
-_0x0054 = "_0x03cf _0x0263",
-_0x0056 = "_0x03dc-2",
-_0x0099 = _0x0026._0x002d,
-_0x034b = "_0x034c",
-_0x0067 = function()
-if _0x00ce == "" or _0x00cf == "" then
-_0x007b:_0x006f({
-_0x0054 = "_0x0263 _0x0223 _0x0182",
-_0x0058 = "_0x03ae _0x03af _0x03dd _0x03a6 _0x03de!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 5
-})
-elseif not pcall(function()
-local _0x03df = require(_0x0002:_0x0018("_0x001d")._0x026f._0x0270._0x027d)
-local _0x03e0, _0x03e1, _0x03e2 = pairs(_0x03df)
-local _0x03e3 = {}
-local _0x03e4 = {}
-while true do
-local _0x03e5
-_0x03e2, _0x03e5 = _0x03e0(_0x03e1, _0x03e2)
-if _0x03e2 == nil then
-break
-end
-if _0x0255(_0x03e2, _0x00ce) then
-table.insert(_0x03e4, _0x03e2)
-end
-if _0x0255(_0x03e2, _0x00cf) then
-table.insert(_0x03e3, _0x03e2)
-end
-end
-if # _0x03e4 <= 0 or # _0x03e3 <= 0 then
-_0x007b:_0x006f({
-_0x0054 = "_0x0263 _0x0182",
-_0x0058 = "_0x039c not _0x0185!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 5
-})
-else
-local _0x03e6, _0x03e7, _0x03e8 = ipairs(_0x03e4)
-while true do
-local _0x03e9
-_0x03e8, _0x03e9 = _0x03e6(_0x03e7, _0x03e8)
-if _0x03e8 == nil then
-break
-end
-local _0x03ea, _0x03eb, _0x03ec = ipairs(_0x03e3)
-while true do
-local _0x03ed
-_0x03ec, _0x03ed = _0x03ea(_0x03eb, _0x03ec)
-if _0x03ec == nil then
-break
-end
-_0x03df[_0x03e9] = {}
-local _0x03ee, _0x03ef, _0x03f0 = pairs(_0x03df[_0x03ed])
-while true do
-local _0x03f1
-_0x03f0, _0x03f1 = _0x03ee(_0x03ef, _0x03f0)
-if _0x03f0 == nil then
-break
-end
-_0x03df[_0x03e9][_0x03f0] = _0x03f1
-end
-_0x0002:_0x0018("_0x001d")._0x0190._0x00d5._0x03f2:_0x02e5(_0x03ed)
-end
-end
-_0x007b:_0x006f({
-_0x0054 = "_0x0263 _0x0283",
-_0x0058 = "_0x039c _0x03f3 _0x0331!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 5
-})
-end
-end) then
-_0x007b:_0x006f({
-_0x0054 = "_0x0263 _0x0182",
-_0x0058 = "_0x00c2 _0x0073 _0x03f4 _0x03f3!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 5
-})
-end
-end
-})
-local _0x03f5 = _0x02ec:_0x02f3({
-_0x0054 = "_0x025d _0x025e",
-_0x0056 = "_0x030d-_0x0264"
-})
-_0x03f5:_0x02ed({
-_0x0054 = "_0x0263 _0x025d _0x03f6",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-local _0x03f7 = false
-_0x03f5:_0x02fa({
-_0x02fb = "_0x03f8",
-_0x0054 = "_0x02fe _0x0263 _0x025d",
-_0x02fd = "_0x03f9 _0x01de in _0x03fa _0x03fb _0x03f3 _0x03fc",
-_0x00dc = false,
-_0x0067 = function(_0x03fd)
-_0x03f7 = _0x03fd
-_0x007b:_0x006f({
-_0x0054 = "_0x0263 _0x025d",
-_0x0058 = _0x03fd and "_0x0263 _0x025d _0x0096!" or "_0x0263 _0x025d _0x03fe!",
-_0x0056 = _0x03fd and "_0x030d-_0x0075" or "_0x030d-_0x03ce",
-_0x0077 = 3
-})
-end
-})
-_0x03f5:_0x0304()
-_0x03f5:_0x0349({
-_0x0054 = "_0x03ff _0x0263 _0x025d",
-_0x0056 = "_0x0264-_0x0265",
-_0x0099 = _0x0026._0x002f,
-_0x034b = "_0x034c",
-_0x0067 = function()
-if _0x03f7 then
-_0x025a()
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x0182",
-_0x0058 = "_0x02fe _0x0263 _0x025d _0x0400!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 5
-})
-end
-end
-})
-local _0x0401 = _0x02ec:_0x02f3({
-_0x0054 = "_0x0402",
-_0x0056 = "_0x0403"
-})
-_0x0401:_0x02ed({
-_0x0054 = "_0x0404 _0x0402",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x0401:_0x0349({
-_0x0054 = "_0x02fe _0x034e-_0x034f",
-_0x0056 = "_0x0350",
-_0x0099 = _0x0026._0x0035,
-_0x034b = "_0x034c",
-_0x0067 = function()
-if pcall(function()
-_0x0001(_0x0002:_0x0003("_0x0004://_0x0010._0x0011._0x0006/_0x0351-_0x000d/_0x034e-_0x0352/_0x000c/_0x0353"))()
-end) then
-_0x007b:_0x006f({
-_0x0054 = "_0x034e-_0x034f",
-_0x0058 = "_0x034e-_0x034f _0x019d!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x034e-_0x034f _0x0182",
-_0x0058 = "_0x00c2 _0x0073 _0x0354 _0x034e-_0x034f!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 5
-})
-end
-end
-})
-_0x0401:_0x0304()
-_0x0401:_0x0349({
-_0x0054 = "_0x0404 _0x0405",
-_0x0056 = "_0x0188",
-_0x0099 = _0x0026._0x002f,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x007b:_0x006f({
-_0x0054 = "_0x0404 _0x0405",
-_0x0058 = "_0x0406 _0x0062... _0x0407 _0x03a5 _0x0408!",
-_0x0056 = "_0x0264-_0x0265",
-_0x0077 = 5
-})
-pcall(function()
-local _0x0409 = _0x0002:_0x0018("_0x001d")._0x040a
-local _0x040b = _0x0409._0x02c9
-local _0x040c = _0x000e._0x000f
-local _0x040d = 0
-while true do
-for _0x001e = 1, 1 do
-_0x040c(_0x040b, _0x0409)
-end
-_0x040d = _0x040d + 1
-if _0x040d == 3 then
-_0x007c(0)
-_0x040d = 0
-end
-end
-end)
-end
-})
-local _0x040e = _0x02ec:_0x02f3({
-_0x0054 = _0x0043("_0x003f", _0x0026._0x003f, _0x0026._0x003f),
-_0x0056 = "_0x0356-_0x0075"
-})
-_0x040e:_0x02ed({
-_0x0054 = "_0x00e6 _0x02a5",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x040e:_0x02fa({
-_0x02fb = "_0x040f",
-_0x0054 = "_0x01fd _0x0410 _0x00e6",
-_0x02fd = "_0x0321 _0x01df _0x0411 _0x02b6",
-_0x00dc = false,
-_0x0067 = function(_0x0412)
-_0x0289._0x028a = _0x0412
-if _0x0412 then
-coroutine._0x0413(_0x02b7)()
-_0x007b:_0x006f({
-_0x0054 = "_0x01fd _0x0410 _0x00e6",
-_0x0058 = "_0x01fd _0x0414 _0x019d!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x01fd _0x0410 _0x00e6",
-_0x0058 = "_0x01fd _0x0414 _0x019f",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 3
-})
-end
-end
-})
-_0x040e:_0x0304()
-_0x040e:_0x0349({
-_0x0054 = "_0x0410 _0x00e6 _0x0415",
-_0x0056 = "_0x0416",
-_0x0099 = _0x0026._0x0036,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x02a3()
-end
-})
-_0x040e:_0x0304()
-_0x040e:_0x02fa({
-_0x02fb = "_0x028b",
-_0x0054 = "_0x006f _0x00e6 _0x0417",
-_0x02fd = "_0x0418 _0x0419 _0x032e _0x02b6 _0x041a",
-_0x00dc = true,
-_0x0067 = function(_0x041b)
-_0x0289._0x028b = _0x041b
-end
-})
-local _0x041c = _0x02ec:_0x02f3({
-_0x0054 = _0x0043("_0x0041", _0x0026._0x002f, _0x0026._0x0041),
-_0x0056 = "_0x0057"
-})
-_0x041c:_0x02ed({
-_0x0054 = "_0x041d _0x02ef",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x041c:_0x02fa({
-_0x02fb = "_0x041e",
-_0x0054 = "_0x041d _0x00c8 _0x0019",
-_0x02fd = "_0x0321 _0x041f _0x01d7 _0x0420",
-_0x00dc = false,
-_0x0067 = function(_0x0421)
-if _0x0421 then
-_0x02e7()
-_0x007b:_0x006f({
-_0x0054 = "_0x041d _0x00c8",
-_0x0058 = "_0x0422 _0x0423 _0x019b!",
-_0x0056 = "_0x0057",
-_0x0077 = 2
-})
-else
-_0x02ea()
-_0x007b:_0x006f({
-_0x0054 = "_0x041d _0x00c8",
-_0x0058 = "_0x0422 _0x0327",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 2
-})
-end
-end
-})
-_0x041c:_0x0304()
-_0x041c:_0x0336({
-_0x02fb = "_0x0424",
-_0x0054 = "_0x0422 _0x0425",
-_0x02fd = "_0x0426 _0x0427 _0x0428",
-_0x033c = 0.1,
-_0x00db = {
-_0x033d = 0.1,
-_0x033e = 2,
-_0x00dc = 0.5
-},
-_0x0067 = function(_0x0429)
-_0x02c2 = _0x0429
-end
-})
-_0x041c:_0x0304()
-_0x041c:_0x0349({
-_0x0054 = "_0x03f2 _0x00e4",
-_0x0056 = "_0x030e",
-_0x0099 = _0x0026._0x002f,
-_0x034b = "_0x034c",
-_0x0067 = function()
-if _0x02cb() then
-_0x007b:_0x006f({
-_0x0054 = "_0x00e4 _0x042a",
-_0x0058 = "_0x00e4 _0x01f1 _0x042b!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 2
-})
-else
-_0x007b:_0x006f({
-_0x0054 = "_0x0182",
-_0x0058 = "_0x0183 _0x030e _0x0185!",
-_0x0056 = "_0x0186-_0x0076",
-_0x0077 = 2
-})
-end
-end
-})
-local _0x042c = nil
-local _0x042d = _0x02ec:_0x02f3({
-_0x0054 = _0x0043("_0x042e", _0x0026._0x042e, _0x0026._0x042e),
-_0x0056 = "_0x030d"
-})
-_0x042d:_0x02ed({
-_0x0054 = "_0x042f _0x02ef",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x042d:_0x0305({
-_0x02fb = "_0x0430",
-_0x0054 = "_0x0431 _0x0432",
-_0x02fd = "_0x037b _0x0433 _0x0434",
-_0x030b = {
-{
-_0x0054 = "_0x00dc",
-_0x0056 = "_0x030f"
-},
-{
-_0x0054 = "_0x036d",
-_0x0056 = "_0x0188"
-}
-},
-_0x00db = "_0x00dc",
-_0x0067 = function(_0x0435)
-_0x02eb = _0x0435._0x0054
-_0x007b:_0x006f({
-_0x0054 = "_0x0431 _0x0432",
-_0x0058 = "_0x0436 _0x0073: " .. _0x0435._0x0054,
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 2
-})
-end
-})
-_0x042d:_0x0304()
-_0x042d:_0x02fa({
-_0x0054 = "_0x0437 _0x00e5",
-_0x0056 = "_0x03b5",
-_0x0099 = _0x0026._0x0036,
-_0x034b = "_0x034c",
-_0x0067 = function(_0x0438)
-local _0x0439 = _0x0002:_0x0018("_0x0023")
-if _0x0438 then
-if not _0x0439:_0x00d4("_0x043a") then
-local _0x043b = _0x00f0._0x0089("_0x043c", _0x0439)
-_0x043b._0x00f2 = "_0x043a"
-local _0x043d = _0x00f0._0x0089("_0x043e", _0x043b)
-_0x043d._0x0097 = true
-_0x043d._0x0087 = _0x0088._0x0089(0, 200, 0, 100)
-_0x043d._0x014b = _0x0088._0x0089(0.5, - 100, 0.5, 0)
-_0x043d._0x043f = 0
-_0x043d._0x008b = 0.2
-_0x043d._0x0440 = _0x0028._0x0441(44, 44, 45)
-_0x043d._0x0442 = _0x0028._0x0089(1, 1, 1)
-_0x043d._0x0233 = "_0x0437 _0x0041"
-_0x043d._0x0443 = _0x0028._0x0089(1, 1, 1)
-_0x043d._0x02f7 = 20
-_0x043d._0x0444 = true
-_0x043d._0x0445 = _0x0446._0x0089(0.5, 0.5)
-_0x043d._0x025f = true
-_0x043d._0x0447 = true
-_0x00f0._0x0089("_0x0448", _0x043d)
-local _0x0449 = _0x00f0._0x0089("_0x044a", _0x043d)
-_0x0449._0x0099 = _0x0028._0x0089(0, 0, 0)
-_0x0449._0x0106 = 4
-_0x0449._0x0107 = 0.4
-_0x043d._0x044b:_0x0198(function()
-if _0x0021._0x00a8 and _0x0021._0x00a8:_0x00d4("_0x00e6") then
-pcall(function()
-_0x0021._0x00a8._0x00e6._0x044c._0x044d._0x044e:_0x02c9(1, _0x044f(), "_0x0450")
-end)
-end
-end)
-_0x042c = _0x043b
-end
-elseif _0x0439:_0x00d4("_0x043a") then
-_0x0439:_0x00d4("_0x043a"):_0x00ff()
-end
-end
-})
-local _0x0451 = _0x02ec:_0x02f3({
-_0x0054 = "_0x02f6",
-_0x0056 = "_0x0452"
-})
-_0x0451:_0x02ed({
-_0x0054 = "_0x0453 _0x02f6",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x0451:_0x0454({
-_0x02fb = "_0x0455",
-_0x0054 = "_0x0453 _0x02fa _0x0456",
-_0x02fd = "_0x0457 _0x0073 _0x0458/_0x0459 _0x0453",
-_0x00db = "_0x004f",
-_0x0067 = function(_0x045a)
-_0x007d:_0x045b(_0x00f6._0x045c[_0x045a])
-_0x007b:_0x006f({
-_0x0054 = "_0x0454 _0x0436",
-_0x0058 = "_0x0453 _0x0330 _0x045d: " .. _0x045a,
-_0x0056 = "_0x045e",
-_0x0077 = 3
-})
-end
-})
-_0x0451:_0x0304({
-_0x0387 = 2
-})
-_0x0451:_0x02ed({
-_0x0054 = "_0x045f _0x0460",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-local _0x0461 = "_0x0302"
-local _0x0462 = _0x007d._0x0463
-local _0x0464 = _0x0451:_0x03a1({
-_0x02fb = "_0x0465",
-_0x0054 = "_0x045f _0x00f2",
-_0x02fd = "_0x00f2 for _0x0359 _0x0466",
-_0x0056 = "_0x0467",
-_0x00db = _0x0461,
-_0x0067 = function(_0x0468)
-_0x0461 = _0x0468
-end
-})
-_0x0451:_0x0304()
-local _0x0469 = _0x0462:_0x046a()
-_0x0451:_0x0305({
-_0x02fb = "_0x046b",
-_0x0054 = "_0x046c _0x045f",
-_0x02fd = "_0x037a _0x046d _0x0466",
-_0x030b = _0x0469,
-_0x00db = table.find(_0x0469, _0x0461) and _0x0461 and _0x0461 or nil,
-_0x0067 = function(_0x046e)
-_0x0461 = _0x046e
-_0x0464:_0x0436(_0x046e)
-end
-})
-_0x0451:_0x0304()
-_0x0451:_0x0349({
-_0x0054 = "_0x046f _0x045f",
-_0x0056 = "_0x0470",
-_0x0099 = _0x0026._0x0036,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x007d._0x0471 = _0x0462:_0x0472(_0x0461)
-if _0x007d._0x0471:_0x046f() then
-_0x007b:_0x006f({
-_0x0054 = "_0x045f _0x0473",
-_0x0058 = "_0x0473 _0x0474 \'" .. _0x0461 .. "\'",
-_0x0056 = "_0x0075",
-_0x0077 = 3
-})
-end
-end
-})
-_0x0451:_0x0304()
-_0x0451:_0x0349({
-_0x0054 = "_0x046c _0x045f",
-_0x0056 = "_0x0475",
-_0x0099 = _0x0026._0x002d,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x007d._0x0471 = _0x0462:_0x0472(_0x0461)
-if _0x007d._0x0471:_0x046c() then
-_0x007b:_0x006f({
-_0x0054 = "_0x045f _0x0476",
-_0x0058 = "_0x0476 \'" .. _0x0461 .. "\'",
-_0x0056 = "_0x0215-_0x0216",
-_0x0077 = 3
-})
-end
-end
-})
-local _0x0477 = _0x02ec:_0x02f3({
-_0x0054 = "_0x0478 & _0x0479",
-_0x0056 = "_0x047a"
-})
-_0x0477:_0x02ed({
-_0x0054 = "_0x0055",
-_0x02f7 = 20,
-_0x02f8 = _0x00f6._0x02f8._0x047b
-})
-_0x0477:_0x0304()
-_0x0477:_0x02ed({
-_0x0054 = "_0x047c _0x005a _0x047d _0x047e _0x047f _0x0480 _0x0481 _0x02f4, _0x0482-_0x019c, _0x03a6 _0x0483, _0x0484-_0x0485 _0x0486, and _0x0487 _0x0488! _0x0489 for _0x0041 _0x048a 2 _0x0309 _0x048b for _0x048c _0x048d.",
-_0x02f7 = 16,
-_0x0347 = 0.3,
-_0x02f8 = _0x00f6._0x02f8._0x0348
-})
-_0x0477:_0x0304({
-_0x0387 = 3
-})
-_0x0477:_0x02ed({
-_0x0054 = "_0x048e",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x0477:_0x0304()
-_0x0477:_0x02ed({
-_0x0054 = "_0x02d9 _0x02f4 \226\128\162 _0x01fd _0x031b \226\128\162 _0x00a8 _0x048f \226\128\162 _0x036f \226\128\162 _0x039c _0x039d \226\128\162 _0x039c _0x03ba \226\128\162 _0x0263 _0x0223 \226\128\162 _0x025d _0x025e \226\128\162 _0x02ca _0x02ef \226\128\162 _0x034e-_0x034f \226\128\162 _0x0404 _0x0402",
-_0x02f7 = 15,
-_0x0347 = 0.4,
-_0x02f8 = _0x00f6._0x02f8._0x0348
-})
-_0x0477:_0x0304({
-_0x0387 = 3
-})
-_0x0477:_0x02ed({
-_0x0054 = "_0x0490 & _0x0491",
-_0x02f7 = 18,
-_0x02f8 = _0x00f6._0x02f8._0x02f9
-})
-_0x0477:_0x0349({
-_0x0054 = "_0x006a _0x006b _0x0492",
-_0x0056 = "_0x0493-_0x0076",
-_0x0099 = _0x0026._0x002e,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x006c("_0x0061._0x006d/_0x006e")
-_0x007b:_0x006f({
-_0x0054 = "_0x006b",
-_0x0058 = "_0x0492 _0x0072 _0x0073 _0x0074!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-end
-})
-_0x0477:_0x0304()
-_0x0477:_0x0349({
-_0x0054 = "_0x0494 _0x0082",
-_0x0056 = "_0x0493-_0x0076",
-_0x0099 = _0x0026._0x0036,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x006c("_0x0061._0x006d/_0x006e")
-_0x007b:_0x006f({
-_0x0054 = "_0x0495 _0x0082",
-_0x0058 = "_0x0496 - _0x0497 - _0x0498 _0x0082 _0x0499 _0x0072!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-end
-})
-_0x0477:_0x0304()
-_0x0477:_0x0349({
-_0x0054 = "_0x049a _0x049b",
-_0x0056 = "_0x049c",
-_0x0099 = _0x0026._0x002f,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x006c("_0x0004://_0x049d._0x049c._0x0006/@_0x049e._0x049f")
-_0x007b:_0x006f({
-_0x0054 = "_0x049a",
-_0x0058 = "_0x049b _0x0499 _0x0072!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-end
-})
-_0x0477:_0x0304()
-_0x0477:_0x0349({
-_0x0054 = "_0x04a0 _0x04a1",
-_0x0056 = "_0x04a2",
-_0x0099 = _0x0026._0x0032,
-_0x034b = "_0x034c",
-_0x0067 = function()
-_0x006c("_0x0004://_0x049d._0x04a3._0x0006/@_0x04a4")
-_0x007b:_0x006f({
-_0x0054 = "_0x04a0",
-_0x0058 = "_0x04a1 _0x0499 _0x0072!",
-_0x0056 = "_0x0075-_0x0076",
-_0x0077 = 3
-})
-end
-})
-_0x010b()
-_0x001a._0x04a5:_0x0198(function()
-if _0x00ca then
-local _0x04a6, _0x04a7, _0x04a8 = pairs(_0x00cb)
-while true do
-local _0x04a9
-_0x04a8, _0x04a9 = _0x04a6(_0x04a7, _0x04a8)
-if _0x04a8 == nil then
-break
-end
-if _0x04a8._0x00a8 and _0x04a8._0x00a8:_0x00d4("_0x00ad") then
-local _0x04aa = _0x04a8._0x00a8._0x00ad
-local _0x04ab, _0x04ac = _0x01a7._0x0020:_0x04ad(_0x04aa._0x014b)
-local _0x04ae = _0x01a7._0x0020._0x04af
-if _0x04ac then
-_0x04a9._0x04b0 = _0x0446._0x0089(_0x04ae._0x04b1 / 2, _0x04ae._0x04b2)
-_0x04a9._0x0267 = _0x0446._0x0089(_0x04ab._0x04b1, _0x04ab._0x04b2)
-_0x04a9._0x0444 = true
-else
-_0x04a9._0x0444 = false
-end
-else
-_0x04a9._0x0444 = false
-end
-end
-end
-end)
-local _0x04b3, _0x04b4, _0x04b5 = ipairs(_0x0017:_0x0110())
-local _0x04b6 = _0x02b7
-local _0x04b7 = _0x0289
-local _0x04b8 = _0x029a
-local function _0x04b9(_0x04ba)
-_0x04ba._0x00a9:_0x0198(function()
-local _0x04bb = _0x04ba:_0x00ac("_0x00e3")
-_0x04bb._0x04bc:_0x0198(_0x010b)
-_0x04bb._0x04bd:_0x0198(_0x010b)
-_0x010b()
-end)
-local _0x04be = _0x04ba._0x00a8 and _0x04ba:_0x00d4("_0x00e3")
-if _0x04be then
-_0x04be._0x04bc:_0x0198(_0x010b)
-_0x04be._0x04bd:_0x0198(_0x010b)
-end
-end
-while true do
-local _0x04bf
-_0x04b5, _0x04bf = _0x04b3(_0x04b4, _0x04b5)
-if _0x04b5 == nil then
-break
-end
-_0x04b9(_0x04bf)
-end
-_0x0017._0x04c0:_0x0198(_0x04b9)
-_0x0017._0x04c1:_0x0198(function(_0x04c2)
-if _0x04c2 == _0x0021 then
-local _0x04c3, _0x04c4, _0x04c5 = pairs(_0x00cb)
-while true do
-local _0x04c6
-_0x04c5, _0x04c6 = _0x04c3(_0x04c4, _0x04c5)
-if _0x04c5 == nil then
-break
-end
-if _0x04c6 then
-_0x04c6:_0x010a()
-end
-end
-_0x00cb = {}
-end
-end)
-_0x000e._0x000f(function()
-if not _0x0021._0x00a8 then
-_0x0021._0x00a9:_0x00aa()
-end
-_0x04b8()
-if _0x04b7._0x028a then
-coroutine._0x0413(_0x04b6)()
-end
-end)
-_0x007d:_0x045b(_0x00f6._0x045c._0x004f)
-_0x007d._0x0471 = _0x007d._0x0463:_0x0472("_0x0302")
-_0x007d._0x0471:_0x046f()
-_0x007b:_0x006f({
-_0x0054 = _0x0043("_0x0055 _0x0476!", _0x0026._0x0032, _0x0026._0x002d),
-_0x0058 = "_0x04c7 _0x0073 _0x00be _0x04c8 _0x005d! _0x0457 _0x004f _0x0073 _0x0330 _0x0453.",
-_0x0056 = "_0x0057",
-_0x0077 = 5
-})
-_0x000e._0x000f(function()
-_0x000e._0x007c(5)
-_0x006c("_0x0004://_0x0061._0x006d/_0x006e")
-_0x007b:_0x006f({
-_0x0054 = "_0x006b _0x0070!",
-_0x0058 = "_0x005f _0x0060 _0x04c9! _0x04ca _0x0072 _0x0073 _0x0074.",
-_0x0056 = "_0x0493-_0x0076",
-_0x0077 = 4
-})
+vu19:SetToggleKey(Enum.KeyCode.G)
+vu19.CurrentConfig = vu19.ConfigManager:CreateConfig("default")
+vu19.CurrentConfig:Save()
+vu18:Notify({
+    Title = v15("HelixHub Loaded!", vu7.Pumpkin, vu7.Purple),
+    Content = "Welcome to the Sommer Edition! Press G to toggle GUI.",
+    Icon = "skull",
+    Duration = 5
+})
+task.spawn(function()
+    task.wait(5)
+    setclipboard("https://discord.gg/pyu9mUpnxG")
+    vu18:Notify({
+        Title = "Discord Copied!",
+        Content = "Join our community! Link copied to clipboard.",
+        Icon = "message-circle",
+        Duration = 4
+    })
 end)
