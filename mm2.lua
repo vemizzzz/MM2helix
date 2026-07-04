@@ -36,7 +36,7 @@ local _0x0028 = # _0x0025
 local _0x0029 = ""
 for _0x002a = 1, _0x0028 do
 local _0x002b = (_0x002a - 1) / math.max(_0x0028 - 1, 1)
-_0x0029 = _0x0029 .. string.char(60, 102, 111, 110, 116, 32, 99, 111, 108, 111, 114, 61, 34, 114, 103, 98, 40) .. math.floor((_0x0026._0x002c + (_0x0027._0x002c - _0x0026._0x002c) * _0x002b) * (127 + 128)) .. string.char(44, 32) .. math.floor((_0x0026._0x002d + (_0x0027._0x002d - _0x0026._0x002d) * _0x002b) * 255) .. string.char(44, 32) .. math.floor((_0x0026._0x002e + (_0x0027._0x002e - _0x0026._0x002e) * _0x002b) * (321 - 66)) .. string.char(41, 34, 62) .. _0x0025:sub(_0x002a, _0x002a) .. string.char(60, 47, 102, 111, 110, 116, 62)
+_0x0029 = _0x0029 .. string.char(60, 102, 111, 110, 116, 32, 99, 111, 108, 111, 114, 61, 34, 114, 103, 98, 40) .. math.floor((_0x0026._0x002c + (_0x0027._0x002c - _0x0026._0x002c) * _0x002b) * 255) .. string.char(44, 32) .. math.floor((_0x0026._0x002d + (_0x0027._0x002d - _0x0026._0x002d) * _0x002b) * 255) .. string.char(44, 32) .. math.floor((_0x0026._0x002e + (_0x0027._0x002e - _0x0026._0x002e) * _0x002b) * 255) .. string.char(41, 34, 62) .. _0x0025:sub(_0x002a, _0x002a) .. string.char(60, 47, 102, 111, 110, 116, 62)
 end
 return _0x0029
 end
@@ -79,18 +79,18 @@ _0x0037 = string.char(80, 114, 105, 109, 97, 114, 121)
 local _0x003b = _0x0000
 repeat
 _0x0004._0x003c()
-until (1 == 1) and _0x002f
+until _0x002f
 local _0x003d = _0x003b:_0x003e({
 _0x0032 = _0x0024(string.char(72, 101, 108, 105, 120, 72, 117, 98), _0x000f._0x001c, _0x000f._0x001d),
-_0x003f = string.char(98, 121, 32, 72, 101, 108, 105, 120, 32, 83, 99, 114, 105, 112, 116, 115, 32, 92, 50, 50, 54, 92, 40, 50, 53, 54, 32, 47, 32, 50, 41, 92, 40, 51, 50, 52, 32, 47, 32, 50, 41, 32, 83, 117, 109, 109, 101, 114, 32, 85, 112, 100, 97, 116, 101),
+_0x003f = string.char(98, 121, 32, 72, 101, 108, 105, 120, 32, 83, 99, 114, 105, 112, 116, 115, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 83, 117, 109, 109, 101, 114, 32, 85, 112, 100, 97, 116, 101),
 _0x0040 = string.char(72, 101, 108, 105, 120, 104, 117, 98),
 _0x0033 = string.char(115, 107, 117, 108, 108),
 _0x0041 = true,
-_0x0042 = _0x0043._0x0044(0, (600 - 20), 0, 480),
+_0x0042 = _0x0043._0x0044(0, 580, 0, 480),
 _0x0045 = true,
 _0x0046 = 0.5,
 _0x0047 = string.char(68, 97, 114, 107),
-_0x0048 = (440 / 2),
+_0x0048 = 220,
 _0x0049 = false,
 _0x004a = true,
 _0x004b = {
@@ -115,10 +115,10 @@ local _0x0058 = false
 local _0x0059 = false
 local _0x005a = false
 local _0x005b = {}
-local _0x005c = (84 - 59)
+local _0x005c = 25
 local _0x005d = 0
 local _0x005e = 0
-local _0x005f = (122 - 82)
+local _0x005f = 40
 local _0x0060 = _0x000c._0x0061 or _0x000c._0x0062:_0x0063()
 local _0x0064 = _0x0060:_0x0065(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
 local _0x0066 = false
@@ -131,17 +131,17 @@ local function _0x006c()
 local _0x006d, _0x006e = pcall(function()
 return _0x006a:_0x006f(_0x000c._0x0070, _0x006b)
 end)
-if (5 == 5) and _0x006d then
-if (1 + 1 == 2) and _0x006e then
-_0x005f = (100 / 2)
-print(string.char(91, 71, 97, 109, 101, 112, 97, 115, 115, 32, 67, 104, 101, 99, 107, 93, 32, 92, 40, 51, 48, 57, 32, 45, 32, 56, 51, 41, 92, 49, 53, 54, 92, 40, 49, 53, 48, 32, 45, 32, 49, 55, 41, 32, 89, 111, 117, 32, 111, 119, 110, 32, 116, 104, 101, 32, 112, 114, 101, 109, 105, 117, 109, 32, 103, 97, 109, 101, 112, 97, 115, 115, 33))
+if _0x006d then
+if _0x006e then
+_0x005f = 50
+print(string.char(91, 71, 97, 109, 101, 112, 97, 115, 115, 32, 67, 104, 101, 99, 107, 93, 32, 92, 50, 50, 54, 92, 49, 53, 54, 92, 49, 51, 51, 32, 89, 111, 117, 32, 111, 119, 110, 32, 116, 104, 101, 32, 112, 114, 101, 109, 105, 117, 109, 32, 103, 97, 109, 101, 112, 97, 115, 115, 33))
 else
-_0x005f = (53 - 13)
-print(string.char(91, 71, 97, 109, 101, 112, 97, 115, 115, 32, 67, 104, 101, 99, 107, 93, 32, 92, 40, 50, 55, 50, 32, 45, 32, 52, 54, 41, 92, 49, 53, 55, 92, 49, 52, 48, 32, 89, 111, 117, 32, 100, 111, 32, 78, 79, 84, 32, 111, 119, 110, 32, 116, 104, 101, 32, 112, 114, 101, 109, 105, 117, 109, 32, 103, 97, 109, 101, 112, 97, 115, 115, 46))
+_0x005f = 40
+print(string.char(91, 71, 97, 109, 101, 112, 97, 115, 115, 32, 67, 104, 101, 99, 107, 93, 32, 92, 50, 50, 54, 92, 49, 53, 55, 92, 49, 52, 48, 32, 89, 111, 117, 32, 100, 111, 32, 78, 79, 84, 32, 111, 119, 110, 32, 116, 104, 101, 32, 112, 114, 101, 109, 105, 117, 109, 32, 103, 97, 109, 101, 112, 97, 115, 115, 46))
 end
 else
-_0x005f = (58 - 18)
-print(string.char(91, 71, 97, 109, 101, 112, 97, 115, 115, 32, 67, 104, 101, 99, 107, 93, 32, 92, 50, 50, 54, 92, 40, 55, 55, 32, 43, 32, 55, 55, 41, 92, 40, 54, 52, 48, 32, 47, 32, 52, 41, 92, 50, 51, 57, 92, 40, 57, 50, 32, 43, 32, 57, 50, 41, 92, 40, 55, 49, 32, 43, 32, 55, 50, 41, 32, 70, 97, 105, 108, 101, 100, 32, 116, 111, 32, 99, 104, 101, 99, 107, 32, 111, 119, 110, 101, 114, 115, 104, 105, 112, 46))
+_0x005f = 40
+print(string.char(91, 71, 97, 109, 101, 112, 97, 115, 115, 32, 67, 104, 101, 99, 107, 93, 32, 92, 50, 50, 54, 92, 49, 53, 52, 92, 49, 54, 48, 92, 50, 51, 57, 92, 49, 56, 52, 92, 49, 52, 51, 32, 70, 97, 105, 108, 101, 100, 32, 116, 111, 32, 99, 104, 101, 99, 107, 32, 111, 119, 110, 101, 114, 115, 104, 105, 112, 46))
 end
 end
 _0x006c()
@@ -158,7 +158,7 @@ local _0x0078 = 1
 local _0x0079 = ""
 local _0x007a = ""
 local _0x007b
-if (5 == 5) and _0x000c._0x007c._0x007d._0x007e:_0x007f(string.char(73, 110, 118, 101, 110, 116, 111, 114, 121)) == nil then
+if _0x000c._0x007c._0x007d._0x007e:_0x007f(string.char(73, 110, 118, 101, 110, 116, 111, 114, 121)) == nil then
 _0x007b = _0x000c._0x007c._0x007d._0x0080._0x0081._0x0082._0x0083
 else
 _0x007b = _0x000c._0x007c._0x007d._0x007e._0x0082._0x0083
@@ -166,18 +166,18 @@ end
 local _0x0084 = {
 _0x0085 = {
 _0x0086 = 16,
-_0x0087 = (32 / 2),
+_0x0087 = 16,
 _0x0088 = false
 },
 _0x0089 = {
-_0x0086 = (147 - 97),
-_0x0087 = (25 + 25),
+_0x0086 = 50,
+_0x0087 = 50,
 _0x0088 = false
 }
 }
 local function _0x008a(_0x008b)
 local _0x008c = _0x008b._0x0061
-if (5 == 5) and not _0x008c then
+if not _0x008c then
 return nil
 end
 local _0x008d = _0x008b:_0x007f(string.char(66, 97, 99, 107, 112, 97, 99, 107))
@@ -218,7 +218,7 @@ _0x00a8._0x00ab = 1
 _0x0076[_0x00a6] = _0x00a8
 end
 local function _0x00ac(_0x00ad)
-if (true or false) and _0x0076[_0x00ad] then
+if _0x0076[_0x00ad] then
 _0x0076[_0x00ad]:_0x00ae()
 _0x0076[_0x00ad] = nil
 end
@@ -228,18 +228,18 @@ _0x0071 = false
 _0x0072 = false
 local _0x00b0 = _0x0006
 local _0x00b1, _0x00b2, _0x00b3 = ipairs(_0x00b0:_0x00b4())
-while (1 * 1 >= 0) and true do
+while true do
 local _0x00b5
 _0x00b3, _0x00b5 = _0x00b1(_0x00b2, _0x00b3)
-if (2 * 3 > 5) and _0x00b3 == nil then
+if _0x00b3 == nil then
 break
 end
 if _0x00b5 ~= _0x000c and _0x00b5._0x0061 then
 local _0x00b6 = _0x008a(_0x00b5)
-if (true or false) and _0x00b6 == string.char(77, 117, 114, 100, 101, 114, 101, 114) then
+if _0x00b6 == string.char(77, 117, 114, 100, 101, 114, 101, 114) then
 _0x0071 = true
 end
-if (2 * 3 > 5) and _0x00b6 == string.char(83, 104, 101, 114, 105, 102, 102) then
+if _0x00b6 == string.char(83, 104, 101, 114, 105, 102, 102) then
 _0x0072 = true
 end
 end
@@ -256,7 +256,7 @@ if _0x00bb ~= _0x000c and _0x00bb._0x0061 then
 local _0x00bc = _0x008a(_0x00bb)
 local _0x00bd = _0x008e(_0x00bb, _0x0073)
 if _0x0074 then
-if (2 * 3 > 5) and _0x00bd then
+if _0x00bd then
 local _0x00be = _0x00bc == string.char(77, 117, 114, 100, 101, 114, 101, 114) and _0x000f._0x0016 or (_0x00bc == string.char(83, 104, 101, 114, 105, 102, 102) and _0x000f._0x001b or _0x000f._0x0010)
 _0x0092(_0x00bb._0x0061, _0x00be)
 else
@@ -265,9 +265,9 @@ end
 else
 _0x00a1(_0x00bb._0x0061)
 end
-if (5 == 5) and _0x0075 and _0x00bd then
+if _0x0075 and _0x00bd then
 local _0x00bf = _0x00bc == string.char(77, 117, 114, 100, 101, 114, 101, 114) and _0x000f._0x0016 or (_0x00bc == string.char(83, 104, 101, 114, 105, 102, 102) and _0x000f._0x001b or _0x000f._0x0010)
-if (1 + 1 == 2) and _0x0076[_0x00bb] then
+if _0x0076[_0x00bb] then
 _0x0076[_0x00bb]._0x0052 = _0x00bf
 else
 _0x00a5(_0x00bb, _0x00bf)
@@ -280,11 +280,11 @@ end
 end
 local function _0x00c0()
 local _0x00c1 = _0x000c._0x0061:_0x00c2(string.char(72, 117, 109, 97, 110, 111, 105, 100))
-if (2 * 3 > 5) and _0x00c1 then
+if _0x00c1 then
 if not _0x0084._0x0085._0x0088 then
 _0x00c1._0x0085 = _0x0084._0x0085._0x0086
 end
-if (true or false) and not _0x0084._0x0089._0x0088 then
+if not _0x0084._0x0089._0x0088 then
 _0x00c1._0x0089 = _0x0084._0x0089._0x0086
 end
 end
@@ -299,24 +299,24 @@ _0x00c6 = true
 return
 elseif _0x00c9 == string.char(114, 97, 110, 100, 111, 109) then
 local _0x00ca = _0x00c5:_0x00b4()
-if (2 * 3 > 5) and table.find(_0x00ca, _0x00c5._0x000d) then
+if table.find(_0x00ca, _0x00c5._0x000d) then
 table.remove(_0x00ca, table.find(_0x00ca, _0x00c5._0x000d))
 end
 return _0x00ca[math.random(# _0x00ca)]
 elseif _0x00c9 ~= string.char(114, 97, 110, 100, 111, 109) and (_0x00c9 ~= string.char(97, 108, 108) and _0x00c9 ~= string.char(111, 116, 104, 101, 114, 115)) then
 local _0x00cb = next
 local _0x00cc, _0x00cd = _0x00c5:_0x00b4()
-while (1 * 1 >= 0) and true do
+while true do
 local _0x00ce
 _0x00cd, _0x00ce = _0x00cb(_0x00cc, _0x00cd)
-if (true or false) and _0x00cd == nil then
+if _0x00cd == nil then
 break
 end
-if (true or false) and _0x00ce ~= _0x00c5._0x000d then
+if _0x00ce ~= _0x00c5._0x000d then
 if _0x00ce._0x0097:lower():match(string.char(94) .. _0x00c9) then
 return _0x00ce
 end
-if (true or false) and _0x00ce._0x00cf:lower():match(string.char(94) .. _0x00c9) then
+if _0x00ce._0x00cf:lower():match(string.char(94) .. _0x00c9) then
 return _0x00ce
 end
 end
@@ -326,13 +326,13 @@ end
 local function _0x00d0(_0x00d1)
 local _0x00d2 = _0x00c5._0x000d._0x0061
 local _0x00d3
-if (1 + 1 == 2) and _0x00d2 then
+if _0x00d2 then
 _0x00d3 = _0x00d2:_0x00c2(string.char(72, 117, 109, 97, 110, 111, 105, 100))
 else
 _0x00d3 = _0x00d2
 end
 local _0x00d4
-if (2 * 3 > 5) and _0x00d3 then
+if _0x00d3 then
 _0x00d4 = _0x00d3._0x00d5
 else
 _0x00d4 = _0x00d3
@@ -343,52 +343,52 @@ local _0x00d8 = nil
 local _0x00d9 = nil
 local _0x00da = nil
 local _0x00db
-if (true or false) and _0x00d6:_0x00c2(string.char(72, 117, 109, 97, 110, 111, 105, 100)) then
+if _0x00d6:_0x00c2(string.char(72, 117, 109, 97, 110, 111, 105, 100)) then
 _0x00db = _0x00d6:_0x00c2(string.char(72, 117, 109, 97, 110, 111, 105, 100))
 else
 _0x00db = nil
 end
-if (true or false) and _0x00db and _0x00db._0x00d5 then
+if _0x00db and _0x00db._0x00d5 then
 _0x00d7 = _0x00db._0x00d5
 end
-if (1 + 1 == 2) and _0x00d6:_0x007f(string.char(72, 101, 97, 100)) then
+if _0x00d6:_0x007f(string.char(72, 101, 97, 100)) then
 _0x00d8 = _0x00d6._0x00dc
 end
-if (1 + 1 == 2) and _0x00d6:_0x00c2(string.char(65, 99, 99, 101, 115, 115, 111, 114, 121)) then
+if _0x00d6:_0x00c2(string.char(65, 99, 99, 101, 115, 115, 111, 114, 121)) then
 _0x00d9 = _0x00d6:_0x00c2(string.char(65, 99, 99, 101, 115, 115, 111, 114, 121))
 end
 if _0x00d9 and _0x00d9:_0x007f(string.char(72, 97, 110, 100, 108, 101)) then
 _0x00da = _0x00d9._0x00dd
 end
-if (1 + 1 == 2) and _0x00d2 and (_0x00d3 and _0x00d4) then
-if (5 == 5) and _0x00d4._0x00de._0x00df < 50 then
+if _0x00d2 and (_0x00d3 and _0x00d4) then
+if _0x00d4._0x00de._0x00df < 50 then
 _0x00e0()._0x00e1 = _0x00d4._0x00e2
 end
 if _0x00db and (_0x00db._0x00e3 and not _0x00c6) then
 return
 else
-if (2 * 3 > 5) and _0x00d8 then
+if _0x00d8 then
 _0x0002._0x00e4._0x000b._0x00e5 = _0x00d8
 elseif _0x00d8 or not _0x00da then
-if (2 * 3 > 5) and _0x00db and _0x00d7 then
+if _0x00db and _0x00d7 then
 _0x0002._0x00e4._0x000b._0x00e5 = _0x00db
 end
 else
 _0x0002._0x00e4._0x000b._0x00e5 = _0x00da
 end
-if (5 == 5) and _0x00d6:_0x00e6(string.char(66, 97, 115, 101, 80, 97, 114, 116)) then
+if _0x00d6:_0x00e6(string.char(66, 97, 115, 101, 80, 97, 114, 116)) then
 local function _0x00e7(_0x00e8, _0x00e9, _0x00ea)
 _0x00d4._0x00e2 = _0x00e2._0x0044(_0x00e8._0x00eb) * _0x00e9 * _0x00ea
 _0x00d2:_0x00ec(_0x00e2._0x0044(_0x00e8._0x00eb) * _0x00e9 * _0x00ea)
-_0x00d4._0x00de = _0x00ed._0x0044((90000015 - 15), (3600000000 / 4), 90000000)
-_0x00d4._0x00ee = _0x00ed._0x0044((2700000000 / 3), (3600000000 / 4), (2700000000 / 3))
+_0x00d4._0x00de = _0x00ed._0x0044(90000000, 900000000, 90000000)
+_0x00d4._0x00ee = _0x00ed._0x0044(900000000, 900000000, 900000000)
 end
 local function _0x00ef(_0x00f0)
 local _0x00f1 = _0x00f2()
 local _0x00f3 = 2
 local _0x00f4 = 0
-while (1 * 1 >= 0) and _0x00d4 and _0x00db do
-if (true or false) and _0x00f0._0x00de._0x00df >= 50 then
+while _0x00d4 and _0x00db do
+if _0x00f0._0x00de._0x00df >= 50 then
 _0x00e7(_0x00f0, _0x00e2._0x0044(0, 1.5, _0x00db._0x0085), _0x00e2._0x00f5(math.rad(90), 0, 0))
 _0x0004._0x003c()
 _0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, - _0x00db._0x0085), _0x00e2._0x00f5(0, 0, 0))
@@ -399,18 +399,18 @@ _0x00e7(_0x00f0, _0x00e2._0x0044(0, 1.5, _0x00d7._0x00de._0x00df / 1.25), _0x00e
 _0x0004._0x003c()
 _0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, - _0x00d7._0x00de._0x00df / 1.25), _0x00e2._0x00f5(0, 0, 0))
 _0x0004._0x003c()
-_0x00e7(_0x00f0, _0x00e2._0x0044(0, 1.5, _0x00d7._0x00de._0x00df / 1.25), _0x00e2._0x00f5(math.rad((144 - 54)), 0, 0))
+_0x00e7(_0x00f0, _0x00e2._0x0044(0, 1.5, _0x00d7._0x00de._0x00df / 1.25), _0x00e2._0x00f5(math.rad(90), 0, 0))
 _0x0004._0x003c()
-_0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, 0), _0x00e2._0x00f5(math.rad((168 - 78)), 0, 0))
+_0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, 0), _0x00e2._0x00f5(math.rad(90), 0, 0))
 _0x0004._0x003c()
 _0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, 0), _0x00e2._0x00f5(0, 0, 0))
 _0x0004._0x003c()
-_0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, 0), _0x00e2._0x00f5(math.rad(- (166 - 76)), 0, 0))
+_0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, 0), _0x00e2._0x00f5(math.rad(- 90), 0, 0))
 _0x0004._0x003c()
 _0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, 0), _0x00e2._0x00f5(0, 0, 0))
 _0x0004._0x003c()
 else
-_0x00f4 = _0x00f4 + (300 / 3)
+_0x00f4 = _0x00f4 + 100
 _0x00e7(_0x00f0, _0x00e2._0x0044(0, 1.5, 0) + _0x00db._0x00f6 * _0x00f0._0x00de._0x00df / 1.25, _0x00e2._0x00f5(math.rad(_0x00f4), 0, 0))
 _0x0004._0x003c()
 _0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, 0) + _0x00db._0x00f6 * _0x00f0._0x00de._0x00df / 1.25, _0x00e2._0x00f5(math.rad(_0x00f4), 0, 0))
@@ -424,7 +424,7 @@ _0x0004._0x003c()
 _0x00e7(_0x00f0, _0x00e2._0x0044(0, - 1.5, 0) + _0x00db._0x00f6, _0x00e2._0x00f5(math.rad(_0x00f4), 0, 0))
 _0x0004._0x003c()
 end
-if (1 + 1 == 2) and _0x00f0._0x00de._0x00df > 500 or (_0x00f0._0x009f ~= _0x00d1._0x0061 or (_0x00d1._0x009f ~= _0x00c5 or (not _0x00d1._0x0061 == _0x00d6 or (_0x00db._0x00e3 or (_0x00d3._0x00f7 <= 0 or _0x00f2() > _0x00f1 + _0x00f3))))) then
+if _0x00f0._0x00de._0x00df > 500 or (_0x00f0._0x009f ~= _0x00d1._0x0061 or (_0x00d1._0x009f ~= _0x00c5 or (not _0x00d1._0x0061 == _0x00d6 or (_0x00db._0x00e3 or (_0x00d3._0x00f7 <= 0 or _0x00f2() > _0x00f1 + _0x00f3))))) then
 break
 end
 end
@@ -433,11 +433,11 @@ _0x0002._0x00e4._0x00f8 = 0 / 0
 local _0x00f9 = _0x0096._0x0044(string.char(66, 111, 100, 121, 86, 101, 108, 111, 99, 105, 116, 121))
 _0x00f9._0x0097 = string.char(69, 112, 105, 120, 86, 101, 108)
 _0x00f9._0x009f = _0x00d4
-_0x00f9._0x00de = _0x00ed._0x0044((450000000 + 450000000), 900000000, 900000000)
+_0x00f9._0x00de = _0x00ed._0x0044(900000000, 900000000, 900000000)
 _0x00f9._0x00fa = _0x00ed._0x0044(1 / 0, 1 / 0, 1 / 0)
 _0x00d3:_0x00fb(_0x009b._0x00fc._0x00fd, false)
-if (2 * 3 > 5) and _0x00d7 and _0x00d8 then
-if (5 == 5) and (_0x00d7._0x00e2._0x00fe - _0x00d8._0x00e2._0x00fe)._0x00df <= (2 + 3) then
+if _0x00d7 and _0x00d8 then
+if (_0x00d7._0x00e2._0x00fe - _0x00d8._0x00e2._0x00fe)._0x00df <= 5 then
 _0x00ef(_0x00d7)
 else
 _0x00ef(_0x00d8)
@@ -445,7 +445,7 @@ end
 elseif _0x00d7 and not _0x00d8 then
 _0x00ef(_0x00d7)
 elseif _0x00d7 or not _0x00d8 then
-if (1 + 1 == 2) and _0x00d7 or (_0x00d8 or not (_0x00d9 and _0x00da)) then
+if _0x00d7 or (_0x00d8 or not (_0x00d9 and _0x00da)) then
 return
 end
 _0x00ef(_0x00da)
@@ -463,7 +463,7 @@ local _0x0100 = _0x00d3
 _0x00d3._0x0101(_0x0100, string.char(71, 101, 116, 116, 105, 110, 103, 85, 112))
 local _0x0102 = _0x00d2
 table._0x0103(_0x00d2._0x0104(_0x0102), function(_0x000a, _0x0105)
-if (true or false) and _0x0105:_0x0106(string.char(66, 97, 115, 101, 80, 97, 114, 116)) then
+if _0x0105:_0x0106(string.char(66, 97, 115, 101, 80, 97, 114, 116)) then
 local _0x0107 = _0x00ed._0x0044()
 _0x0105._0x00ee = _0x00ed._0x0044()
 _0x0105._0x00de = _0x0107
@@ -472,7 +472,7 @@ end)
 _0x0004._0x003c()
 until (_0x00d4._0x00eb - _0x00e0()._0x00e1._0x00fe)._0x00df < 25
 _0x0002._0x00e4._0x00f8 = - 500
-_0x0002._0x00e4._0x00f8 = - (250 + 250)
+_0x0002._0x00e4._0x00f8 = - 500
 end
 end
 else
@@ -485,10 +485,10 @@ local _0x0109 = _0x00c4
 local _0x010a = _0x00c5
 local _0x010b = _0x00c6
 local _0x010c = nil
-while (1 * 1 >= 0) and true do
+while true do
 local _0x010d
 _0x010c, _0x010d = _0x0108(_0x00c4, _0x010c)
-if (1 + 1 == 2) and _0x010c == nil then
+if _0x010c == nil then
 break
 end
 _0x00c7(_0x010d)
@@ -496,10 +496,10 @@ end
 if _0x010b then
 local _0x010e = next
 local _0x010f, _0x0110 = _0x010a:_0x00b4()
-while (1 * 1 >= 0) and true do
+while true do
 local _0x0111
 _0x0110, _0x0111 = _0x010e(_0x010f, _0x0110)
-if (5 == 5) and _0x0110 == nil then
+if _0x0110 == nil then
 break
 end
 _0x00d0(_0x0111)
@@ -507,13 +507,13 @@ end
 end
 local _0x0112 = next
 local _0x0113 = nil
-while (1 * 1 >= 0) and true do
+while true do
 local _0x0114
 _0x0113, _0x0114 = _0x0112(_0x0109, _0x0113)
-if (true or false) and _0x0113 == nil then
+if _0x0113 == nil then
 break
 end
-if (1 + 1 == 2) and _0x00c7(_0x0114) and _0x00c7(_0x0114) ~= _0x010a._0x000d then
+if _0x00c7(_0x0114) and _0x00c7(_0x0114) ~= _0x010a._0x000d then
 local _0x0115 = _0x00c7(_0x0114)
 if _0x0115 then
 _0x00d0(_0x0115)
@@ -531,21 +531,21 @@ local _0x011b = nil
 while true do
 local _0x011c
 _0x011a, _0x011c = _0x0118(_0x0119, _0x011a)
-if (1 + 1 == 2) and _0x011a == nil then
+if _0x011a == nil then
 _0x011c = _0x011b
 break
 end
-if (5 == 5) and _0x011c ~= _0x000c and _0x011c._0x0061 then
-if (2 * 3 > 5) and _0x011c._0x0061:_0x007f(string.char(75, 110, 105, 102, 101)) then
+if _0x011c ~= _0x000c and _0x011c._0x0061 then
+if _0x011c._0x0061:_0x007f(string.char(75, 110, 105, 102, 101)) then
 break
 end
 local _0x011d = _0x011c:_0x007f(string.char(66, 97, 99, 107, 112, 97, 99, 107))
-if (1 + 1 == 2) and _0x011d and _0x011d:_0x007f(string.char(75, 110, 105, 102, 101)) then
+if _0x011d and _0x011d:_0x007f(string.char(75, 110, 105, 102, 101)) then
 break
 end
 end
 end
-if (2 * 3 > 5) and not (_0x011c and _0x011c._0x0061) then
+if not (_0x011c and _0x011c._0x0061) then
 _0x003b:_0x0039({
 _0x0032 = string.char(70, 108, 105, 110, 103, 32, 69, 114, 114, 111, 114),
 _0x0034 = string.char(78, 111, 32, 109, 117, 114, 100, 101, 114, 101, 114, 32, 102, 111, 117, 110, 100, 33),
@@ -578,7 +578,7 @@ local function _0x011f()
 return _0x011e():_0x0065(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
 end
 local _0x0120 = _0x0009:_0x007f(string.char(82, 101, 109, 111, 116, 101, 115)) and _0x0009._0x0121:_0x007f(string.char(71, 97, 109, 101, 112, 108, 97, 121))
-if (5 == 5) and _0x0120 then
+if _0x0120 then
 _0x0120 = _0x0009._0x0121._0x0122:_0x007f(string.char(67, 111, 105, 110, 67, 111, 108, 108, 101, 99, 116, 101, 100))
 end
 local _0x0123 = _0x0009:_0x007f(string.char(82, 101, 109, 111, 116, 101, 115)) and _0x0009._0x0121:_0x007f(string.char(71, 97, 109, 101, 112, 108, 97, 121))
@@ -589,14 +589,14 @@ local _0x0124 = _0x0009:_0x007f(string.char(82, 101, 109, 111, 116, 101, 115)) a
 if _0x0124 then
 _0x0124 = _0x0009._0x0121._0x0122:_0x007f(string.char(82, 111, 117, 110, 100, 69, 110, 100, 70, 97, 100, 101))
 end
-if (2 * 3 > 5) and _0x0123 then
+if _0x0123 then
 _0x0123._0x0125:_0x0126(function()
 _0x0066 = true
 _0x0069 = _0x011f()._0x00e2
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 82, 111, 117, 110, 100, 32, 115, 116, 97, 114, 116, 101, 100, 44, 32, 102, 97, 114, 109, 105, 110, 103, 32, 101, 110, 97, 98, 108, 101, 100))
 end)
 end
-if (2 * 3 > 5) and _0x0124 then
+if _0x0124 then
 _0x0124._0x0125:_0x0126(function()
 _0x0066 = false
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 82, 111, 117, 110, 100, 32, 101, 110, 100, 101, 100, 44, 32, 102, 97, 114, 109, 105, 110, 103, 32, 100, 105, 115, 97, 98, 108, 101, 100))
@@ -607,10 +607,10 @@ local _0x0128 = _0x011f()
 local _0x0129 = math._0x012a
 local _0x012b, _0x012c, _0x012d = pairs(_0x012e:_0x0104())
 local _0x012f = nil
-while (1 * 1 >= 0) and true do
+while true do
 local _0x0130
 _0x012d, _0x0130 = _0x012b(_0x012c, _0x012d)
-if (2 * 3 > 5) and _0x012d == nil then
+if _0x012d == nil then
 break
 end
 if _0x0130:_0x007f(string.char(67, 111, 105, 110, 67, 111, 110, 116, 97, 105, 110, 101, 114)) then
@@ -621,9 +621,9 @@ _0x0133, _0x0135 = _0x0131(_0x0132, _0x0133)
 if _0x0133 == nil then
 break
 end
-if (2 * 3 > 5) and _0x0135:_0x0106(string.char(66, 97, 115, 101, 80, 97, 114, 116)) and _0x0135:_0x007f(string.char(84, 111, 117, 99, 104, 73, 110, 116, 101, 114, 101, 115, 116)) then
+if _0x0135:_0x0106(string.char(66, 97, 115, 101, 80, 97, 114, 116)) and _0x0135:_0x007f(string.char(84, 111, 117, 99, 104, 73, 110, 116, 101, 114, 101, 115, 116)) then
 local _0x0136 = (_0x0128._0x00eb - _0x0135._0x00eb)._0x00df
-if (5 == 5) and _0x0136 < _0x0129 then
+if _0x0136 < _0x0129 then
 _0x012f = _0x0135
 _0x0129 = _0x0136
 end
@@ -641,20 +641,20 @@ local _0x013d = nil
 while true do
 local _0x013e
 _0x013c, _0x013e = _0x013a(_0x013b, _0x013c)
-if (5 == 5) and _0x013c == nil then
+if _0x013c == nil then
 break
 end
-if (5 == 5) and _0x013e:_0x007f(string.char(67, 111, 105, 110, 67, 111, 110, 116, 97, 105, 110, 101, 114)) then
+if _0x013e:_0x007f(string.char(67, 111, 105, 110, 67, 111, 110, 116, 97, 105, 110, 101, 114)) then
 local _0x013f, _0x0140, _0x0141 = pairs(_0x013e._0x0134:_0x0104())
-while (1 * 1 >= 0) and true do
+while true do
 local _0x0142
 _0x0141, _0x0142 = _0x013f(_0x0140, _0x0141)
-if (true or false) and _0x0141 == nil then
+if _0x0141 == nil then
 break
 end
 if _0x0142:_0x0106(string.char(66, 97, 115, 101, 80, 97, 114, 116)) and (_0x0142:_0x0143(string.char(67, 111, 105, 110, 73, 68)) == string.char(67, 97, 110, 100, 121) and _0x0142:_0x007f(string.char(84, 111, 117, 99, 104, 73, 110, 116, 101, 114, 101, 115, 116))) then
 local _0x0144 = (_0x0138._0x00eb - _0x0142._0x00eb)._0x00df
-if (2 * 3 > 5) and _0x0144 < _0x0139 then
+if _0x0144 < _0x0139 then
 _0x013d = _0x0142
 _0x0139 = _0x0144
 end
@@ -664,13 +664,13 @@ end
 end
 if not _0x013d then
 local _0x0145, _0x0146, _0x0147 = ipairs(_0x012e:_0x0148())
-while (1 * 1 >= 0) and true do
+while true do
 local _0x0149
 _0x0147, _0x0149 = _0x0145(_0x0146, _0x0147)
 if _0x0147 == nil then
 break
 end
-if (1 + 1 == 2) and _0x0149:_0x0106(string.char(66, 97, 115, 101, 80, 97, 114, 116)) and _0x0149._0x0097 == string.char(99, 97, 110, 100, 121) then
+if _0x0149:_0x0106(string.char(66, 97, 115, 101, 80, 97, 114, 116)) and _0x0149._0x0097 == string.char(99, 97, 110, 100, 121) then
 local _0x014a = (_0x0138._0x00eb - _0x0149._0x00eb)._0x00df
 if _0x014a < _0x0139 then
 _0x0139 = _0x014a
@@ -682,18 +682,18 @@ end
 return _0x013d, _0x0139
 end
 _0x0004._0x0005(function()
-while (1 * 1 >= 0) and true do
-if (5 == 5) and (_0x0056 or _0x0057) and (_0x0066 and not _0x0067) then
+while true do
+if (_0x0056 or _0x0057) and (_0x0066 and not _0x0067) then
 local _0x014b = _0x011f()
 local _0x014c = nil
 local _0x014d = math._0x012a
-if (5 == 5) and _0x0057 then
+if _0x0057 then
 _0x014c, _0x014d = _0x0137()
 elseif _0x0056 then
 _0x014c, _0x014d = _0x0127()
 end
-if (5 == 5) and _0x014c then
-if _0x014d > (243 - 93) then
+if _0x014c then
+if _0x014d > 150 then
 _0x014b._0x00e2 = _0x014c._0x00e2
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 84, 101, 108, 101, 112, 111, 114, 116, 101, 100, 32, 116, 111, 32, 100, 105, 115, 116, 97, 110, 116, 32, 99, 111, 105, 110, 32, 97, 116, 32, 100, 105, 115, 116, 97, 110, 99, 101, 58), _0x014d)
 else
@@ -719,12 +719,12 @@ end)
 _0x0008._0x0155:_0x0126(function()
 if (_0x0056 or _0x0057) and (_0x0066 and not _0x0067) then
 local _0x0156 = _0x000c._0x0061
-if (1 + 1 == 2) and _0x0156 and _0x0156:_0x0157(_0x012e) then
+if _0x0156 and _0x0156:_0x0157(_0x012e) then
 local _0x0158, _0x0159, _0x015a = ipairs(_0x0156:_0x0148())
-while (1 * 1 >= 0) and true do
+while true do
 local _0x015b
 _0x015a, _0x015b = _0x0158(_0x0159, _0x015a)
-if (true or false) and _0x015a == nil then
+if _0x015a == nil then
 break
 end
 if _0x015b:_0x0106(string.char(66, 97, 115, 101, 80, 97, 114, 116)) then
@@ -746,10 +746,10 @@ print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 67, 104, 97, 114, 97, 99, 116,
 end)
 if _0x0120 then
 _0x0120._0x0125:_0x0126(function(_0x015e, _0x015f, _0x000a, _0x000a)
-if (2 * 3 > 5) and _0x015e == string.char(67, 97, 110, 100, 121) then
+if _0x015e == string.char(67, 97, 110, 100, 121) then
 _0x005e = _0x015f
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 67, 111, 108, 108, 101, 99, 116, 101, 100, 32, 99, 97, 110, 100, 121, 33, 32, 67, 117, 114, 114, 101, 110, 116, 32, 97, 109, 111, 117, 110, 116, 58), _0x005e)
-if (2 * 3 > 5) and _0x005f <= _0x005e then
+if _0x005f <= _0x005e then
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 66, 97, 103, 32, 105, 115, 32, 102, 117, 108, 108, 33, 32, 40) .. _0x005f .. string.char(32, 99, 97, 110, 100, 105, 101, 115, 32, 114, 101, 97, 99, 104, 101, 100, 41))
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 97, 117, 116, 111, 69, 110, 100, 82, 111, 117, 110, 100, 32, 105, 115, 58), _0x0058)
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 97, 117, 116, 111, 70, 108, 105, 110, 103, 77, 117, 114, 100, 101, 114, 101, 114, 32, 105, 115, 58), _0x005a)
@@ -763,7 +763,7 @@ _0x003a = 3
 _0x0057 = false
 _0x0056 = false
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 83, 116, 111, 112, 112, 101, 100, 32, 97, 117, 116, 111, 102, 97, 114, 109))
-if (5 == 5) and _0x005a then
+if _0x005a then
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 65, 117, 116, 111, 32, 102, 108, 105, 110, 103, 32, 109, 117, 114, 100, 101, 114, 101, 114, 32, 101, 110, 97, 98, 108, 101, 100, 46, 46, 46))
 _0x003b:_0x0039({
 _0x0032 = string.char(65, 117, 116, 111, 32, 70, 108, 105, 110, 103, 32, 77, 117, 114, 100, 101, 114, 101, 114),
@@ -777,12 +777,12 @@ local _0x0165 = nil
 while true do
 local _0x0166
 _0x0164, _0x0166 = _0x0162(_0x0163, _0x0164)
-if (true or false) and _0x0164 == nil then
+if _0x0164 == nil then
 _0x0166 = _0x0165
 break
 end
-if (5 == 5) and _0x0166 ~= _0x000c and _0x0166._0x0061 then
-if (1 + 1 == 2) and _0x0166._0x0061:_0x007f(string.char(75, 110, 105, 102, 101)) then
+if _0x0166 ~= _0x000c and _0x0166._0x0061 then
+if _0x0166._0x0061:_0x007f(string.char(75, 110, 105, 102, 101)) then
 break
 end
 local _0x0167 = _0x0166:_0x007f(string.char(66, 97, 99, 107, 112, 97, 99, 107))
@@ -791,7 +791,7 @@ break
 end
 end
 end
-if (2 * 3 > 5) and _0x0166 and _0x0166._0x0061 then
+if _0x0166 and _0x0166._0x0061 then
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 70, 111, 117, 110, 100, 32, 109, 117, 114, 100, 101, 114, 101, 114, 44, 32, 102, 108, 105, 110, 103, 105, 110, 103, 58), _0x0166._0x0097)
 _0x0116()
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 65, 117, 116, 111, 32, 109, 117, 114, 100, 101, 114, 101, 114, 32, 102, 108, 105, 110, 103, 32, 99, 111, 109, 112, 108, 101, 116, 101, 100))
@@ -799,7 +799,7 @@ else
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 78, 111, 32, 109, 117, 114, 100, 101, 114, 101, 114, 32, 102, 111, 117, 110, 100))
 end
 end
-if (2 * 3 > 5) and _0x0058 and not _0x0068 then
+if _0x0058 and not _0x0068 then
 _0x0068 = true
 _0x0067 = true
 local _0x0168 = _0x011f()
@@ -820,7 +820,7 @@ _0x0034 = string.char(82, 101, 115, 101, 116, 116, 105, 110, 103, 32, 99, 104, 9
 _0x0033 = string.char(114, 101, 102, 114, 101, 115, 104, 45, 99, 119),
 _0x003a = 2
 })
-if (2 * 3 > 5) and _0x000c._0x0061 then
+if _0x000c._0x0061 then
 _0x000c._0x0061:_0x016c()
 _0x000c._0x0062:_0x0063()
 _0x0004._0x003c(1.5)
@@ -834,7 +834,7 @@ end
 end
 end)
 end
-if (5 == 5) and _0x0123 then
+if _0x0123 then
 _0x0123._0x0125:_0x0126(function(_0x000a, _0x000a)
 _0x005e = 0
 _0x005b = {}
@@ -844,7 +844,7 @@ _0x0066 = true
 _0x0069 = _0x011f()._0x00e2
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 82, 111, 117, 110, 100, 32, 115, 116, 97, 114, 116, 101, 100, 44, 32, 102, 97, 114, 109, 105, 110, 103, 32, 101, 110, 97, 98, 108, 101, 100))
 local _0x016d = _0x0056
-if (2 * 3 > 5) and _0x0057 then
+if _0x0057 then
 _0x0057 = true
 _0x003b:_0x0039({
 _0x0032 = string.char(82, 111, 117, 110, 100, 32, 83, 116, 97, 114, 116, 101, 100, 33),
@@ -853,7 +853,7 @@ _0x0033 = string.char(112, 108, 97, 121, 45, 99, 105, 114, 99, 108, 101),
 _0x003a = 2
 })
 end
-if (2 * 3 > 5) and _0x016d then
+if _0x016d then
 _0x0056 = true
 _0x003b:_0x0039({
 _0x0032 = string.char(82, 111, 117, 110, 100, 32, 83, 116, 97, 114, 116, 101, 100, 33),
@@ -870,31 +870,31 @@ local _0x016f, _0x0170, _0x0171 = pairs(_0x007b._0x0172._0x0173._0x0174:_0x0104(
 while true do
 local _0x0175
 _0x0171, _0x0175 = _0x016f(_0x0170, _0x0171)
-if (true or false) and _0x0171 == nil then
+if _0x0171 == nil then
 break
 end
 local _0x0176, _0x0177, _0x0178 = pairs(_0x0175._0x0174:_0x0104())
 while true do
 local _0x0179
 _0x0178, _0x0179 = _0x0176(_0x0177, _0x0178)
-if (true or false) and _0x0178 == nil then
+if _0x0178 == nil then
 break
 end
 if _0x0179._0x0097 == string.char(83, 117, 109, 109, 101, 114) or _0x0179._0x0097 == string.char(72, 101, 108, 108, 111, 119, 101, 101, 110) then
 local _0x017a, _0x017b, _0x017c = pairs(_0x0179._0x0174:_0x0104())
-while (1 * 1 >= 0) and true do
+while true do
 local _0x017d
 _0x017c, _0x017d = _0x017a(_0x017b, _0x017c)
-if (2 * 3 > 5) and _0x017c == nil then
+if _0x017c == nil then
 break
 end
-if (true or false) and _0x017d:_0x0106(string.char(70, 114, 97, 109, 101)) and _0x017d._0x017e._0x017f._0x0180 == _0x0077 then
+if _0x017d:_0x0106(string.char(70, 114, 97, 109, 101)) and _0x017d._0x017e._0x017f._0x0180 == _0x0077 then
 local _0x0181 = _0x017d._0x0174._0x0182._0x0180
 if _0x0181 == "" or _0x0181 == string.char(78, 111, 110, 101) then
 _0x017d._0x0174._0x0182._0x0180 = string.char(120, 50)
 else
 local _0x0183 = tonumber(_0x0181:match(string.char(120, 40, 37, 100, 43, 41)))
-if (5 == 5) and _0x0183 then
+if _0x0183 then
 _0x017d._0x0174._0x0182._0x0180 = string.char(120) .. tostring(_0x0183 + 1)
 end
 end
@@ -902,11 +902,11 @@ end
 end
 elseif _0x0179:_0x0106(string.char(70, 114, 97, 109, 101)) and _0x0179._0x017e._0x017f._0x0180 == _0x0077 then
 local _0x0184 = _0x0179._0x0174._0x0182._0x0180
-if (true or false) and _0x0184 == "" or _0x0184 == string.char(78, 111, 110, 101) then
+if _0x0184 == "" or _0x0184 == string.char(78, 111, 110, 101) then
 _0x0179._0x0174._0x0182._0x0180 = string.char(120, 50)
 else
 local _0x0185 = tonumber(_0x0184:match(string.char(120, 40, 37, 100, 43, 41)))
-if (true or false) and _0x0185 then
+if _0x0185 then
 _0x0179._0x0174._0x0182._0x0180 = string.char(120) .. tostring(_0x0185 + 1)
 end
 end
@@ -920,11 +920,11 @@ local _0x0187, _0x0188, _0x0189 = pairs(_0x007b._0x0172._0x0173._0x0174:_0x0104(
 while true do
 local _0x018a
 _0x0189, _0x018a = _0x0187(_0x0188, _0x0189)
-if (2 * 3 > 5) and _0x0189 == nil then
+if _0x0189 == nil then
 break
 end
 local _0x018b, _0x018c, _0x018d = pairs(_0x018a._0x0174:_0x0104())
-while (1 * 1 >= 0) and true do
+while true do
 local _0x018e
 _0x018d, _0x018e = _0x018b(_0x018c, _0x018d)
 if _0x018d == nil then
@@ -935,16 +935,16 @@ local _0x018f, _0x0190, _0x0191 = pairs(_0x018e._0x0174:_0x0104())
 while true do
 local _0x0192
 _0x0191, _0x0192 = _0x018f(_0x0190, _0x0191)
-if (1 + 1 == 2) and _0x0191 == nil then
+if _0x0191 == nil then
 break
 end
-if (1 + 1 == 2) and _0x0192:_0x0106(string.char(70, 114, 97, 109, 101)) and (_0x0192._0x017e._0x017f._0x0180 ~= string.char(68, 101, 102, 97, 117, 108, 116, 32, 75, 110, 105, 102, 101) and _0x0192._0x017e._0x017f._0x0180 ~= string.char(68, 101, 102, 97, 117, 108, 116, 32, 71, 117, 110)) then
+if _0x0192:_0x0106(string.char(70, 114, 97, 109, 101)) and (_0x0192._0x017e._0x017f._0x0180 ~= string.char(68, 101, 102, 97, 117, 108, 116, 32, 75, 110, 105, 102, 101) and _0x0192._0x017e._0x017f._0x0180 ~= string.char(68, 101, 102, 97, 117, 108, 116, 32, 71, 117, 110)) then
 local _0x0193 = _0x0192._0x0174._0x0182._0x0180
 if _0x0193 == "" or _0x0193 == string.char(78, 111, 110, 101) then
 _0x0192._0x0174._0x0182._0x0180 = string.char(120, 50)
 else
 local _0x0194 = tonumber(_0x0193:match(string.char(120, 40, 37, 100, 43, 41)))
-if (5 == 5) and _0x0194 then
+if _0x0194 then
 _0x0192._0x0174._0x0182._0x0180 = string.char(120) .. tostring(_0x0194 * 2)
 end
 end
@@ -952,11 +952,11 @@ end
 end
 elseif _0x018e:_0x0106(string.char(70, 114, 97, 109, 101)) and (_0x018e._0x017e._0x017f._0x0180 ~= string.char(68, 101, 102, 97, 117, 108, 116, 32, 75, 110, 105, 102, 101) and _0x018e._0x017e._0x017f._0x0180 ~= string.char(68, 101, 102, 97, 117, 108, 116, 32, 71, 117, 110)) then
 local _0x0195 = _0x018e._0x0174._0x0182._0x0180
-if (5 == 5) and _0x0195 == "" or _0x0195 == string.char(78, 111, 110, 101) then
+if _0x0195 == "" or _0x0195 == string.char(78, 111, 110, 101) then
 _0x018e._0x0174._0x0182._0x0180 = string.char(120, 50)
 else
 local _0x0196 = tonumber(_0x0195:match(string.char(120, 40, 37, 100, 43, 41)))
-if (2 * 3 > 5) and _0x0196 then
+if _0x0196 then
 _0x018e._0x0174._0x0182._0x0180 = string.char(120) .. tostring(_0x0196 * 2)
 end
 end
@@ -964,19 +964,19 @@ end
 end
 end
 local _0x0197, _0x0198, _0x0199 = pairs(_0x007b._0x019a._0x0173._0x0174._0x019b._0x0174:_0x0104())
-while (1 * 1 >= 0) and true do
+while true do
 local _0x019c
 _0x0199, _0x019c = _0x0197(_0x0198, _0x0199)
 if _0x0199 == nil then
 break
 end
-if (5 == 5) and _0x019c:_0x0106(string.char(70, 114, 97, 109, 101)) then
+if _0x019c:_0x0106(string.char(70, 114, 97, 109, 101)) then
 local _0x019d = _0x019c._0x0174._0x0182._0x0180
-if (5 == 5) and _0x019d == "" or _0x019d == string.char(78, 111, 110, 101) then
+if _0x019d == "" or _0x019d == string.char(78, 111, 110, 101) then
 _0x019c._0x0174._0x0182._0x0180 = string.char(120, 50)
 else
 local _0x019e = tonumber(_0x019d:match(string.char(120, 40, 37, 100, 43, 41)))
-if (5 == 5) and _0x019e then
+if _0x019e then
 _0x019c._0x0174._0x0182._0x0180 = string.char(120) .. tostring(_0x019e * 2)
 end
 end
@@ -993,7 +993,7 @@ _0x003b:_0x0039({
 _0x0032 = string.char(84, 114, 97, 100, 101, 32, 83, 99, 97, 109, 32, 65, 99, 116, 105, 118, 101),
 _0x0034 = string.char(73, 116, 101, 109, 115, 32, 73, 110, 32, 84, 114, 97, 100, 101, 32, 65, 114, 101, 32, 78, 111, 119, 32, 86, 105, 115, 117, 97, 108, 44, 32, 82, 101, 109, 111, 118, 101, 32, 65, 108, 108, 32, 73, 116, 101, 109, 115, 33),
 _0x0033 = string.char(97, 108, 101, 114, 116, 45, 116, 114, 105, 97, 110, 103, 108, 101),
-_0x003a = (70 - 65)
+_0x003a = 5
 })
 else
 _0x003b:_0x0039({
@@ -1008,15 +1008,15 @@ local function _0x01a5()
 local _0x01a6, _0x01a7 = pcall(function()
 return require(_0x0002:_0x0007(string.char(82, 101, 112, 108, 105, 99, 97, 116, 101, 100, 83, 116, 111, 114, 97, 103, 101))._0x01a8._0x01a9._0x01aa)
 end)
-if (5 == 5) and not _0x01a6 or (not _0x01a7 or next(_0x01a7) == nil) then
+if not _0x01a6 or (not _0x01a7 or next(_0x01a7) == nil) then
 return string.char(83, 116, 97, 110, 100, 97, 114, 100, 66, 111, 120)
 end
 local _0x01ab, _0x01ac, _0x01ad = pairs(_0x01a7)
 local _0x01ae = {}
-while (1 * 1 >= 0) and true do
+while true do
 local _0x01af
 _0x01ad, _0x01af = _0x01ab(_0x01ac, _0x01ad)
-if (1 + 1 == 2) and _0x01ad == nil then
+if _0x01ad == nil then
 break
 end
 table.insert(_0x01ae, _0x01ad)
@@ -1077,14 +1077,14 @@ string.char(80, 111, 108, 105, 99, 101, 83, 116, 97, 116, 105, 111, 110)
 local function _0x01c0()
 _0x01ba._0x01be = {}
 local _0x01c1, _0x01c2, _0x01c3 = ipairs(_0x01bf)
-while (1 * 1 >= 0) and true do
+while true do
 local _0x01c4
 _0x01c3, _0x01c4 = _0x01c1(_0x01c2, _0x01c3)
-if (true or false) and _0x01c3 == nil then
+if _0x01c3 == nil then
 break
 end
 local _0x01c5 = _0x012e:_0x007f(_0x01c4)
-if (5 == 5) and _0x01c5 then
+if _0x01c5 then
 local _0x01c6 = _0x01c5:_0x007f(string.char(71, 117, 110, 68, 114, 111, 112))
 if _0x01c6 then
 table.insert(_0x01ba._0x01be, _0x01c6)
@@ -1099,7 +1099,7 @@ end
 local function _0x01c8(_0x01c9)
 if not _0x01c9 then
 _0x01c0()
-if (true or false) and # _0x01ba._0x01be == 0 then
+if # _0x01ba._0x01be == 0 then
 _0x003b:_0x0039({
 _0x0032 = string.char(71, 117, 110, 32, 83, 121, 115, 116, 101, 109),
 _0x0034 = string.char(78, 111, 32, 103, 117, 110, 115, 32, 97, 118, 97, 105, 108, 97, 98, 108, 101, 32, 111, 110, 32, 116, 104, 101, 32, 109, 97, 112),
@@ -1111,19 +1111,19 @@ end
 _0x01c9 = nil
 local _0x01ca = math._0x012a
 local _0x01cb = _0x000c._0x0061
-if (true or false) and _0x01cb then
+if _0x01cb then
 _0x01cb = _0x01cb:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
 end
 if _0x01cb then
 local _0x01cc, _0x01cd, _0x01ce = ipairs(_0x01ba._0x01be)
-while (1 * 1 >= 0) and true do
+while true do
 local _0x01cf
 _0x01ce, _0x01cf = _0x01cc(_0x01cd, _0x01ce)
-if (true or false) and _0x01ce == nil then
+if _0x01ce == nil then
 break
 end
 local _0x01d0 = (_0x01cb._0x00eb - _0x01cf._0x00eb)._0x00df
-if (5 == 5) and _0x01d0 < _0x01ca then
+if _0x01d0 < _0x01ca then
 _0x01ca = _0x01d0
 _0x01c9 = _0x01cf
 end
@@ -1131,11 +1131,11 @@ end
 end
 end
 local _0x01d1 = _0x01c9 and _0x000c._0x0061 and _0x000c._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
-if (2 * 3 > 5) and _0x01d1 then
+if _0x01d1 then
 _0x01d1._0x00e2 = _0x01c9._0x00e2
 _0x0004._0x003c(0.3)
 local _0x01d2 = _0x01c9:_0x00c2(string.char(80, 114, 111, 120, 105, 109, 105, 116, 121, 80, 114, 111, 109, 112, 116))
-if (5 == 5) and _0x01d2 then
+if _0x01d2 then
 _0x01d3(_0x01d2)
 _0x003b:_0x0039({
 _0x0032 = string.char(71, 117, 110, 32, 83, 121, 115, 116, 101, 109),
@@ -1149,26 +1149,26 @@ end
 return false
 end
 local function _0x01d4()
-while (1 * 1 >= 0) and _0x01ba._0x01bb do
+while _0x01ba._0x01bb do
 _0x01c0()
 local _0x01d5 = (# _0x01ba._0x01be > 0 and _0x000c._0x0061 and true or false) and _0x000c._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
 if _0x01d5 then
 local _0x01d6 = math._0x012a
 local _0x01d7, _0x01d8, _0x01d9 = ipairs(_0x01ba._0x01be)
 local _0x01da = nil
-while (1 * 1 >= 0) and true do
+while true do
 local _0x01db
 _0x01d9, _0x01db = _0x01d7(_0x01d8, _0x01d9)
-if (5 == 5) and _0x01d9 == nil then
+if _0x01d9 == nil then
 break
 end
 local _0x01dc = (_0x01d5._0x00eb - _0x01db._0x00eb)._0x00df
-if (1 + 1 == 2) and _0x01dc < _0x01d6 then
+if _0x01dc < _0x01d6 then
 _0x01da = _0x01db
 _0x01d6 = _0x01dc
 end
 end
-if (2 * 3 > 5) and _0x01da then
+if _0x01da then
 _0x01d5._0x00e2 = _0x01da._0x00e2
 _0x0004._0x003c(0.3)
 local _0x01dd = _0x01da:_0x00c2(string.char(80, 114, 111, 120, 105, 109, 105, 116, 121, 80, 114, 111, 109, 112, 116))
@@ -1190,7 +1190,7 @@ string.char(73, 110, 110, 111, 99, 101, 110, 116)
 }
 local function _0x01e1(_0x01e2)
 local _0x01e3 = _0x0009:_0x007f(string.char(71, 101, 116, 80, 108, 97, 121, 101, 114, 68, 97, 116, 97), true):_0x01e4()
-if (5 == 5) and _0x01e3 and _0x01e3[_0x01e2._0x0097] then
+if _0x01e3 and _0x01e3[_0x01e2._0x0097] then
 return _0x01e3[_0x01e2._0x0097]._0x01e5
 else
 return nil
@@ -1198,7 +1198,7 @@ end
 end
 local function _0x01e6()
 local _0x01e7 = _0x000c._0x0061
-if (true or false) and not _0x01e7 then
+if not _0x01e7 then
 return false
 end
 if _0x01e7:_0x007f(string.char(75, 110, 105, 102, 101)) then
@@ -1215,18 +1215,18 @@ local function _0x01ea()
 local _0x01eb = {}
 _0x0009:_0x007f(string.char(71, 101, 116, 80, 108, 97, 121, 101, 114, 68, 97, 116, 97), true):_0x01e4()
 local _0x01ec = _0x000c._0x0061
-if (1 + 1 == 2) and _0x01ec then
+if _0x01ec then
 _0x01ec = _0x000c._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
 end
-if (1 + 1 == 2) and not _0x01ec then
+if not _0x01ec then
 return nil
 end
 local _0x01ed = _0x0006
 local _0x01ee, _0x01ef, _0x01f0 = ipairs(_0x01ed:_0x00b4())
-while (1 * 1 >= 0) and true do
+while true do
 local _0x01f1
 _0x01f0, _0x01f1 = _0x01ee(_0x01ef, _0x01f0)
-if (5 == 5) and _0x01f0 == nil then
+if _0x01f0 == nil then
 break
 end
 if _0x01f1 ~= _0x000c and _0x01f1._0x0061 then
@@ -1247,11 +1247,11 @@ end)
 return _0x01eb[1] and _0x01eb[1]._0x01f5 or nil
 end
 local function _0x01f9(_0x01fa)
-if (true or false) and not (_0x01fa and _0x01fa._0x0061) then
+if not (_0x01fa and _0x01fa._0x0061) then
 return false
 end
 local _0x01fb = _0x01fa._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100))
-if (true or false) and not _0x01fb or _0x01fb._0x00f7 <= 0 then
+if not _0x01fb or _0x01fb._0x00f7 <= 0 then
 return false
 end
 if not _0x01e6() then
@@ -1263,7 +1263,7 @@ if _0x01fc and _0x01fd then
 _0x01fd._0x00e2 = _0x00e2._0x0044(_0x01fc._0x00eb + (_0x01fd._0x00eb - _0x01fc._0x00eb)._0x01fe * 2, _0x01fc._0x00eb)
 end
 local _0x01ff = _0x000c._0x0061:_0x007f(string.char(75, 110, 105, 102, 101))
-if (5 == 5) and not (_0x01ff and _0x01ff:_0x007f(string.char(83, 116, 97, 98))) then
+if not (_0x01ff and _0x01ff:_0x007f(string.char(83, 116, 97, 98))) then
 return false
 end
 for _0x000a = 1, 3 do
@@ -1272,10 +1272,10 @@ end
 return true
 end
 local function _0x0202()
-if (5 == 5) and not _0x01de then
+if not _0x01de then
 _0x01de = true
 local function _0x0203()
-while (1 * 1 >= 0) and _0x01de do
+while _0x01de do
 local _0x0204 = _0x01ea()
 if not _0x0204 then
 _0x01de = false
@@ -1303,7 +1303,7 @@ _0x0033 = string.char(101, 121, 101)
 })
 _0x020a:_0x0208({
 _0x0032 = string.char(80, 108, 97, 121, 101, 114, 32, 69, 83, 80, 32, 83, 101, 116, 116, 105, 110, 103, 115),
-_0x020c = (105 - 87),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 _0x020a:_0x020f({
@@ -1313,7 +1313,7 @@ _0x0211 = string.char(69, 110, 97, 98, 108, 101, 32, 112, 108, 97, 121, 101, 114
 _0x0087 = true,
 _0x0036 = function(_0x0212)
 _0x0074 = _0x0212
-if (1 + 1 == 2) and _0x0212 then
+if _0x0212 then
 _0x0073 = {
 string.char(69, 115, 112, 32, 65, 108, 108)
 }
@@ -1360,12 +1360,12 @@ _0x0211 = string.char(68, 114, 97, 119, 32, 108, 105, 110, 101, 115, 32, 116, 11
 _0x0087 = false,
 _0x0036 = function(_0x0217)
 _0x0075 = _0x0217
-if (true or false) and not _0x0217 then
+if not _0x0217 then
 local _0x0218, _0x0219, _0x021a = pairs(_0x0076)
-while (1 * 1 >= 0) and true do
+while true do
 local _0x021b
 _0x021a, _0x021b = _0x0218(_0x0219, _0x021a)
-if (1 + 1 == 2) and _0x021a == nil then
+if _0x021a == nil then
 break
 end
 _0x021b:_0x00ae()
@@ -1391,7 +1391,7 @@ _0x0211 = string.char(65, 117, 116, 111, 109, 97, 116, 105, 99, 97, 108, 108, 12
 _0x0087 = false,
 _0x0036 = function(_0x021d)
 _0x0056 = _0x021d
-if (1 + 1 == 2) and _0x021d then
+if _0x021d then
 _0x005b = {}
 _0x005d = 0
 _0x003b:_0x0039({
@@ -1418,7 +1418,7 @@ _0x0211 = string.char(67, 111, 108, 108, 101, 99, 116, 32, 72, 97, 108, 108, 111
 _0x0087 = false,
 _0x0036 = function(_0x021e)
 _0x0057 = _0x021e
-if (2 * 3 > 5) and _0x021e then
+if _0x021e then
 _0x005b = {}
 _0x005d = 0
 _0x003b:_0x0039({
@@ -1475,7 +1475,7 @@ _0x0087 = false,
 _0x0036 = function(_0x0220)
 _0x005a = _0x0220
 print(string.char(91, 68, 69, 66, 85, 71, 93, 32, 65, 117, 116, 111, 32, 70, 108, 105, 110, 103, 32, 77, 117, 114, 100, 101, 114, 101, 114, 32, 116, 111, 103, 103, 108, 101, 32, 99, 104, 97, 110, 103, 101, 100, 32, 116, 111, 58), _0x0220)
-if (true or false) and _0x0220 then
+if _0x0220 then
 _0x003b:_0x0039({
 _0x0032 = string.char(65, 117, 116, 111, 32, 70, 108, 105, 110, 103, 32, 77, 117, 114, 100, 101, 114, 101, 114),
 _0x0034 = string.char(87, 105, 108, 108, 32, 102, 108, 105, 110, 103, 32, 109, 117, 114, 100, 101, 114, 101, 114, 32, 97, 116, 32) .. _0x005f .. string.char(32, 99, 97, 110, 100, 121),
@@ -1501,7 +1501,7 @@ _0x0222 = 1,
 _0x0086 = {
 _0x0223 = 5,
 _0x0224 = 50,
-_0x0087 = (103 - 78)
+_0x0087 = 25
 },
 _0x0036 = function(_0x0225)
 _0x005c = _0x0225
@@ -1509,7 +1509,7 @@ end
 })
 _0x021c:_0x0213()
 _0x021c:_0x0208({
-_0x0032 = string.char(92, 50, 50, 54, 92, 40, 50, 50, 50, 32, 45, 32, 54, 56, 41, 92, 40, 52, 56, 48, 32, 47, 32, 51, 41, 92, 40, 57, 53, 54, 32, 47, 32, 52, 41, 92, 49, 56, 52, 92, 40, 55, 49, 32, 43, 32, 55, 50, 41, 32, 82, 101, 99, 111, 109, 109, 101, 110, 100, 101, 100, 58, 32, 40, 55, 49, 32, 45, 32, 52, 54, 41, 44, 32, 104, 105, 103, 104, 101, 114, 32, 119, 105, 108, 108, 32, 112, 114, 111, 98, 97, 98, 108, 121, 32, 103, 101, 116, 32, 121, 111, 117, 32, 107, 105, 99, 107, 101, 100),
+_0x0032 = string.char(92, 50, 50, 54, 92, 49, 53, 52, 92, 49, 54, 48, 92, 50, 51, 57, 92, 49, 56, 52, 92, 49, 52, 51, 32, 82, 101, 99, 111, 109, 109, 101, 110, 100, 101, 100, 58, 32, 50, 53, 44, 32, 104, 105, 103, 104, 101, 114, 32, 119, 105, 108, 108, 32, 112, 114, 111, 98, 97, 98, 108, 121, 32, 103, 101, 116, 32, 121, 111, 117, 32, 107, 105, 99, 107, 101, 100),
 _0x020c = 14,
 _0x0226 = 0.3,
 _0x020d = _0x009b._0x020d._0x0227
@@ -1562,7 +1562,7 @@ _0x003b:_0x0039({
 _0x0032 = string.char(65, 110, 116, 105, 45, 65, 70, 75, 32, 69, 114, 114, 111, 114),
 _0x0034 = string.char(70, 97, 105, 108, 101, 100, 32, 116, 111, 32, 108, 111, 97, 100, 32, 65, 110, 116, 105, 45, 65, 70, 75, 33),
 _0x0033 = string.char(120, 45, 99, 105, 114, 99, 108, 101),
-_0x003a = (2 + 3)
+_0x003a = 5
 })
 end
 end
@@ -1573,7 +1573,7 @@ _0x0033 = string.char(117, 115, 101, 114)
 })
 _0x022a:_0x0208({
 _0x0032 = string.char(77, 111, 118, 101, 109, 101, 110, 116, 32, 83, 101, 116, 116, 105, 110, 103, 115),
-_0x020c = (45 - 27),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 _0x022a:_0x0221({
@@ -1583,7 +1583,7 @@ _0x0211 = string.char(65, 100, 106, 117, 115, 116, 32, 121, 111, 117, 114, 32, 1
 _0x0222 = 1,
 _0x0086 = {
 _0x0223 = 0,
-_0x0224 = (600 / 3),
+_0x0224 = 200,
 _0x0087 = 16
 },
 _0x0036 = function(_0x022b)
@@ -1609,7 +1609,7 @@ _0x0211 = string.char(65, 100, 106, 117, 115, 116, 32, 121, 111, 117, 114, 32, 1
 _0x0222 = 1,
 _0x0086 = {
 _0x0223 = 0,
-_0x0224 = (600 / 3),
+_0x0224 = 200,
 _0x0087 = 50
 },
 _0x0036 = function(_0x022d)
@@ -1634,7 +1634,7 @@ _0x0033 = string.char(114, 111, 116, 97, 116, 101, 45, 99, 99, 119),
 _0x0052 = _0x000f._0x0010,
 _0x0229 = string.char(67, 101, 110, 116, 101, 114),
 _0x0036 = function()
-_0x0084._0x0085._0x0086 = (64 / 4)
+_0x0084._0x0085._0x0086 = 16
 _0x0084._0x0089._0x0086 = 50
 _0x00c0()
 _0x003b:_0x0039({
@@ -1651,7 +1651,7 @@ _0x0033 = string.char(109, 111, 118, 101)
 })
 _0x022f:_0x0208({
 _0x0032 = string.char(80, 108, 97, 121, 101, 114, 32, 84, 101, 108, 101, 112, 111, 114, 116, 97, 116, 105, 111, 110),
-_0x020c = (54 / 3),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 local _0x0230 = nil
@@ -1662,7 +1662,7 @@ local _0x0236 = {}
 while true do
 local _0x0237
 _0x0235, _0x0237 = _0x0233(_0x0234, _0x0235)
-if (true or false) and _0x0235 == nil then
+if _0x0235 == nil then
 break
 end
 if _0x0237 ~= _0x000c then
@@ -1690,10 +1690,10 @@ _0x0033 = string.char(122, 97, 112),
 _0x0052 = _0x000f._0x0014,
 _0x0229 = string.char(67, 101, 110, 116, 101, 114),
 _0x0036 = function()
-if (1 + 1 == 2) and _0x0230 and _0x0230._0x0061 then
+if _0x0230 and _0x0230._0x0061 then
 local _0x023a = _0x0230._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
 local _0x023b = _0x000c._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
-if (1 + 1 == 2) and _0x023a and _0x023b then
+if _0x023a and _0x023b then
 _0x023b._0x00e2 = _0x023a._0x00e2
 _0x003b:_0x0039({
 _0x0032 = string.char(84, 101, 108, 101, 112, 111, 114, 116, 32, 83, 117, 99, 99, 101, 115, 115),
@@ -1732,7 +1732,7 @@ _0x023d = 2
 })
 _0x022f:_0x0208({
 _0x0032 = string.char(82, 111, 108, 101, 32, 84, 101, 108, 101, 112, 111, 114, 116, 97, 116, 105, 111, 110),
-_0x020c = (9 + 9),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 _0x022f:_0x0228({
@@ -1744,7 +1744,7 @@ _0x0036 = function()
 local _0x023e = _0x0006
 local _0x023f, _0x0240, _0x0241 = ipairs(_0x023e:_0x00b4())
 local _0x0242 = nil
-while (1 * 1 >= 0) and true do
+while true do
 local _0x0243
 _0x0241, _0x0243 = _0x023f(_0x0240, _0x0241)
 if _0x0241 == nil then
@@ -1752,16 +1752,16 @@ _0x0243 = _0x0242
 break
 end
 if _0x0243 ~= _0x000c and _0x0243._0x0061 then
-if (true or false) and _0x0243._0x0061:_0x007f(string.char(75, 110, 105, 102, 101)) then
+if _0x0243._0x0061:_0x007f(string.char(75, 110, 105, 102, 101)) then
 break
 end
 local _0x0244 = _0x0243:_0x007f(string.char(66, 97, 99, 107, 112, 97, 99, 107))
-if (1 + 1 == 2) and _0x0244 and _0x0244:_0x007f(string.char(75, 110, 105, 102, 101)) then
+if _0x0244 and _0x0244:_0x007f(string.char(75, 110, 105, 102, 101)) then
 break
 end
 end
 end
-if (1 + 1 == 2) and _0x0243 and _0x0243._0x0061 then
+if _0x0243 and _0x0243._0x0061 then
 local _0x0245 = _0x0243._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
 local _0x0246 = _0x000c._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
 if _0x0245 and _0x0246 then
@@ -1796,12 +1796,12 @@ local _0x024b = nil
 while true do
 local _0x024c
 _0x024a, _0x024c = _0x0248(_0x0249, _0x024a)
-if (1 + 1 == 2) and _0x024a == nil then
+if _0x024a == nil then
 _0x024c = _0x024b
 break
 end
-if (2 * 3 > 5) and _0x024c ~= _0x000c and _0x024c._0x0061 then
-if (2 * 3 > 5) and _0x024c._0x0061:_0x007f(string.char(71, 117, 110)) then
+if _0x024c ~= _0x000c and _0x024c._0x0061 then
+if _0x024c._0x0061:_0x007f(string.char(71, 117, 110)) then
 break
 end
 local _0x024d = _0x024c:_0x007f(string.char(66, 97, 99, 107, 112, 97, 99, 107))
@@ -1810,10 +1810,10 @@ break
 end
 end
 end
-if (2 * 3 > 5) and _0x024c and _0x024c._0x0061 then
+if _0x024c and _0x024c._0x0061 then
 local _0x024e = _0x024c._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
 local _0x024f = _0x000c._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116))
-if (2 * 3 > 5) and _0x024e and _0x024f then
+if _0x024e and _0x024f then
 _0x024f._0x00e2 = _0x024e._0x00e2
 _0x003b:_0x0039({
 _0x0032 = string.char(84, 101, 108, 101, 112, 111, 114, 116, 32, 83, 117, 99, 99, 101, 115, 115),
@@ -1838,7 +1838,7 @@ _0x0033 = string.char(115, 119, 111, 114, 100)
 })
 _0x0250:_0x0208({
 _0x0032 = string.char(83, 112, 97, 119, 110, 32, 87, 101, 97, 112, 111, 110, 115),
-_0x020c = (54 / 3),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 local _0x0251 = ""
@@ -1910,7 +1910,7 @@ _0x0033 = string.char(99, 111, 112, 121)
 })
 _0x0255:_0x0208({
 _0x0032 = string.char(83, 105, 110, 103, 108, 101, 32, 87, 101, 97, 112, 111, 110, 32, 68, 117, 112, 108, 105, 99, 97, 116, 105, 111, 110),
-_0x020c = (9 + 9),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 _0x0255:_0x0252({
@@ -1971,7 +1971,7 @@ _0x023d = 3
 })
 _0x0255:_0x0208({
 _0x0032 = string.char(73, 110, 118, 101, 110, 116, 111, 114, 121, 32, 68, 117, 112, 108, 105, 99, 97, 116, 105, 111, 110),
-_0x020c = (74 - 56),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 _0x0255:_0x0228({
@@ -2001,7 +2001,7 @@ _0x0033 = string.char(101, 121, 101, 45, 111, 102, 102)
 })
 _0x0258:_0x0208({
 _0x0032 = string.char(67, 104, 97, 110, 103, 101, 32, 87, 101, 97, 112, 111, 110, 32, 65, 112, 112, 101, 97, 114, 97, 110, 99, 101),
-_0x020c = (9 + 9),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 _0x0258:_0x0252({
@@ -2030,7 +2030,7 @@ _0x0033 = string.char(119, 97, 110, 100, 45, 50),
 _0x0052 = _0x000f._0x0014,
 _0x0229 = string.char(67, 101, 110, 116, 101, 114),
 _0x0036 = function()
-if (1 + 1 == 2) and _0x0079 == "" or _0x007a == "" then
+if _0x0079 == "" or _0x007a == "" then
 _0x003b:_0x0039({
 _0x0032 = string.char(86, 105, 115, 117, 97, 108, 32, 87, 101, 97, 112, 111, 110, 115, 32, 69, 114, 114, 111, 114),
 _0x0034 = string.char(80, 108, 101, 97, 115, 101, 32, 101, 110, 116, 101, 114, 32, 98, 111, 116, 104, 32, 119, 101, 97, 112, 111, 110, 32, 110, 97, 109, 101, 115, 33),
@@ -2048,10 +2048,10 @@ _0x025e, _0x0261 = _0x025c(_0x025d, _0x025e)
 if _0x025e == nil then
 break
 end
-if (true or false) and _0x019f(_0x025e, _0x0079) then
+if _0x019f(_0x025e, _0x0079) then
 table.insert(_0x0260, _0x025e)
 end
-if (2 * 3 > 5) and _0x019f(_0x025e, _0x007a) then
+if _0x019f(_0x025e, _0x007a) then
 table.insert(_0x025f, _0x025e)
 end
 end
@@ -2060,21 +2060,21 @@ _0x003b:_0x0039({
 _0x0032 = string.char(86, 105, 115, 117, 97, 108, 32, 69, 114, 114, 111, 114),
 _0x0034 = string.char(87, 101, 97, 112, 111, 110, 32, 110, 111, 116, 32, 102, 111, 117, 110, 100, 33),
 _0x0033 = string.char(120, 45, 99, 105, 114, 99, 108, 101),
-_0x003a = (20 / 4)
+_0x003a = 5
 })
 else
 local _0x0262, _0x0263, _0x0264 = ipairs(_0x0260)
 while true do
 local _0x0265
 _0x0264, _0x0265 = _0x0262(_0x0263, _0x0264)
-if (1 + 1 == 2) and _0x0264 == nil then
+if _0x0264 == nil then
 break
 end
 local _0x0266, _0x0267, _0x0268 = ipairs(_0x025f)
-while (1 * 1 >= 0) and true do
+while true do
 local _0x0269
 _0x0268, _0x0269 = _0x0266(_0x0267, _0x0268)
-if (2 * 3 > 5) and _0x0268 == nil then
+if _0x0268 == nil then
 break
 end
 _0x025b[_0x0265] = {}
@@ -2082,7 +2082,7 @@ local _0x026a, _0x026b, _0x026c = pairs(_0x025b[_0x0269])
 while true do
 local _0x026d
 _0x026c, _0x026d = _0x026a(_0x026b, _0x026c)
-if (1 + 1 == 2) and _0x026c == nil then
+if _0x026c == nil then
 break
 end
 _0x025b[_0x0265][_0x026c] = _0x026d
@@ -2094,7 +2094,7 @@ _0x003b:_0x0039({
 _0x0032 = string.char(86, 105, 115, 117, 97, 108, 32, 83, 117, 99, 99, 101, 115, 115),
 _0x0034 = string.char(87, 101, 97, 112, 111, 110, 32, 118, 105, 115, 117, 97, 108, 32, 99, 104, 97, 110, 103, 101, 100, 33),
 _0x0033 = string.char(99, 104, 101, 99, 107, 45, 99, 105, 114, 99, 108, 101),
-_0x003a = (61 - 56)
+_0x003a = 5
 })
 end
 end) then
@@ -2139,7 +2139,7 @@ _0x0033 = string.char(97, 108, 101, 114, 116, 45, 116, 114, 105, 97, 110, 103, 1
 _0x0052 = _0x000f._0x0016,
 _0x0229 = string.char(67, 101, 110, 116, 101, 114),
 _0x0036 = function()
-if (5 == 5) and _0x0270 then
+if _0x0270 then
 _0x01a2()
 else
 _0x003b:_0x0039({
@@ -2180,7 +2180,7 @@ _0x003b:_0x0039({
 _0x0032 = string.char(65, 110, 116, 105, 45, 65, 70, 75, 32, 69, 114, 114, 111, 114),
 _0x0034 = string.char(70, 97, 105, 108, 101, 100, 32, 116, 111, 32, 108, 111, 97, 100, 32, 65, 110, 116, 105, 45, 65, 70, 75, 33),
 _0x0033 = string.char(120, 45, 99, 105, 114, 99, 108, 101),
-_0x003a = (15 / 3)
+_0x003a = 5
 })
 end
 end
@@ -2196,14 +2196,14 @@ _0x003b:_0x0039({
 _0x0032 = string.char(83, 101, 114, 118, 101, 114, 32, 76, 97, 103, 103, 101, 114),
 _0x0034 = string.char(76, 97, 103, 103, 105, 110, 103, 32, 115, 101, 114, 118, 101, 114, 46, 46, 46, 32, 82, 105, 115, 107, 32, 111, 102, 32, 100, 105, 115, 99, 111, 110, 110, 101, 99, 116, 33),
 _0x0033 = string.char(97, 108, 101, 114, 116, 45, 116, 114, 105, 97, 110, 103, 108, 101),
-_0x003a = (62 - 57)
+_0x003a = 5
 })
 pcall(function()
 local _0x0273 = _0x0002:_0x0007(string.char(82, 101, 112, 108, 105, 99, 97, 116, 101, 100, 83, 116, 111, 114, 97, 103, 101))._0x0274
 local _0x0275 = _0x0273._0x01e4
 local _0x0276 = _0x0004._0x0005
 local _0x0277 = 0
-while (1 * 1 >= 0) and true do
+while true do
 for _0x000a = 1, 1 do
 _0x0276(_0x0275, _0x0273)
 end
@@ -2222,7 +2222,7 @@ _0x0033 = string.char(117, 115, 101, 114, 45, 99, 104, 101, 99, 107)
 })
 _0x0278:_0x0208({
 _0x0032 = string.char(71, 117, 110, 32, 83, 121, 115, 116, 101, 109),
-_0x020c = (9 + 9),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 _0x0278:_0x020f({
@@ -2276,7 +2276,7 @@ _0x0033 = string.char(115, 107, 117, 108, 108)
 })
 _0x027c:_0x0208({
 _0x0032 = string.char(75, 105, 108, 108, 32, 70, 117, 110, 99, 116, 105, 111, 110, 115),
-_0x020c = (54 / 3),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 _0x027c:_0x020f({
@@ -2386,17 +2386,17 @@ _0x0052 = _0x000f._0x001b,
 _0x0229 = string.char(67, 101, 110, 116, 101, 114),
 _0x0036 = function(_0x0283)
 local _0x0284 = _0x0002:_0x0007(string.char(67, 111, 114, 101, 71, 117, 105))
-if (5 == 5) and _0x0283 then
-if (true or false) and not _0x0284:_0x007f(string.char(71, 117, 110, 87)) then
+if _0x0283 then
+if not _0x0284:_0x007f(string.char(71, 117, 110, 87)) then
 local _0x0285 = _0x0096._0x0044(string.char(83, 99, 114, 101, 101, 110, 71, 117, 105), _0x0284)
 _0x0285._0x0097 = string.char(71, 117, 110, 87)
 local _0x0286 = _0x0096._0x0044(string.char(84, 101, 120, 116, 66, 117, 116, 116, 111, 110), _0x0285)
 _0x0286._0x0050 = true
-_0x0286._0x0042 = _0x0043._0x0044(0, (262 - 62), 0, (50 + 50))
-_0x0286._0x00eb = _0x0043._0x0044(0.5, - (164 - 64), 0.5, 0)
+_0x0286._0x0042 = _0x0043._0x0044(0, 200, 0, 100)
+_0x0286._0x00eb = _0x0043._0x0044(0.5, - 100, 0.5, 0)
 _0x0286._0x0287 = 0
 _0x0286._0x0046 = 0.2
-_0x0286._0x0288 = _0x0011._0x0289((132 / 3), (22 + 22), (22 + 23))
+_0x0286._0x0288 = _0x0011._0x0289(44, 44, 45)
 _0x0286._0x028a = _0x0011._0x0044(1, 1, 1)
 _0x0286._0x0180 = string.char(83, 104, 111, 111, 116, 32, 77, 117, 114, 100, 101, 114)
 _0x0286._0x028b = _0x0011._0x0044(1, 1, 1)
@@ -2408,10 +2408,10 @@ _0x0286._0x0290 = true
 _0x0096._0x0044(string.char(85, 73, 67, 111, 114, 110, 101, 114), _0x0286)
 local _0x0291 = _0x0096._0x0044(string.char(85, 73, 83, 116, 114, 111, 107, 101), _0x0286)
 _0x0291._0x0052 = _0x0011._0x0044(0, 0, 0)
-_0x0291._0x00aa = (21 - 17)
+_0x0291._0x00aa = 4
 _0x0291._0x00ab = 0.4
 _0x0286._0x0292:_0x0126(function()
-if (1 + 1 == 2) and _0x000c._0x0061 and _0x000c._0x0061:_0x007f(string.char(71, 117, 110)) then
+if _0x000c._0x0061 and _0x000c._0x0061:_0x007f(string.char(71, 117, 110)) then
 pcall(function()
 _0x000c._0x0061._0x0293._0x0294._0x0295._0x0296:_0x01e4(1, _0x0297(), string.char(65, 72, 50))
 end)
@@ -2453,7 +2453,7 @@ _0x023d = 2
 })
 _0x0298:_0x0208({
 _0x0032 = string.char(67, 111, 110, 102, 105, 103, 32, 77, 97, 110, 97, 103, 101, 109, 101, 110, 116),
-_0x020c = (9 + 9),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 local _0x029d = string.char(100, 101, 102, 97, 117, 108, 116)
@@ -2507,7 +2507,7 @@ _0x0052 = _0x000f._0x0014,
 _0x0229 = string.char(67, 101, 110, 116, 101, 114),
 _0x0036 = function()
 _0x003d._0x02a6 = _0x029e:_0x02a7(_0x029d)
-if (true or false) and _0x003d._0x02a6:_0x02a9() then
+if _0x003d._0x02a6:_0x02a9() then
 _0x003b:_0x0039({
 _0x0032 = string.char(67, 111, 110, 102, 105, 103, 32, 76, 111, 97, 100, 101, 100),
 _0x0034 = string.char(76, 111, 97, 100, 101, 100, 32, 39) .. _0x029d .. string.char(39),
@@ -2529,7 +2529,7 @@ _0x020d = _0x009b._0x020d._0x02ab
 _0x02aa:_0x0213()
 _0x02aa:_0x0208({
 _0x0032 = string.char(69, 110, 104, 97, 110, 99, 101, 100, 32, 77, 77, 50, 32, 115, 99, 114, 105, 112, 116, 32, 119, 105, 116, 104, 32, 99, 111, 109, 112, 114, 101, 104, 101, 110, 115, 105, 118, 101, 32, 102, 101, 97, 116, 117, 114, 101, 115, 32, 105, 110, 99, 108, 117, 100, 105, 110, 103, 32, 69, 83, 80, 44, 32, 97, 117, 116, 111, 45, 102, 97, 114, 109, 105, 110, 103, 44, 32, 119, 101, 97, 112, 111, 110, 32, 100, 117, 112, 108, 105, 99, 97, 116, 105, 111, 110, 44, 32, 114, 111, 108, 101, 45, 115, 112, 101, 99, 105, 102, 105, 99, 32, 102, 117, 110, 99, 116, 105, 111, 110, 115, 44, 32, 97, 110, 100, 32, 109, 117, 99, 104, 32, 109, 111, 114, 101, 33, 32, 80, 101, 114, 102, 101, 99, 116, 32, 102, 111, 114, 32, 77, 117, 114, 100, 101, 114, 32, 77, 121, 115, 116, 101, 114, 121, 32, 50, 32, 112, 108, 97, 121, 101, 114, 115, 32, 108, 111, 111, 107, 105, 110, 103, 32, 102, 111, 114, 32, 97, 110, 32, 101, 100, 103, 101, 46),
-_0x020c = (8 + 8),
+_0x020c = 16,
 _0x0226 = 0.3,
 _0x020d = _0x009b._0x020d._0x0227
 })
@@ -2543,8 +2543,8 @@ _0x020d = _0x009b._0x020d._0x020e
 })
 _0x02aa:_0x0213()
 _0x02aa:_0x0208({
-_0x0032 = string.char(80, 108, 97, 121, 101, 114, 32, 69, 83, 80, 32, 92, 40, 49, 49, 51, 32, 43, 32, 49, 49, 51, 41, 92, 40, 54, 52, 32, 43, 32, 54, 52, 41, 92, 49, 54, 50, 32, 65, 117, 116, 111, 32, 70, 97, 114, 109, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 40, 50, 51, 52, 32, 45, 32, 55, 50, 41, 32, 67, 104, 97, 114, 97, 99, 116, 101, 114, 32, 77, 111, 100, 115, 32, 92, 50, 50, 54, 92, 40, 49, 53, 51, 32, 45, 32, 50, 53, 41, 92, 40, 51, 50, 52, 32, 47, 32, 50, 41, 32, 84, 101, 108, 101, 112, 111, 114, 116, 97, 116, 105, 111, 110, 32, 92, 50, 50, 54, 92, 40, 51, 56, 52, 32, 47, 32, 51, 41, 92, 49, 54, 50, 32, 87, 101, 97, 112, 111, 110, 32, 83, 112, 97, 119, 110, 101, 114, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 40, 50, 50, 55, 32, 45, 32, 54, 53, 41, 32, 87, 101, 97, 112, 111, 110, 32, 68, 117, 112, 108, 105, 99, 97, 116, 105, 111, 110, 32, 92, 50, 50, 54, 92, 40, 49, 53, 53, 32, 45, 32, 50, 55, 41, 92, 49, 54, 50, 32, 86, 105, 115, 117, 97, 108, 32, 87, 101, 97, 112, 111, 110, 115, 32, 92, 40, 50, 54, 51, 32, 45, 32, 51, 55, 41, 92, 40, 49, 56, 51, 32, 45, 32, 53, 53, 41, 92, 40, 50, 49, 56, 32, 45, 32, 53, 54, 41, 32, 84, 114, 97, 100, 101, 32, 83, 99, 97, 109, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 40, 52, 56, 54, 32, 47, 32, 51, 41, 32, 82, 111, 108, 101, 32, 70, 117, 110, 99, 116, 105, 111, 110, 115, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 40, 56, 49, 32, 43, 32, 56, 49, 41, 32, 65, 110, 116, 105, 45, 65, 70, 75, 32, 92, 50, 50, 54, 92, 40, 49, 52, 52, 32, 45, 32, 49, 54, 41, 92, 40, 51, 50, 52, 32, 47, 32, 50, 41, 32, 83, 101, 114, 118, 101, 114, 32, 85, 116, 105, 108, 105, 116, 105, 101, 115),
-_0x020c = (60 / 4),
+_0x0032 = string.char(80, 108, 97, 121, 101, 114, 32, 69, 83, 80, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 65, 117, 116, 111, 32, 70, 97, 114, 109, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 67, 104, 97, 114, 97, 99, 116, 101, 114, 32, 77, 111, 100, 115, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 84, 101, 108, 101, 112, 111, 114, 116, 97, 116, 105, 111, 110, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 87, 101, 97, 112, 111, 110, 32, 83, 112, 97, 119, 110, 101, 114, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 87, 101, 97, 112, 111, 110, 32, 68, 117, 112, 108, 105, 99, 97, 116, 105, 111, 110, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 86, 105, 115, 117, 97, 108, 32, 87, 101, 97, 112, 111, 110, 115, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 84, 114, 97, 100, 101, 32, 83, 99, 97, 109, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 82, 111, 108, 101, 32, 70, 117, 110, 99, 116, 105, 111, 110, 115, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 65, 110, 116, 105, 45, 65, 70, 75, 32, 92, 50, 50, 54, 92, 49, 50, 56, 92, 49, 54, 50, 32, 83, 101, 114, 118, 101, 114, 32, 85, 116, 105, 108, 105, 116, 105, 101, 115),
+_0x020c = 15,
 _0x0226 = 0.4,
 _0x020d = _0x009b._0x020d._0x0227
 })
@@ -2553,7 +2553,7 @@ _0x023d = 3
 })
 _0x02aa:_0x0208({
 _0x0032 = string.char(67, 111, 109, 109, 117, 110, 105, 116, 121, 32, 38, 32, 83, 117, 112, 112, 111, 114, 116),
-_0x020c = (69 - 51),
+_0x020c = 18,
 _0x020d = _0x009b._0x020d._0x020e
 })
 _0x02aa:_0x0228({
@@ -2621,15 +2621,15 @@ end
 })
 _0x00af()
 _0x0008._0x02ac:_0x0126(function()
-if (true or false) and _0x0075 then
+if _0x0075 then
 local _0x02ad, _0x02ae, _0x02af = pairs(_0x0076)
-while (1 * 1 >= 0) and true do
+while true do
 local _0x02b0
 _0x02af, _0x02b0 = _0x02ad(_0x02ae, _0x02af)
-if (1 + 1 == 2) and _0x02af == nil then
+if _0x02af == nil then
 break
 end
-if (2 * 3 > 5) and _0x02af._0x0061 and _0x02af._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116)) then
+if _0x02af._0x0061 and _0x02af._0x0061:_0x007f(string.char(72, 117, 109, 97, 110, 111, 105, 100, 82, 111, 111, 116, 80, 97, 114, 116)) then
 local _0x02b1 = _0x02af._0x0061._0x02b2
 local _0x02b3, _0x02b4 = _0x012e._0x000b:_0x02b5(_0x02b1._0x00eb)
 local _0x02b6 = _0x012e._0x000b._0x02b7
@@ -2663,7 +2663,7 @@ _0x02c7._0x02c5:_0x0126(_0x00af)
 _0x02c7._0x02c6:_0x0126(_0x00af)
 end
 end
-while (1 * 1 >= 0) and true do
+while true do
 local _0x02c8
 _0x02be, _0x02c8 = _0x02bc(_0x02bd, _0x02be)
 if _0x02be == nil then
@@ -2673,7 +2673,7 @@ _0x02c2(_0x02c8)
 end
 _0x0006._0x02c9:_0x0126(_0x02c2)
 _0x0006._0x02ca:_0x0126(function(_0x02cb)
-if (1 + 1 == 2) and _0x02cb == _0x000c then
+if _0x02cb == _0x000c then
 local _0x02cc, _0x02cd, _0x02ce = pairs(_0x0076)
 while true do
 local _0x02cf
@@ -2689,7 +2689,7 @@ _0x0076 = {}
 end
 end)
 _0x0004._0x0005(function()
-if (1 + 1 == 2) and not _0x000c._0x0061 then
+if not _0x000c._0x0061 then
 _0x000c._0x0062:_0x0063()
 end
 _0x02c1()
@@ -2707,7 +2707,7 @@ _0x0033 = string.char(115, 107, 117, 108, 108),
 _0x003a = 5
 })
 _0x0004._0x0005(function()
-_0x0004._0x003c((2 + 3))
+_0x0004._0x003c(5)
 _0x0038(string.char(104, 116, 116, 112, 115, 58, 47, 47, 100, 105, 115, 99, 111, 114, 100, 46, 103, 103, 47, 112, 121, 117, 57, 109, 85, 112, 110, 120, 71))
 _0x003b:_0x0039({
 _0x0032 = string.char(68, 105, 115, 99, 111, 114, 100, 32, 67, 111, 112, 105, 101, 100, 33),
