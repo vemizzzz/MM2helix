@@ -1,4 +1,4 @@
-local vu1 = loadstring(game:HttpGet("https://gist.githubusercontent.com/SploeCyber/fb3d5b0c36aef2553ff2d036526e4967/raw/088d75ceb0d936a88ab88f66fc8af00b45f693e6/bigbomb.lua"))()
+local vu1 = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
 task.spawn(function()
     pcall(function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/n9owns/Files/refs/heads/main/antiafk", true))()
